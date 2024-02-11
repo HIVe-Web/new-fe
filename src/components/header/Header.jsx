@@ -74,6 +74,11 @@ const Text = styled.div`
   letter-spacing: -0.18px;
   line-height: 25.2px;
   white-space: nowrap;
+  transition: color 0.3s;
+
+  &:hover {
+    color: #5365FF;
+  }
 `;
 
 export const Header = () => {

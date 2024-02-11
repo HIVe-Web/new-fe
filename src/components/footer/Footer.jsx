@@ -67,9 +67,9 @@ export const Footer = () => {
     <StyledFooter>
       <FooterContent>
         <SocialLinks>
-          <SocialLink href="#">Hongik Univ.</SocialLink>
-          <SocialLink href="#">Introduce</SocialLink>
-          <SocialLink href="#">Instagram</SocialLink>
+          <SocialLink href="https://www.hongik.ac.kr/index.do">Hongik Univ.</SocialLink>
+          <SocialLink href="https://home.hongik.ac.kr/kr/life/seoul-hive.do">Introduce</SocialLink>
+          <SocialLink href="https://www.instagram.com/hive_hongik/">Instagram</SocialLink>
         </SocialLinks>
         <SocialLinks>
           <SocialLink href="#">Kakao channel    |    @HIVe</SocialLink>
