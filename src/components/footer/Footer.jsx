@@ -13,8 +13,8 @@ const media = {
 };
 
 const StyledFooter = styled.footer`
-  background-color: #070814;
-  padding: 20px 0;
+  background-color: #1C1C1C;
+  padding: 5vw 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +22,7 @@ const StyledFooter = styled.footer`
   text-align: center;
 
   @media ${media.desktop} {
-    height: 218px;
+    height: 10vw;
     width: 100%;
   }
 `;
@@ -37,29 +37,27 @@ const FooterContent = styled.div`
   @media ${media.desktop} {
     flex-direction: column;
     justify-content: space-around;
-    width: 1240px;
+    width: 100%;
   }
 `;
 
 const SocialLinks = styled.div`
   display: flex;
-  gap: 20px;
+  gap: 2vw;
 `;
 
 const SocialLink = styled.a`
   text-decoration: none;
   color: #a5b2c5;
   font-family: "Pretendard-Medium", Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 1.3vw;
   font-weight: 500;
-  letter-spacing: -0.2px;
 `;
 
 const FooterInfo = styled.div`
   color: #606475;
   font-family: "Pretendard-Medium", Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 1.4vw;
 `;
 
 export const Footer = () => {
