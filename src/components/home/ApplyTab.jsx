@@ -93,38 +93,6 @@ export const ApplyTab = () => {
         setArrowImage4(downArrowImage);
     };
 
-    const toggleDropDown2 = () => {
-        setShowDropDown1(false);
-        setShowDropDown2(!showDropDown2);
-        setShowDropDown3(false);
-        setShowDropDown4(false);
-        setArrowImage1(downArrowImage);
-        setArrowImage2(showDropDown2 ? downArrowImage : upArrowImage);
-        setArrowImage3(downArrowImage);
-        setArrowImage4(downArrowImage);
-    };
-
-    const toggleDropDown3 = () => {
-        setShowDropDown1(false);
-        setShowDropDown2(false);
-        setShowDropDown3(!showDropDown3);
-        setShowDropDown4(false);
-        setArrowImage1(downArrowImage);
-        setArrowImage2(downArrowImage);
-        setArrowImage3(showDropDown3 ? downArrowImage : upArrowImage);
-        setArrowImage4(downArrowImage);
-    };
-
-    const toggleDropDown4 = () => {
-        setShowDropDown1(false);
-        setShowDropDown2(false);
-        setShowDropDown3(false);
-        setShowDropDown4(!showDropDown4);
-        setArrowImage1(downArrowImage);
-        setArrowImage2(downArrowImage);
-        setArrowImage3(downArrowImage);
-        setArrowImage4(showDropDown4 ? downArrowImage : upArrowImage);
-    };
 
     return (
         <ApplyContainer>
