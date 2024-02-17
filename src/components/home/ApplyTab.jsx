@@ -74,25 +74,12 @@ const DropDownText = styled.div`
 
 export const ApplyTab = () => {
     const [showDropDown1, setShowDropDown1] = useState(false);
-    const [showDropDown2, setShowDropDown2] = useState(false);
-    const [showDropDown3, setShowDropDown3] = useState(false);
-    const [showDropDown4, setShowDropDown4] = useState(false);
     const [arrowImage1, setArrowImage1] = useState(downArrowImage);
-    const [arrowImage2, setArrowImage2] = useState(downArrowImage);
-    const [arrowImage3, setArrowImage3] = useState(downArrowImage);
-    const [arrowImage4, setArrowImage4] = useState(downArrowImage);
 
     const toggleDropDown1 = () => {
         setShowDropDown1(!showDropDown1);
-        setShowDropDown2(false);
-        setShowDropDown3(false);
-        setShowDropDown4(false);
         setArrowImage1(showDropDown1 ? downArrowImage : upArrowImage);
-        setArrowImage2(downArrowImage);
-        setArrowImage3(downArrowImage);
-        setArrowImage4(downArrowImage);
     };
-
 
     return (
         <ApplyContainer>
