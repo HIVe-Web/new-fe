@@ -23,8 +23,8 @@ const ResultContainer = styled.div`
 const ResultPolygon = styled.img`
     position: absolute;
     mix-blend-mode: soft-light;    
-    width: 20vw;
-    height:50vw;
+    width: 40vw;
+    height: 50vw;
     bottom: 55vw;
 `;
 
@@ -55,7 +55,7 @@ const ResultDateText = styled.div`
 
 const ResultWrapper = styled.div`
     display: flex;
-    margin-top: 8vw;
+    margin-top: 4vw;
     align-items: center;
 `;
 

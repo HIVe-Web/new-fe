@@ -9,6 +9,7 @@ import Result from "../components/home/Result"
 import Calendar from "../components/home/Calendar"
 import Persona from "../components/home/Persona"
 import Intro from "../components/home/Intro"
+import FAQ from "../components/home/FAQ"
 
 const MainContainer = styled.div`
   background-color: #1C1C1C;
@@ -24,7 +25,6 @@ const MainContainer = styled.div`
 export const HomePage1 = () => {
   return (
     <MainContainer>
-
       <Intro/>
       <Persona/>
       <Calendar/>
@@ -33,6 +33,7 @@ export const HomePage1 = () => {
       <Targets/>
       <Activity/>
       <Result/>
+      <FAQ/>
     </MainContainer>
   );
 };
