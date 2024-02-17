@@ -25,7 +25,7 @@ const PersonaSpeechBubble = styled.div`
   background-color: #ffffff;
   border: 0px none;
   border-radius: 1.3vw;
-  width: 25vw;
+  width: 20vw;
   height: 9vw;
   display: flex;
   justify-content: center;
@@ -44,7 +44,7 @@ const PersonaText = styled.div`
   color: #000000;
   text-align: center;
   font-family: "Pretendard-Bold", Helvetica;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   font-weight: 600;
 `;
 
@@ -55,8 +55,8 @@ const PersonaImage = styled.img`
   height: 20vw;
   width: 20vw;
   align-self: center;
-  max-width: 70%;
-  max-height: 70%; // 뷰포트 높이의 50%를 최대 높이로 설정
+  max-width: 80%;
+  max-height: 80%; // 뷰포트 높이의 50%를 최대 높이로 설정
 `;
 
 const PersonaName = styled.div`
@@ -66,7 +66,6 @@ const PersonaName = styled.div`
   font-weight: 700;
   text-align: center;
   white-space: nowrap;
-  margin-top: 1.1vw;
 `;
 
 

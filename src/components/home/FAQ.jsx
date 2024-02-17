@@ -11,6 +11,7 @@ const FAQContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     margin-top: 10vw;
+    width: 60vw;
 `;
 
 const FAQTitle = styled.div`
@@ -37,7 +38,7 @@ const TabContainer = styled.div`
 const TabHeader = styled.div`
     display: flex;
     flex-direction: row;
-    width: 70vw;
+    width: 60vw;
     white-space: nowrap;
     justify-content: flex-start;
     margin: 2vw;

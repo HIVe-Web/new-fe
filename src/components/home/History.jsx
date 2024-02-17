@@ -35,7 +35,6 @@ const HistoryDetailContainer = styled.div`
   width: 10vw;
   height: 20vw;
   padding: 0 5vw;
-  max-width: 20vw;
   margin: 2.5vw;
 `;
 
@@ -44,7 +43,7 @@ const HistoryHeadText = styled.div`
   font-family: "Pretendard-SemiBold", Helvetica;
   font-size: 2vw;
   text-align: center;
-  margin-bottom: 4vw;
+  margin-bottom: 3vw;
 `;
 
 const HistoryText = styled.div`

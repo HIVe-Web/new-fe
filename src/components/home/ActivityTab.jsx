@@ -19,7 +19,7 @@ const ActivityTextBox = styled.div`
     display: flex;
     background-color: #2a2a2a;
     min-height: 10vw;
-    width: 70vw;
+    width: 60vw;
     margin-top: 2vw;
     position: relative;
 `;
@@ -53,7 +53,7 @@ const DropDownContent = styled.div`
     background-color: #2a2a2a;
     align-items: center;
     border-radius: 1vw;
-    width: 70vw;
+    width: 60vw;
     height: 7vw;
     display: ${props => props.show ? "flex" : "none"}; /* 상태에 따라 표시 여부 설정 */
 `;

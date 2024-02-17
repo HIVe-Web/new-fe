@@ -15,21 +15,29 @@ const ApplyContainer = styled.div`
 
 const ApplyTextBox = styled.div`
     border-radius: 1vw;
-    align-items: center;
+    justify-content:center;
     display: flex;
+    flex-direction: column;
     background-color: #2a2a2a;
-    min-height: 10vw;
-    width: 70vw;
-    margin-top: 2vw;
+    width: 60vw;
     position: relative;
+    transition: min-height 0.5s ease;
+    min-height: ${props => props.expanded ? "15vw" : "10vw"};
+`;
+
+const ApplyQuestionWrapper = styled.div`
+    display: flex;
+    width: 60vw;
+    align-items: center;
+    margin-top: 2.3vw;
 `;
 
 const ApplyQuestionText = styled.div`
     color: #70ff00;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 2.8vw;
-    text-align: center;
     margin-left: 2vw;
+    transition: text-align 2s ease;
 `;
 
 const ApplyText = styled.div`
@@ -37,6 +45,7 @@ const ApplyText = styled.div`
     margin-left: 1vw;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 2vw;
+    transition: text-align 2s ease;
 `;
 
 const ApplyArrowImage = styled.img`
@@ -49,21 +58,18 @@ const ApplyArrowImage = styled.img`
     cursor: pointer;
 `;
 
-const DropDownContent = styled.div`
-    background-color: #2a2a2a;
-    align-items: center;
-    border-radius: 1vw;
-    width: 70vw;
-    height: 7vw;
-    display: ${props => props.show ? "flex" : "none"}; /* 상태에 따라 표시 여부 설정 */
-`;
-
 const DropDownText = styled.div`
     color: #ffffff;
     font-family: "Pretendard-Regular", Helvetica;
+    width: 60vw;
     font-size: 1.5vw;
-    margin-left: 2vw;
-    padding: 1vw;
+    margin-top: 3vw;
+    margin-left: 6svw;
+    display: flex;
+    opacity: ${props => props.show ? 1 : 0};
+    max-height: ${props => props.show ? "4vw" : "0"};
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
 `;
 
 export const ApplyTab = () => {
@@ -122,41 +128,14 @@ export const ApplyTab = () => {
 
     return (
         <ApplyContainer>
-            <ApplyTextBox>
-                <ApplyQuestionText>Q.</ApplyQuestionText>
-                <ApplyText>프로젝트나 협업 경험이 없어도 지원 가능한가요?</ApplyText>
-                <ApplyArrowImage src={arrowImage1} onClick={toggleDropDown1} />
+            <ApplyTextBox expanded={showDropDown1}>
+                <ApplyQuestionWrapper>
+                    <ApplyQuestionText>Q.</ApplyQuestionText>
+                    <ApplyText>프로젝트나 협업 경험이 없어도 지원 가능한가요?</ApplyText>
+                    <ApplyArrowImage src={arrowImage1} onClick={toggleDropDown1}/>                    
+                </ApplyQuestionWrapper>
+                <DropDownText show={showDropDown1}>네, 창업에 대한 의지만 있다면 누구나 가능합니다!</DropDownText>
             </ApplyTextBox>
-            <DropDownContent show={showDropDown1}>
-                <DropDownText>네, 창업에 대한 의지만 있다면 누구나 가능합니다!</DropDownText>
-            </DropDownContent>
-
-            <ApplyTextBox>
-                <ApplyQuestionText>Q.</ApplyQuestionText>
-                <ApplyText>포트폴리오를 따로 제출해야 하나요?</ApplyText>
-                <ApplyArrowImage src={arrowImage2} onClick={toggleDropDown2} />
-            </ApplyTextBox>
-            <DropDownContent show={showDropDown2}>
-                <DropDownText>포트폴리오가 있을 시 제출 가능하나, 필수는 아닙니다.</DropDownText>
-            </DropDownContent>
-
-            <ApplyTextBox>
-                <ApplyQuestionText>Q.</ApplyQuestionText>
-                <ApplyText>면접은 어떤 방식으로 진행되나요?</ApplyText>
-                <ApplyArrowImage src={arrowImage3} onClick={toggleDropDown3} />
-            </ApplyTextBox>
-            <DropDownContent show={showDropDown3}>
-                <DropDownText>지원하신 서류 바탕으로 면접이 이루어 집니다.</DropDownText>
-            </DropDownContent>
-
-            <ApplyTextBox>
-                <ApplyQuestionText>Q.</ApplyQuestionText>
-                <ApplyText>지원 결과는 어떻게 확인할 수 있나요?</ApplyText>
-                <ApplyArrowImage src={arrowImage4} onClick={toggleDropDown4} />
-            </ApplyTextBox>
-            <DropDownContent show={showDropDown4}>
-                <DropDownText>서류, 면접 결과 모두 기재해주신 연락처로 안내드립니다.</DropDownText>
-            </DropDownContent>
         </ApplyContainer>
     );
 };
