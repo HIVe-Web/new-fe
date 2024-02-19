@@ -18,7 +18,7 @@ const PersonaDetailContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 2vw;
+  margin: 1.2vw;
 `;
 
 const PersonaSpeechBubble = styled.div`
@@ -44,7 +44,7 @@ const PersonaText = styled.div`
   color: #000000;
   text-align: center;
   font-family: "Pretendard-Bold", Helvetica;
-  font-size: 1.4vw;
+  font-size: 1.35vw;
   font-weight: 600;
 `;
 

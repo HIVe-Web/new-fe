@@ -14,7 +14,7 @@ const ActivityContainer = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: 10vw;
+    margin-top: 8vw;
 `;
 
 const ActivityTitle = styled.div`
@@ -36,13 +36,13 @@ const ActivitySubTitle = styled.div`
 
 const ActivityDescription = styled.div`
     color: #ffffff;
-    font-family: "Pretendard-Bold", Helvetica;
-    font-size: 2.4vw;
+    font-family: "Pretendard-SemiBold", Helvetica;
+    font-size: 2vw;
 `;
 
 const ActivityWrapper = styled.div`
     display: flex;
-    margin-top: 8vw;
+    margin-top: 2vw;
     align-items: center;
 `;
 
@@ -58,8 +58,8 @@ const ActivityRowWrapper = styled.div`
 `;
 
 const ActivityBoxContainer = styled.div`
-    height: 20vw;
-    width: 25vw;
+    height: 18vw;
+    width: 20vw;
     margin: 1vw;
     
 `;
@@ -67,8 +67,8 @@ const ActivityBoxContainer = styled.div`
 const ActivityRowBox = styled.div`
     background: linear-gradient(180deg, rgba(0,0,0,0.71) 0%, rgba(0,0,0,0) 100%);
     border-radius: 1vw;
-    height: 20vw;
-    width: 25vw;
+    height: 18vw;
+    width: 20vw;
     margin: 1vw;
     position: absolute;
 `;
@@ -76,8 +76,8 @@ const ActivityRowBox = styled.div`
 const ActivityImage = styled.img`
     object-position: center;
     border-radius: 1vw;
-    height: 20vw;
-    width: 25vw;
+    height: 18vw;
+    width: 20vw;
     margin: 1vw;
     align-self: center;
     position: absolute;

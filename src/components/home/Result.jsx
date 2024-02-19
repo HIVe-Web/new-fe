@@ -17,7 +17,7 @@ const ResultContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 15vw;
+    margin-top: 12vw;
 `;
 
 const ResultPolygon = styled.img`
@@ -25,7 +25,7 @@ const ResultPolygon = styled.img`
     mix-blend-mode: soft-light;    
     width: 40vw;
     height: 50vw;
-    bottom: 55vw;
+    bottom: 50vw;
 `;
 
 const ResultTitle = styled.div`

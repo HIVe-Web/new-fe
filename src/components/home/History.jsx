@@ -6,13 +6,13 @@ const HistoryContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 10vw;
+  margin-top: 6vw;
 `;
 
 const HistoryTitle = styled.div`
   color: #ffffff;
   font-family: "Pretendard-Bold", Helvetica;
-  font-size: 3vw;
+  font-size: 2.5vw;
   text-align: center;
   line-height: 1.5;
   margin-bottom: 5vw;
@@ -32,8 +32,8 @@ const HistoryDetailContainer = styled.div`
   align-items: center;
   white-space: nowrap;
   text-align: center;
-  width: 10vw;
-  height: 20vw;
+  width: 8vw;
+  height: 17vw;
   padding: 0 5vw;
   margin: 2.5vw;
 `;

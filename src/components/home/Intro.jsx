@@ -9,7 +9,7 @@ const HeadContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 10vw;
-  margin-bottom: 10vw;
+  margin-bottom: 3vw;
 `;
 
 
@@ -38,7 +38,7 @@ const SubDescription = styled(TextWrapper)`
 const Description = styled(TextWrapper)`
   color: #ffffff;  
   font-size: 2.5vw; // 화면 너비에 따라 크기 조정
-  margin-top: 1.5vw;
+  margin-top: 4vw;
   line-height: 1.5;
 `;
 
@@ -57,11 +57,18 @@ const HighlightText = styled(TextWrapper)`
   margin-top: 1vw;
 `;
 
+const StyledSpan = styled.span`
+  font-size: 4vw;
+  margin-bottom: 4vw; /* 여기서 값을 조절하여 원하는 만큼 이동시킬 수 있습니다. */
+`;
+
 export const Intro = () => {
     return (
         <HeadContainer>
         <HighlightContainer>
-          <HighlightText>홍익대학교 *벤처창업기관</HighlightText>
+          <HighlightText>홍익대학교 
+            <StyledSpan> *</StyledSpan>
+            벤처창업기관</HighlightText>
           <Title>HIVe</Title>
         </HighlightContainer>
         <SubDescription>

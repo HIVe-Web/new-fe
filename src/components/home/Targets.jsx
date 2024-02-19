@@ -7,7 +7,7 @@ const TargetContainer = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: 10vw;
+    margin-top: 8vw;
 `;
 
 const TargetTitle = styled.div`

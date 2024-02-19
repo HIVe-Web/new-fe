@@ -8,9 +8,10 @@ const ScheduleContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 15vw;
+    margin-top: 8vw;
 `;
 
+// Schedule 글자
 const ScheduleTitle = styled.div`
     color: #838BA2;
     text-align: center;
@@ -35,6 +36,7 @@ const ScheduleSubImage = styled.img`
     max-height: 70%;
 `;
 
+// 29기 모집 안내 글자
 const ScheduleSubTitleText = styled.div`
     color: #70ff00;
     text-align: center;
@@ -49,6 +51,7 @@ const ScheduleSubTitle = styled.div`
     align-items: center;
 `;
 
+// 일정 변동 글자
 const ScheduleDescription = styled.div`
     color: #D8D8D8;
     font-family: "Pretendard", Helvetica;
@@ -73,7 +76,7 @@ const TimelineWrapper = styled.div`
 
 const TimelineBox = styled.div`
   border-radius: 1.5vw;
-  border: 0.2vw solid #70ff00;
+  border: 0.18vw solid #70ff00;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -81,7 +84,7 @@ const TimelineBox = styled.div`
   align-items: center;
   white-space: nowrap;
   text-align: center;
-  width: 16vw;
+  width: 15.5vw;
   height: 7vw;
   max-width: 20vw;
 `;
@@ -98,7 +101,7 @@ const TimelineArrow = styled.img`
 const TimelineTitle = styled.div`
     color: #2A2A2A;
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 2vw;
+    font-size: 1.8vw;
     text-align: center;
 `;
 
@@ -106,7 +109,7 @@ const TimelineDescription = styled.div`
     color: #6E6E6E;
     font-family: "Pretendard-Bold", Helvetica;
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 1.15vw;
     margin-top: 1vw;
 `;
 

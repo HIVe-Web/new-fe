@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 } */
+
+:root {
+  --vh: 100%;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 5vw;
+  height: 100%;
+  --swiper-theme-color:#fff;
+
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
