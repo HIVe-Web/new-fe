@@ -7,6 +7,7 @@ import TabletHomePage from "./pages/TabletHomePage";
 import MobileHomePage from "./pages/MobileHomePage";
 
 import './App.css';
+import MobFooter from "./components/footer/MobFooter";
 
 function App() {
   const isDesktopOrLaptop = useMediaQuery({query: '(min-width:1024px'});
@@ -27,7 +28,7 @@ function App() {
         <Routes>
          {isDesktopOrLaptop && <Route path="/" element={<><DesktopHomePage/><Footer/></>} />}
          {isTablet && <Route path="/" element={<><TabletHomePage/><Footer/></>} />}
-         {isMobile && <Route path="/" element={<><MobileHomePage/><Footer/></>} />}
+         {isMobile && <Route path="/" element={<><MobileHomePage/><MobFooter/></>} />}
         </Routes>
       </div>
     </Router>

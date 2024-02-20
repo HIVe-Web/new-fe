@@ -7,9 +7,10 @@ const MobScheduleContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 18vw;
+    margin-top: 12vw;
 `;
 
+// Schedule
 const MobScheduleTitle = styled.div`
     color: #838BA2;
     text-align: center;
@@ -31,6 +32,7 @@ const MobScheduleSubTitle = styled.div`
     align-items: center;
 `;
 
+// 29기 모집 안내
 const MobScheduleSubTitleText = styled.div`
     color: #70ff00;
     text-align: center;
@@ -67,7 +69,7 @@ const MobTimelineBox = styled.div`
   align-items: center;
   white-space: nowrap;
   text-align: center;
-  width: 80vw;
+  width: 60vw;
   height: 20vw;
 `;
 

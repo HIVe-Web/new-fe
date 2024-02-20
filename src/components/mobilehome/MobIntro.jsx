@@ -36,10 +36,11 @@ const SubDescription = styled(TextWrapper)`
 
 const Description = styled(TextWrapper)`
   color: #ffffff;  
-  font-size: 5vw; /* 모바일에서 더 큰 폰트 사이즈로 수정 */
+  font-family: "Pretendard-Bold", Helvetica;
+  font-size: 4.7vw; /* 모바일에서 더 큰 폰트 사이즈로 수정 */
+  font-weight: 700;
   margin-top: 13vw; /* 모바일에서 더 많은 여백을 주도록 수정 */
   line-height: 1.5;
-  font-weight: 600;
 `;
 
 // 별표(*) 및 홍익대학교 벤처창업기관 텍스트를 포함하는 컨테이너
