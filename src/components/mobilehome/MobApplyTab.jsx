@@ -37,6 +37,7 @@ const MobApplyQuestionText = styled.div`
     color: #70ff00;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 3.3vw;
+    font-weight: 600;
     margin-left: 2vw;
     transition: text-align 2s ease;
 `;
@@ -46,7 +47,7 @@ const MobApplyText = styled.div`
     margin-left: 1vw;
     font-family: "Pretendard-Bold", Helvetica;
     font-weight: 600;
-    font-size: 2.7vw;
+    font-size: 2.77vw;
     transition: text-align 2s ease;
 `;
 

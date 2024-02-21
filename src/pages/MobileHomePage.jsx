@@ -32,16 +32,21 @@ const ApplyHive = styled.div`
   position: sticky;
   bottom: 1vw;
   justify-content:center;
+  cursor: pointer;
 `;
 
 const ApplyHiveText = styled.div`
   color: #ffffff;
   text-align: center;
   font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 650;
   font-size: 5vw;
 `;
 
 export const MobileHomePage = () => {
+    const handleApplyClick = () => {
+      window.open('https://tally.so/r/m6Z7NA', '_blank', 'noopener,noreferrer');
+    };
     return (
       <MainContainer>
         <MobIntro/>
@@ -53,7 +58,7 @@ export const MobileHomePage = () => {
         <MobActivity/>
         <MobAwards/>
         <MobFAQ/>
-        <ApplyHive><ApplyHiveText>29기 지원하기</ApplyHiveText></ApplyHive>
+        <ApplyHive onClick={handleApplyClick}><ApplyHiveText>29기 지원하기</ApplyHiveText></ApplyHive>
       </MainContainer>
     );
   };

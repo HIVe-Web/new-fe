@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import MobPinImage from "../../assets/images/pin.png";
 import downLineArrowImage from "../../assets/images/downLineArrow.png";
 
 const MobScheduleContainer = styled.div`
@@ -17,7 +18,7 @@ const MobScheduleTitle = styled.div`
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 5.5vw;
     text-align: center;
-    margin-bottom: 1vw;
+    margin-bottom: 0vw;
 `;
 
 const MobScheduleSubtitleWrapper = styled.div`
@@ -25,6 +26,17 @@ const MobScheduleSubtitleWrapper = styled.div`
     flex-direction: row;
     align-items: center;
     margin-top: 2vw;
+`;
+
+const MobScheduleSubImage = styled.img`
+    aspect-ratio: 1;
+    object-fit: contain;
+    height: 7vw;
+    width: 7vw;
+    max-width: 70%;
+    max-height: 70%;
+    margin-bottom: 8vw;
+    margin-right: 1vw;
 `;
 
 const MobScheduleSubTitle = styled.div`
@@ -40,6 +52,7 @@ const MobScheduleSubTitleText = styled.div`
     font-family: "Pretendard-Bold", Helvetica;
     font-weight: 700;
     font-size: 8vw;
+    margin-right: 8vw;
 `;
 
 const MobScheduleDescription = styled.div`
@@ -104,7 +117,8 @@ export const Schedule = () => {
         <MobScheduleContainer>
             <MobScheduleTitle>Schedule</MobScheduleTitle>
             <MobScheduleSubtitleWrapper>
-            <MobScheduleSubTitle>
+                <MobScheduleSubImage src={MobPinImage}/>
+                <MobScheduleSubTitle>
                     <MobScheduleSubTitleText>29기 모집 안내</MobScheduleSubTitleText>
                 </MobScheduleSubTitle>
             </MobScheduleSubtitleWrapper>
@@ -115,19 +129,19 @@ export const Schedule = () => {
             <MobTimelineWrapper>
                 <MobTimelineBox><MobTimelineTitle>서류 접수<MobTimelineDescription>2월 28일(수) ~ 3월 8일(금)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
-            <MobTimelineArrow src={downLineArrowImage}/>
+            <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
                 <MobTimelineBox><MobTimelineTitle>서류 심사<MobTimelineDescription>3월 9일(토) 18시까지</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
-            <MobTimelineArrow src={downLineArrowImage}/>
+            <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
                 <MobTimelineBox><MobTimelineTitle>면접 심사<MobTimelineDescription>3월 11일(월) ~ 12일(화)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
-            <MobTimelineArrow src={downLineArrowImage}/>
+            <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
                 <MobTimelineBox><MobTimelineTitle>최종 결과 발표<MobTimelineDescription>3월 13일(수)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
-            <MobTimelineArrow src={downLineArrowImage}/>
+            <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
                 <MobTimelineBox><MobTimelineTitle>오리엔테이션<MobTimelineDescription>3월 14일(목) 18시</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>

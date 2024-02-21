@@ -21,6 +21,7 @@ const MainContainer = styled.div`
   height: 100%;
   width: 100%;
 `;
+
 const ApplyHive = styled.div`
   background-color: rgba(42, 42, 42, 0.7);
   display: flex;
@@ -30,6 +31,7 @@ const ApplyHive = styled.div`
   position: sticky;
   bottom: 1vw;
   justify-content:center;
+  cursor: pointer;
 `;
 
 const ApplyHiveText = styled.div`
@@ -38,7 +40,12 @@ const ApplyHiveText = styled.div`
   font-family: "Pretendard-Bold", Helvetica;
   font-size: 2.35vw;
 `;
+
 export const DesktopHomePage = () => {
+  const handleApplyClick = () => {
+    window.open('https://tally.so/r/m6Z7NA', '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <MainContainer>
       <Intro/>
@@ -50,7 +57,7 @@ export const DesktopHomePage = () => {
       <Activity/>
       <Result/>
       <FAQ/>
-      <ApplyHive><ApplyHiveText>29기 지원하기</ApplyHiveText></ApplyHive>
+      <ApplyHive onClick={handleApplyClick}><ApplyHiveText>29기 지원하기</ApplyHiveText></ApplyHive>
     </MainContainer>
   );
 };

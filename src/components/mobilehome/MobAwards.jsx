@@ -61,7 +61,7 @@ const MobResultColumnBox = styled.div`
     background-color: #ffffff;
     border-radius: 1.5vw;
     width: 70vw;
-    height: 40vw;
+    height: 60vw;
     margin: 1vw;
     text-align: center;
 `;
@@ -70,7 +70,7 @@ const MobResultColumnBox2 = styled.div`
     background-color: #ffffff;
     border-radius: 1.5vw;
     width: 70vw;
-    height: 75vw;
+    height: 80vw;
     margin: 1vw;
     text-align: center;
 `;

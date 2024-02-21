@@ -61,7 +61,6 @@ const ActivityBoxContainer = styled.div`
     height: 18vw;
     width: 20vw;
     margin: 1vw;
-    
 `;
 
 const ActivityRowBox = styled.div`
