@@ -22,7 +22,7 @@ const MobActivityTitle = styled.div`
     text-align: center;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 5.5vw;
-    margin-bottom: 3vw;
+    margin-bottom: 5vw;
 `;
 
 const MobActivitySubTitle = styled.div`
@@ -32,7 +32,7 @@ const MobActivitySubTitle = styled.div`
     font-family: "Pretendard-Bold", Helvetica;
     font-weight: 700;
     font-size: 8vw;
-    margin-bottom: 3vw;
+    margin-bottom: 5vw;
 `;
 
 const MobActivityDescription = styled.div`

@@ -29,7 +29,7 @@ const MobFAQSubTitle = styled.div`
     font-family: "Pretendard-Bold", Helvetica;
     font-weight: 700;
     font-size: 8vw;
-    margin-bottom: 3vw;
+    margin-bottom: 6vw;
 `;
 
 const MobTabContainer = styled.div`
@@ -39,19 +39,18 @@ const MobTabContainer = styled.div`
 const MobTabHeader = styled.div`
     display: flex;
     flex-direction: row;
-    width: 70vw;
+    width: 80vw;
     white-space: nowrap;
-    justify-content: flex-start;
-    margin: 2vw;
+    justify-content: space-evenly;
+    margin-bottom: 6vw;
 `;
 
 const MobTabButtonStyled = styled.div`
     color: ${props => props.active ? "#70ff00" : "#ffffff"};
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 3.8vw;
+    font-size: 4.2vw;
     font-weight: 700;
     white-space: nowrap;
-    margin-right: 6vw;
     cursor: pointer;
 `;
 

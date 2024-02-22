@@ -15,7 +15,6 @@ const MainContainer = styled.div`
   background-color: #1C1C1C;
   display: flex;
   align-items: center;
-  margin: 0 auto;
   flex-direction: column;
   justify-content: center;
   height: 100%

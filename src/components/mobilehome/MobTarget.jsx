@@ -35,13 +35,13 @@ const MobTargetTextBox = styled.div`
     display: flex;
     background-color: #2a2a2a;
     min-height: 20vw;
-    width: 75vw;
+    width: 80vw;
     margin: 2vw;
 `;
 
 const MobTargetTextNumber = styled.div`
     color: #70ff00;
-    font-family: "Pretendard-Bold", Helvetica;
+    font-family: "Pretendard-ExtraBold", Helvetica;
     font-size: 5vw;
     text-align: center;
     margin-left: 2vw;
@@ -51,7 +51,7 @@ const MobTargetText = styled.div`
     color: #ffffff;
     margin-left: 2vw;
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 3.6vw;
+    font-size: 4vw;
 `;
 
 

@@ -25,7 +25,6 @@ const MobScheduleSubtitleWrapper = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 2vw;
 `;
 
 const MobScheduleSubImage = styled.img`
@@ -82,7 +81,7 @@ const MobTimelineBox = styled.div`
   align-items: center;
   white-space: nowrap;
   text-align: center;
-  width: 60vw;
+  width: 65vw;
   height: 20vw;
 `;
 
@@ -99,17 +98,18 @@ const MobTimelineArrow = styled.img`
 const MobTimelineTitle = styled.div`
     color: #2A2A2A;
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 5.5vw;
+    font-size: 5.1vw;
     text-align: center;
     font-weight: 800;
+    margin-bottom: 1.5vw;
 `;
 
 const MobTimelineDescription = styled.div`
     color: #6E6E6E;
     font-family: "Pretendard-Bold", Helvetica;
     text-align: center;
-    font-size: 4.8vw;
-    margin-top: 1vw;
+    font-size: 4.3vw;
+    margin-top: 1.5vw;
 `;
 
 export const Schedule = () => {
