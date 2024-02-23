@@ -15,7 +15,7 @@ const MobActivityContainer = styled.div`
 
 const MobActivityTextBox = styled.div`
     border-radius: 1vw;
-    justify-content:center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     background-color: #2a2a2a;
@@ -33,11 +33,11 @@ const MobActivityQuestionWrapper = styled.div`
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 2vw;
-    margin-top: 2vw;
+    margin-top: 5vw;
 `;
 
 const MobActivityQuestionText = styled.div`
-    color: #70ff00;
+    color: #52FF98;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 3.6vw;
     font-weight: 600;
@@ -55,6 +55,8 @@ const MobActivityText = styled.div`
 `;
 
 const MobActivityArrowImage = styled.img`
+    position: absolute;
+    right: 5vw;
     aspect-ratio: 1;
     object-fit: contain;
     height: 2.5vw;
@@ -112,17 +114,17 @@ export const MobActivityTab = () => {
                 <MobActivityQuestionWrapper>
                     <MobActivityQuestionText>Q.</MobActivityQuestionText>
                     <MobActivityText>정기 세션은 언제 진행되나요?</MobActivityText>
+                    <MobActivityArrowImage src={arrowImage1} onClick={toggleDropDown1} />
                 </MobActivityQuestionWrapper>
-                <MobActivityArrowImage src={arrowImage1} onClick={toggleDropDown1}/>    
                 <MobDropDownText show={showDropDown1}>매주 목요일 6시에 정기 활동이 진행됩니다.</MobDropDownText>
             </MobActivityTextBox>
-            
+
             <MobActivityTextBox expanded={showDropDown2}>
                 <MobActivityQuestionWrapper>
                     <MobActivityQuestionText>Q.</MobActivityQuestionText>
                     <MobActivityText>정기 세션에서는 어떤 활동을 하나요?</MobActivityText>
+                    <MobActivityArrowImage src={arrowImage2} onClick={toggleDropDown2} />
                 </MobActivityQuestionWrapper>
-                <MobActivityArrowImage src={arrowImage2} onClick={toggleDropDown2}/>  
                 <MobDropDownText show={showDropDown2}>팀별 프로젝트, 창업 교육 및 강연 등 다양한 활동이 예정되어 있습니다.</MobDropDownText>
             </MobActivityTextBox>
 
@@ -130,8 +132,9 @@ export const MobActivityTab = () => {
                 <MobActivityQuestionWrapper>
                     <MobActivityQuestionText>Q.</MobActivityQuestionText>
                     <MobActivityText>팀 빌딩은 어떻게 이루어지나요?</MobActivityText>
+
+                    <MobActivityArrowImage src={arrowImage3} onClick={toggleDropDown3} />
                 </MobActivityQuestionWrapper>
-                <MobActivityArrowImage src={arrowImage3} onClick={toggleDropDown3}/> 
                 <MobDropDownText show={showDropDown3}>지원하신 서류와 면접 내용을 바탕으로 운영진이 구성할 예정입니다.</MobDropDownText>
             </MobActivityTextBox>
 
@@ -139,8 +142,9 @@ export const MobActivityTab = () => {
                 <MobActivityQuestionWrapper>
                     <MobActivityQuestionText>Q.</MobActivityQuestionText>
                     <MobActivityText>창업에 대해 몰라도 활동 가능한가요?</MobActivityText>
+
+                    <MobActivityArrowImage src={arrowImage4} onClick={toggleDropDown4} />
                 </MobActivityQuestionWrapper>
-                <MobActivityArrowImage src={arrowImage4} onClick={toggleDropDown4}/> 
                 <MobDropDownText show={showDropDown4}>네, 차근차근 배워나갈 수 있도록 정기 세션이 진행될 예정입니다.</MobDropDownText>
             </MobActivityTextBox>
         </MobActivityContainer>

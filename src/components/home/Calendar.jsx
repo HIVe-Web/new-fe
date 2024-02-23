@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import calendarImage from '../../assets/images/calendar.png'
+import calendarImage from '../../assets/images/calendar.svg'
 
 // 달력 컨테이너 관련
 const CalendarContainer = styled.div`
@@ -21,11 +21,12 @@ const CalendarText = styled.div`
 `;
 
 const CalendarDateText = styled.div`
-  color: #70FF00;
+  color: #52FF98;
   text-align: center;
-  text-decoration-line: underline;
   font-family: Pretendard, sans-serif;
-  font-size: 3.2vw;
+  font-size: 2.7vw;
+  margin-top: 1.2vw;
+  font-weight: 700;
 `;
 
 const CalendarImage = styled.img`

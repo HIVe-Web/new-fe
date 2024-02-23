@@ -19,7 +19,7 @@ const TargetTitle = styled.div`
 `;
 
 const TargetSubTitle = styled.div`
-    color: #70ff00;
+    color: #52FF98;
     text-align: center;
     text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -39,7 +39,7 @@ const TargetTextBox = styled.div`
 `;
 
 const TargetTextNumber = styled.div`
-    color: #70ff00;
+    color: #52FF98;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 3vw;
     text-align: center;
@@ -61,7 +61,7 @@ export const Targets = () => {
             <TargetSubTitle>모집 대상</TargetSubTitle>
             <TargetTextBox>
                 <TargetTextNumber>01</TargetTextNumber>
-                <TargetText>홍익대학교 재학생/휴학생</TargetText>
+                <TargetText>홍익대학교 재학생 / 휴학생</TargetText>
             </TargetTextBox>
             <TargetTextBox>
                 <TargetTextNumber>02</TargetTextNumber>

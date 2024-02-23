@@ -7,7 +7,7 @@ const MobTargetContainer = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: 8vw;
+    margin-top: 30vw;
 `;
 
 const MobTargetTitle = styled.div`
@@ -19,7 +19,7 @@ const MobTargetTitle = styled.div`
 `;
 
 const MobTargetSubTitle = styled.div`
-    color: #70ff00;
+    color: #52FF98;
     text-align: center;
     text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -29,29 +29,29 @@ const MobTargetSubTitle = styled.div`
 `;
 
 const MobTargetTextBox = styled.div`
-    border-radius: 1vw; 
+    border-radius: 5vw; 
     box-shadow: 0.2vw 0.2vw 0.73vw 0px rgba(142, 142, 142, 0.25); /* 2px, 7.3px를 vw 단위로 변환 */
     align-items: center;
     display: flex;
     background-color: #2a2a2a;
     min-height: 20vw;
-    width: 80vw;
+    width: 85vw;
     margin: 2vw;
 `;
 
 const MobTargetTextNumber = styled.div`
-    color: #70ff00;
+    color: #52FF98;
     font-family: "Pretendard-ExtraBold", Helvetica;
     font-size: 5vw;
     text-align: center;
-    margin-left: 2vw;
+    margin-left: 4vw;
 `;
 
 const MobTargetText = styled.div`
     color: #ffffff;
     margin-left: 2vw;
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 4vw;
+    font-size: 4.5vw;
 `;
 
 

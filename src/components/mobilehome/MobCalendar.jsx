@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import calendarImage from '../../assets/images/calendar.png'
+import calendarImage from '../../assets/images/calendar.svg'
 
 const MobCalendarContainer = styled.div`
     display: flex;
@@ -20,9 +20,8 @@ const MobCalendarText = styled.div`
 `;
 
 const MobCalendarDateText = styled.div`
-  color: #70FF00;
+  color: #52FF98;
   text-align: center;
-  text-decoration-line: underline;
   font-family: Pretendard, sans-serif;
   font-size: 5vw;
   margin-top: 3vw;

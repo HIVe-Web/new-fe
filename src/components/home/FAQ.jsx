@@ -23,7 +23,7 @@ const FAQTitle = styled.div`
 `;
 
 const FAQSubTitle = styled.div`
-    color: #70ff00;
+    color: #52FF98;
     text-align: center;
     text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -45,7 +45,7 @@ const TabHeader = styled.div`
 `;
 
 const TabButtonStyled = styled.div`
-    color: ${props => props.active ? "#70ff00" : "#ffffff"};
+    color: ${props => props.active ? "#52FF98" : "#ffffff"};
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 2.3vw;
     font-weight: 700;

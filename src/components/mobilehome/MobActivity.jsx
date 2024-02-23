@@ -14,7 +14,7 @@ const MobActivityContainer = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: 8vw;
+    margin-top: 30vw;
 `;
 
 const MobActivityTitle = styled.div`
@@ -26,7 +26,7 @@ const MobActivityTitle = styled.div`
 `;
 
 const MobActivitySubTitle = styled.div`
-    color: #70ff00;
+    color: #52FF98;
     text-align: center;
     text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -41,6 +41,7 @@ const MobActivityDescription = styled.div`
     text-align: center;
     line-height: 1.5;
     font-size: 4vw;
+    margin-bottom: 15vw;
 `;
 
 const MobActivityWrapper = styled.div`
@@ -61,17 +62,16 @@ const MobActivityRowWrapper = styled.div`
 `;
 
 const MobActivityBoxContainer = styled.div`
-    height: 36vw;
-    width: 40vw;
-    margin: 1vw;
+    height: 38vw;
+    width: 44vw;
+    margin: 1.2vw;
 `;
 
 const MobActivityImage = styled.img`
     object-position: center;
     border-radius: 1vw;
-    height: 36vw;
-    width: 40vw;
-    margin: 1vw;
+    height: 38vw;
+    width: 44vw;
     align-self: center;
     position: absolute;
 `;
@@ -79,9 +79,8 @@ const MobActivityImage = styled.img`
 const MobActivityRowBox = styled.div`
     background: linear-gradient(180deg, rgba(0,0,0,0.71) 0%, rgba(0,0,0,0) 100%);
     border-radius: 1vw;
-    height: 36vw;
-    width: 40vw;
-    margin: 1vw;
+    height: 38vw;
+    width: 44vw;
     position: absolute;
 `;
 

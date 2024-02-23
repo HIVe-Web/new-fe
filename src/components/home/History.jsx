@@ -24,7 +24,6 @@ const HistoryDetailContainerWrapper = styled.div`
 
 const HistoryDetailContainer = styled.div`
   border-radius: 2vw;
-  box-shadow: 0.3vw 0.3vw 2vw 0.1vw rgba(255, 255, 255, 0.25);
   background-color: #2A2A2A;
   display: flex;
   flex-direction:column;
@@ -65,7 +64,7 @@ export const History = () => {
               설립된 지
             </HistoryHeadText>
             <HistoryText>
-              27년
+              29년
             </HistoryText>
           </HistoryDetailContainer>
           <HistoryDetailContainer>

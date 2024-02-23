@@ -6,7 +6,7 @@ const MobHistoryContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 8vw;
+  margin-top: 14vw;
 `;
 
 const MobHistoryTitle = styled.div`
@@ -25,7 +25,6 @@ const MobHistoryDetailContainerWrapper = styled.div`
 
 const MobHistoryDetailContainer = styled.div`
   border-radius: 2vw;
-  box-shadow: 0.3vw 0.3vw 2vw 0.1vw rgba(255, 255, 255, 0.25);
   background-color: #2A2A2A;
   display: flex;
   flex-direction:column;
@@ -68,7 +67,7 @@ export const MobHistory = () => {
                         설립된 지
                     </MobHistoryHeadText>
                     <MobHistoryText>
-                        27년
+                        29년
                     </MobHistoryText>
                 </MobHistoryDetailContainer>
                 <MobHistoryDetailContainer>

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import PinImage from "../../assets/images/pin.png";
-import ArrowImage from "../../assets/images/arrowGreen.png";
+import ArrowImage from "../../assets/images/arrowGreen.svg";
 
 const ScheduleContainer = styled.div`
     display: flex;
@@ -18,7 +18,6 @@ const ScheduleTitle = styled.div`
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 3.4vw;
     text-align: center;
-    margin-bottom: 1vw;
 `;
 
 const ScheduleSubtitleWrapper = styled.div`
@@ -34,11 +33,13 @@ const ScheduleSubImage = styled.img`
     width: 5vw;
     max-width: 70%;
     max-height: 70%;
+    margin-bottom: 3vw;
+    margin-right: 1vw;
 `;
 
 // 29기 모집 안내 글자
 const ScheduleSubTitleText = styled.div`
-    color: #70ff00;
+    color: #53FF98;
     text-align: center;
     text-shadow: 0vw; 0.2vw; 0.2vw; rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -56,10 +57,10 @@ const ScheduleDescription = styled.div`
     color: #D8D8D8;
     font-family: "Pretendard", Helvetica;
     font-size: 2vw;
-    margin-top: 2vw;
+    margin-top: 1vw;
 
     span.footDescription{
-        font-size: 1.5vw;s
+        font-size: 1.5vw;
     }
 `;
 
@@ -76,7 +77,7 @@ const TimelineWrapper = styled.div`
 
 const TimelineBox = styled.div`
   border-radius: 1.5vw;
-  border: 0.18vw solid #70ff00;
+  border: 0.18vw solid #53FF98;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -101,7 +102,7 @@ const TimelineArrow = styled.img`
 const TimelineTitle = styled.div`
     color: #2A2A2A;
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 1.8vw;
+    font-size: 1.7vw;
     text-align: center;
 `;
 

@@ -4,10 +4,10 @@ import styled from "styled-components";
 import lightBackImage from "../../assets/images/lightBack.png"
 import dysonLogoImage from "../../assets/images/dysonLogo.png"
 import metaLogoImage from "../../assets/images/metaLogo.png"
-import motieLogoImage from "../../assets/images/motieLogo.png"
-import asanLogoImage from "../../assets/images/asanLogo.png"
-import koreasocialLogoImage from "../../assets/images/koreasocialLogo.png"
-import cossLogoImage from "../../assets/images/cossLogo.png"
+import motieLogoImage from "../../assets/images/motieLogo.svg"
+import asanLogoImage from "../../assets/images/asanLogo.svg"
+import koreasocialLogoImage from "../../assets/images/koreasocialLogo.svg"
+import cossLogoImage from "../../assets/images/cossLogo.svg"
 import hongikLogoImage from "../../assets/images/hongikLogo.png"
 import hisuLogoImage from "../../assets/images/hisuLogo.png"
 
@@ -38,7 +38,7 @@ const ResultTitle = styled.div`
 `;
 
 const ResultSubTitleText = styled.div`
-    color: #70ff00;
+    color: #52FF98;
     text-align: center;
     text-shadow: 0vw; 0.2vw; 0.2vw; rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -96,6 +96,7 @@ const ResultLogoImage = styled.img`
     width: 15vw;
     max-width: 45%;
     max-height: 50%;
+    margin-top: 0.5vw;
 `;
 
 const ResultLogoImage2 = styled.img`
@@ -103,8 +104,19 @@ const ResultLogoImage2 = styled.img`
     object-fit: contain;
     height: 11vw;
     width: 11vw;
-    max-width: 45%;
-    max-height: 45%;
+    max-width: 50%;
+    max-height: 50%;
+`;
+
+const ResultLogoImage3 = styled.img`
+    aspect-ratio: 1;
+    object-fit: contain;
+    height: 15vw;
+    width: 15svw;
+    max-width: 55%;
+    max-height: 55%;
+    margin-top: 0.7vw;
+    margin-bottom: 0.7vw;
 `;
 
 const ResultBoxTitle = styled.div`
@@ -118,7 +130,7 @@ const ResultBoxTitle2 = styled.div`
     color: #000000;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 1.4vw;
-    margin-bottom: 1vw;
+    margin-bottom: 0.35vw;
 `;
 
 const ResultBoxDescription = styled.div`
@@ -132,7 +144,7 @@ const ResultBoxDescription2 = styled.div`
     color: #000000;
     font-family: "Pretendard-Medium", Helvetica;
     font-size: 1.2vw;
-    margin-bottom: 0.5vw;
+    margin-bottom: 1.5vw;
 `;
 
 export const Result = () => {
@@ -165,27 +177,28 @@ export const Result = () => {
                 </ResultRowWrapper>
                 <ResultRowWrapper>
                     <ResultRowBox2>
-                        <ResultLogoImage2 src={motieLogoImage}/>
+                        <ResultLogoImage3 src={motieLogoImage} />
                         <ResultBoxTitle2>공학 페스티벌</ResultBoxTitle2>
                         <ResultBoxDescription2>산업통상자원부 장관상 (2위)</ResultBoxDescription2>
                     </ResultRowBox2>
                     <ResultRowBox2>
-                        <ResultLogoImage2 src={asanLogoImage}/>
+                        <ResultLogoImage3 src={asanLogoImage}/>
                         <ResultBoxTitle2>AER 컴퍼티션</ResultBoxTitle2>
                         <ResultBoxDescription2>최우수상 수상 (2위)</ResultBoxDescription2>
                     </ResultRowBox2>
                     <ResultRowBox2>
-                        <ResultLogoImage2 src={koreasocialLogoImage}/>
+                        <ResultLogoImage3 src={koreasocialLogoImage}/>
                         <ResultBoxTitle2>ESG 청년창업 아이디어 공모전</ResultBoxTitle2>
                         <ResultBoxDescription2>우수상 수상 (3위)</ResultBoxDescription2>
                     </ResultRowBox2>
                 </ResultRowWrapper>
                 <ResultRowWrapper>
                     <ResultRowBox2>
-                        <ResultLogoImage2 src={cossLogoImage}/>
+                        <ResultLogoImage3 src={cossLogoImage}/>
                         <ResultBoxTitle2>바이오헬스 창업경진대회</ResultBoxTitle2>
                         <ResultBoxDescription2>대상 수상 (1위)</ResultBoxDescription2>
                     </ResultRowBox2>
+
                     <ResultRowBox2>
                         <ResultLogoImage2 src={hongikLogoImage}/>
                         <ResultBoxTitle2>2022 창업경진대회</ResultBoxTitle2>
@@ -193,6 +206,7 @@ export const Result = () => {
                         <ResultBoxTitle2>2023 창업경진대회</ResultBoxTitle2>
                         <ResultBoxDescription2>2위 1팀, 3위 1팀</ResultBoxDescription2>
                     </ResultRowBox2>
+
                     <ResultRowBox2>
                         <ResultLogoImage2 src={hisuLogoImage}/>
                         <ResultBoxTitle2>2022 HISU 데모데이</ResultBoxTitle2>

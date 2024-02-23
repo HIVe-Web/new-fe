@@ -34,7 +34,7 @@ const ActivityQuestionWrapper = styled.div`
 `;
 
 const ActivityQuestionText = styled.div`
-    color: #70ff00;
+    color: #52FF98;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 2.3vw;
     margin-left: 2vw;

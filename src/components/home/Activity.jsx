@@ -26,7 +26,7 @@ const ActivityTitle = styled.div`
 `;
 
 const ActivitySubTitle = styled.div`
-    color: #70ff00;
+    color: #52FF98;
     text-align: center;
     text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -58,16 +58,16 @@ const ActivityRowWrapper = styled.div`
 `;
 
 const ActivityBoxContainer = styled.div`
-    height: 18vw;
-    width: 20vw;
+    height: 21vw;
+    width: 27vw;
     margin: 1vw;
 `;
 
 const ActivityRowBox = styled.div`
     background: linear-gradient(180deg, rgba(0,0,0,0.71) 0%, rgba(0,0,0,0) 100%);
     border-radius: 1vw;
-    height: 18vw;
-    width: 20vw;
+    height: 21vw;
+    width: 27vw;
     margin: 1vw;
     position: absolute;
 `;
@@ -75,8 +75,8 @@ const ActivityRowBox = styled.div`
 const ActivityImage = styled.img`
     object-position: center;
     border-radius: 1vw;
-    height: 18vw;
-    width: 20vw;
+    height: 21vw;
+    width: 27vw;
     margin: 1vw;
     align-self: center;
     position: absolute;
@@ -86,10 +86,10 @@ const ActivityBoxTitle = styled.div`
     color: #ffffff;
     font-family: "Pretendard-Medium", Helvetica;
     font-weight: 700;
-    font-size: 2.3vw;
+    font-size: 2.2vw;
     white-space: nowrap;
-    margin-left: 2.4vw;
-    margin-top: 2.4vw;
+    margin-left: 1.8vw;
+    margin-top: 1.8vw;
     margin-bottom: 0.5vw;
 `;
 
@@ -97,7 +97,7 @@ const ActivityBoxDesciption = styled.div`
     color: #adadad;
     font-family: "Pretendard-Medium", Helvetica;
     font-size: 1.4vw;
-    margin-left: 2.4vw;
+    margin-left: 1.8vw;
 `;
 
 export const Activity = () => {
