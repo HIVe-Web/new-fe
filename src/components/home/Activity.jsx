@@ -58,16 +58,16 @@ const ActivityRowWrapper = styled.div`
 `;
 
 const ActivityBoxContainer = styled.div`
-    height: 21vw;
-    width: 27vw;
+    height: 20vw;
+    width: 22vw;
     margin: 1vw;
 `;
 
 const ActivityRowBox = styled.div`
     background: linear-gradient(180deg, rgba(0,0,0,0.71) 0%, rgba(0,0,0,0) 100%);
     border-radius: 1vw;
-    height: 21vw;
-    width: 27vw;
+    height: 20vw;
+    width: 22vw;
     margin: 1vw;
     position: absolute;
 `;
@@ -75,8 +75,8 @@ const ActivityRowBox = styled.div`
 const ActivityImage = styled.img`
     object-position: center;
     border-radius: 1vw;
-    height: 21vw;
-    width: 27vw;
+    height: 20vw;
+    width: 22vw;
     margin: 1vw;
     align-self: center;
     position: absolute;

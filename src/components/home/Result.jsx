@@ -104,7 +104,7 @@ const ResultLogoImage2 = styled.img`
     object-fit: contain;
     height: 11vw;
     width: 11vw;
-    max-width: 50%;
+    max-width: 70%;
     max-height: 50%;
 `;
 
@@ -112,8 +112,8 @@ const ResultLogoImage3 = styled.img`
     aspect-ratio: 1;
     object-fit: contain;
     height: 15vw;
-    width: 15svw;
-    max-width: 55%;
+    width: 15vw;
+    max-width: 80%;
     max-height: 55%;
     margin-top: 0.7vw;
     margin-bottom: 0.7vw;
@@ -187,16 +187,17 @@ export const Result = () => {
                         <ResultBoxDescription2>최우수상 수상 (2위)</ResultBoxDescription2>
                     </ResultRowBox2>
                     <ResultRowBox2>
-                        <ResultLogoImage3 src={koreasocialLogoImage}/>
-                        <ResultBoxTitle2>ESG 청년창업 아이디어 공모전</ResultBoxTitle2>
-                        <ResultBoxDescription2>우수상 수상 (3위)</ResultBoxDescription2>
-                    </ResultRowBox2>
-                </ResultRowWrapper>
-                <ResultRowWrapper>
-                    <ResultRowBox2>
                         <ResultLogoImage3 src={cossLogoImage}/>
                         <ResultBoxTitle2>바이오헬스 창업경진대회</ResultBoxTitle2>
                         <ResultBoxDescription2>대상 수상 (1위)</ResultBoxDescription2>
+                    </ResultRowBox2>
+
+                </ResultRowWrapper>
+                <ResultRowWrapper>
+                <ResultRowBox2>
+                        <ResultLogoImage2 src={koreasocialLogoImage}/>
+                        <ResultBoxTitle2>ESG 청년창업 아이디어 공모전</ResultBoxTitle2>
+                        <ResultBoxDescription2>우수상 수상 (3위)</ResultBoxDescription2>
                     </ResultRowBox2>
 
                     <ResultRowBox2>
