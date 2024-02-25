@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-import hivcdSImage from '../../assets/images/hivcdS.png'
-import hiceDImage from '../../assets/images/hiceD.png'
-import businessJImage from '../../assets/images/businessJ.png'
+import hivcdSImage from '../../assets/images/hivcdS.svg'
+import hiceDImage from '../../assets/images/hiceD.svg'
+import businessJImage from '../../assets/images/businessJ.svg'
 
 const PersonaContainer = styled.div`
   display: flex;
@@ -70,11 +70,11 @@ const PersonaImage = styled.img`
   aspect-ratio: 1;
   object-fit: contain; // 이미지 비율을 유지하면서 컨테이너를 채우기 위해 'cover' 사용
   object-position: center;
-  height: 20vw;
-  width: 20vw;
+  height: 18vw;
+  width: 18vw;
   align-self: center;
-  max-width: 80%;
-  max-height: 80%; // 뷰포트 높이의 50%를 최대 높이로 설정
+  max-width: 100%;
+  max-height: 100%; // 뷰포트 높이의 50%를 최대 높이로 설정
 `;
 
 const PersonaName = styled.div`
@@ -84,6 +84,7 @@ const PersonaName = styled.div`
   font-weight: 500;
   text-align: center;
   white-space: nowrap;
+  margin-top: 1vw;
 `;
 
 

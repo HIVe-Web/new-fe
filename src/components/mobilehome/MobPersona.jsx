@@ -2,9 +2,9 @@ import React from 'react';
 import styled from "styled-components";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import hivcdSImage from '../../assets/images/hivcdS.png'
-import hiceDImage from '../../assets/images/hiceD.png'
-import businessJImage from '../../assets/images/businessJ.png'
+import hivcdSImage from '../../assets/images/hivcdS.svg'
+import hiceDImage from '../../assets/images/hiceD.svg'
+import businessJImage from '../../assets/images/businessJ.svg'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -45,7 +45,7 @@ const MobPersonaSpeechBubble = styled.div`
   border: 0px none;
   border-radius: 1.7vw;
   width: 63vw;
-  height: 22vw;
+  height: 20vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,7 +57,6 @@ const MobPersonaSpeechBubbleImage = styled.div`
   border-top: 3vw solid #ffffff; // 말풍선의 "말" 부분의 크기를 결정
   border-left: 1.8vw solid transparent; // 말풍선 꼬리의 왼쪽 부분
   border-right: 1.8vw solid transparent; // 말풍선 꼬리의 오른쪽 부분
-  margin-bottom: 3vw; // 말풍선과 아래 요소와의 간격
 `;
 
 
@@ -78,7 +77,7 @@ const MobPersonaImage = styled.img`
   align-self: center;
   max-width: 100%;
   max-height: 100%; // 뷰포트 높이의 50%를 최대 높이로 설정
-  margin-top: 5vw;
+  margin-top: 4vw;
 `;
 
 const MobPersonaName = styled.div`
@@ -129,6 +128,7 @@ export const MobPersona = () => {
                             컴퓨터공학과 D씨
                         </MobPersonaName>
                     </MobPersonaWrapper>
+
                 </SwiperSlide>
                 <SwiperSlide>
                     <MobPersonaWrapper>

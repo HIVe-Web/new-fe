@@ -14,8 +14,8 @@ const TargetTitle = styled.div`
     color: #838BA2;
     text-align: center;
     font-family: Pretendard-Bold, sans-serif;
-    font-size: 3.4vw;
-    margin-bottom: 1vw;
+    font-size: 2.6vw;
+    margin-bottom: 0.5vw;
 `;
 
 const TargetSubTitle = styled.div`
@@ -23,8 +23,8 @@ const TargetSubTitle = styled.div`
     text-align: center;
     text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 4vw;
-    margin-bottom: 1vw;
+    font-size: 3.5vw;
+    margin-bottom: 1.5vw;
 `;
 
 const TargetTextBox = styled.div`
@@ -35,7 +35,7 @@ const TargetTextBox = styled.div`
     background-color: #2a2a2a;
     min-height: 8vw;
     width: 60vw;
-    margin: 1.1vw;
+    margin: 1.3vw;
 `;
 
 const TargetTextNumber = styled.div`
@@ -43,7 +43,7 @@ const TargetTextNumber = styled.div`
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 3vw;
     text-align: center;
-    margin-left: 2vw;
+    margin-left: 3vw;
 `;
 
 const TargetText = styled.div`

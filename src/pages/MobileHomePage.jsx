@@ -26,12 +26,13 @@ const ApplyHive = styled.div`
   border-radius: 2vw; 
   display: flex;
   align-items: center;
-  width: 80vw;
+  width: 90vw;
   height: 15vw;
   position: sticky;
   bottom: 1vw;
   justify-content:center;
   cursor: pointer;
+  z-index: 9999;
 `;
 
 const ApplyHiveText = styled.div`
@@ -44,7 +45,7 @@ const ApplyHiveText = styled.div`
 
 export const MobileHomePage = () => {
     const handleApplyClick = () => {
-      window.open('https://tally.so/r/m6Z7NA', '_blank', 'noopener,noreferrer');
+      window.open('https://tally.so/r/waYvzv', '_blank', 'noopener,noreferrer');
     };
     return (
       <MainContainer>

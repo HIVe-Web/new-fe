@@ -39,7 +39,7 @@ const MobTabContainer = styled.div`
 const MobTabHeader = styled.div`
     display: flex;
     flex-direction: row;
-    width: 80vw;
+    width: 90vw;
     white-space: nowrap;
     justify-content: space-evenly;
     margin-bottom: 6vw;

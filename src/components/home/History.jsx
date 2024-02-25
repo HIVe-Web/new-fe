@@ -6,7 +6,7 @@ const HistoryContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 6vw;
+  margin-top: 4vw;
 `;
 
 const HistoryTitle = styled.div`
@@ -24,7 +24,7 @@ const HistoryDetailContainerWrapper = styled.div`
 
 const HistoryDetailContainer = styled.div`
   border-radius: 2vw;
-  box-shadow: 0.2vw 0.2vw 0.73vw 0px rgba(142, 142, 142, 0.25); /* 2px, 7.3px를 vw 단위로 변환 */
+  box-shadow: 0.2vw 0.2vw 0.73vw 0px rgba(142, 142, 142, 0.25); /* 2px, 7.3px를 vw 단위로 변환 */ 
   background-color: #2A2A2A;
   display: flex;
   flex-direction:column;
@@ -49,8 +49,9 @@ const HistoryHeadText = styled.div`
 const HistoryText = styled.div`
   color: #ffffff;
   font-family: "Pretendard-Bold", Helvetica;
-  font-size: 3vw;
+  font-size: 2.8vw;
   text-align: center;
+  margin-bottom: 1.2vw;
 `;
 
 export const History = () => {

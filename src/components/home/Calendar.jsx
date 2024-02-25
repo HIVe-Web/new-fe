@@ -13,6 +13,7 @@ const CalendarContainer = styled.div`
   margin-top: 8vw;
 `;
 
+// 모집 마감 기한 텍스트
 const CalendarText = styled.div`
   color: #ffffff;
   text-align: center;
@@ -20,13 +21,14 @@ const CalendarText = styled.div`
   font-size: 4vw;
 `;
 
+// 3월 9일 23시 59분까지 텍스트
 const CalendarDateText = styled.div`
   color: #52FF98;
   text-align: center;
   font-family: Pretendard, sans-serif;
   font-size: 2.7vw;
-  margin-top: 1.2vw;
-  font-weight: 700;
+  margin-top: 1vw;
+  font-weight: 600;
 `;
 
 const CalendarImage = styled.img`

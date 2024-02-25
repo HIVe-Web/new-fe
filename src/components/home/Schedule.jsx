@@ -11,30 +11,38 @@ const ScheduleContainer = styled.div`
     margin-top: 8vw;
 `;
 
-// Schedule 글자
-const ScheduleTitle = styled.div`
-    color: #838BA2;
-    text-align: center;
-    font-family: "Pretendard-Bold", Helvetica;
-    font-size: 3.4vw;
-    text-align: center;
-`;
-
-const ScheduleSubtitleWrapper = styled.div`
+const ScheduleRowWrapper = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
 `;
 
+const ScheduleColumnWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5vw;
+`;
+
+// Schedule 글자
+const ScheduleTitle = styled.div`
+    color: #838BA2;
+    text-align: center;
+    font-family: "Pretendard-Bold", Helvetica;
+    font-size: 2.6vw;
+    text-align: center;
+`;
+
+// 고정핀 이미지 
 const ScheduleSubImage = styled.img`
     aspect-ratio: 1;
     object-fit: contain;
-    height: 5vw;
-    width: 5vw;
-    max-width: 70%;
-    max-height: 70%;
-    margin-bottom: 3vw;
-    margin-right: 1vw;
+    height: 4.2vw;
+    width: 4.2vw;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 1vw;
+    margin-right: 0.5vw;
 `;
 
 // 29기 모집 안내 글자
@@ -43,8 +51,7 @@ const ScheduleSubTitleText = styled.div`
     text-align: center;
     text-shadow: 0vw; 0.2vw; 0.2vw; rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 4vw;
-    margin-right: 5vw;
+    font-size: 3.5vw;
 `;
 
 const ScheduleSubTitle = styled.div`
@@ -57,7 +64,7 @@ const ScheduleDescription = styled.div`
     color: #D8D8D8;
     font-family: "Pretendard", Helvetica;
     font-size: 2vw;
-    margin-top: 1vw;
+    margin-top: 1.5vw;
 
     span.footDescription{
         font-size: 1.5vw;
@@ -69,9 +76,10 @@ const ScheduleDescription = styled.div`
 
 
 
+
 const TimelineWrapper = styled.div`
     display: flex;
-    margin-top: 8vw;
+    margin-top: 4.5vw;
     align-items: center;
 `;
 
@@ -117,13 +125,19 @@ const TimelineDescription = styled.div`
 export const Schedule = () => {
     return (
         <ScheduleContainer>
-            <ScheduleTitle>Schedule</ScheduleTitle>
-            <ScheduleSubtitleWrapper>
+            <ScheduleRowWrapper>
                 <ScheduleSubImage src={PinImage} />
-                <ScheduleSubTitle>
-                    <ScheduleSubTitleText>29기 모집 안내</ScheduleSubTitleText>
-                </ScheduleSubTitle>
-            </ScheduleSubtitleWrapper>
+                <ScheduleColumnWrapper>
+                    <ScheduleTitle>Schedule</ScheduleTitle>
+                    <ScheduleSubTitle>
+                        <ScheduleSubTitleText>29기 모집 안내</ScheduleSubTitleText>
+                    </ScheduleSubTitle>
+                </ScheduleColumnWrapper>
+            </ScheduleRowWrapper>
+
+
+
+
 
             <ScheduleDescription>
                 * 일정은 내부 사정에 따라 변동될 수 있습니다.

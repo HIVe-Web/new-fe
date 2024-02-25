@@ -29,7 +29,7 @@ const MobTargetSubTitle = styled.div`
 `;
 
 const MobTargetTextBox = styled.div`
-    border-radius: 5vw; 
+    border-radius: 4vw; 
     box-shadow: 0.2vw 0.2vw 0.73vw 0px rgba(142, 142, 142, 0.25); /* 2px, 7.3px를 vw 단위로 변환 */
     align-items: center;
     display: flex;

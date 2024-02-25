@@ -24,11 +24,11 @@ const MobgradientBackBox = styled.div`
 `;
 
 const MobHiveIntroduction = styled.div`
-  display: flex;
+  display: flex;x
   flex-direction: column;
   color: #ffffff;
   font-family: "Pretendard-Bold", Helvetica;
-  font-size: 4vw;
+  font-size: 4.6vw;
   text-align: center;
   justify-content: center;
   align-items: center;

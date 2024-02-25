@@ -9,7 +9,7 @@ import asanLogoImage from "../../assets/images/asanLogo.svg"
 import koreasocialLogoImage from "../../assets/images/koreasocialLogo.svg"
 import cossLogoImage from "../../assets/images/cossLogo.svg"
 import hongikLogoImage from "../../assets/images/hongikLogo.png"
-import hisuLogoImage from "../../assets/images/hisuLogo.png"
+import hisuLogoImage from "../../assets/images/hisuLogo.svg"
 
 const ResultContainer = styled.div`
     position: relative;
@@ -32,7 +32,7 @@ const ResultTitle = styled.div`
     color: #838BA2;
     text-align: center;
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 3.4vw;
+    font-size: 2.6vw;
     text-align: center;
     margin-bottom: 1.5vw;
 `;
@@ -42,7 +42,7 @@ const ResultSubTitleText = styled.div`
     text-align: center;
     text-shadow: 0vw; 0.2vw; 0.2vw; rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 4vw;
+    font-size: 3.5vw;
     margin-bottom: 1.5vw;
 `;
 
@@ -50,7 +50,7 @@ const ResultDateText = styled.div`
     color: #ffffff;
     text-align: center;
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 2.3vw;
+    font-size: 2vw;
 `;
 
 const ResultWrapper = styled.div`
@@ -102,8 +102,8 @@ const ResultLogoImage = styled.img`
 const ResultLogoImage2 = styled.img`
     aspect-ratio: 1;
     object-fit: contain;
-    height: 11vw;
-    width: 11vw;
+    height: 12vw;
+    width: 18vw;
     max-width: 70%;
     max-height: 50%;
 `;
@@ -150,7 +150,7 @@ const ResultBoxDescription2 = styled.div`
 export const Result = () => {
     return (
         <ResultContainer>
-            <ResultPolygon src={lightBackImage}/>
+            <ResultPolygon src={lightBackImage} />
             <ResultTitle>
                 지난 3년
             </ResultTitle>
@@ -163,59 +163,62 @@ export const Result = () => {
 
             <ResultWrapper>
                 <ResultColumnWrapper>
-                <ResultRowWrapper>
-                    <ResultRowBox>
-                        <ResultLogoImage src={dysonLogoImage}/>
-                        <ResultBoxTitle>제임스 다이슨 어워드</ResultBoxTitle>
-                        <ResultBoxDescription>국내전 우승 (1위)</ResultBoxDescription>
-                    </ResultRowBox>
-                    <ResultRowBox>
-                        <ResultLogoImage src={metaLogoImage}/>
-                        <ResultBoxTitle>META AR 콘텐츠 공모전</ResultBoxTitle>
-                        <ResultBoxDescription>Best Creator 수상 (1위)</ResultBoxDescription>
-                    </ResultRowBox>
-                </ResultRowWrapper>
-                <ResultRowWrapper>
-                    <ResultRowBox2>
-                        <ResultLogoImage3 src={motieLogoImage} />
-                        <ResultBoxTitle2>공학 페스티벌</ResultBoxTitle2>
-                        <ResultBoxDescription2>산업통상자원부 장관상 (2위)</ResultBoxDescription2>
-                    </ResultRowBox2>
-                    <ResultRowBox2>
-                        <ResultLogoImage3 src={asanLogoImage}/>
-                        <ResultBoxTitle2>AER 컴퍼티션</ResultBoxTitle2>
-                        <ResultBoxDescription2>최우수상 수상 (2위)</ResultBoxDescription2>
-                    </ResultRowBox2>
-                    <ResultRowBox2>
-                        <ResultLogoImage3 src={cossLogoImage}/>
-                        <ResultBoxTitle2>바이오헬스 창업경진대회</ResultBoxTitle2>
-                        <ResultBoxDescription2>대상 수상 (1위)</ResultBoxDescription2>
-                    </ResultRowBox2>
 
-                </ResultRowWrapper>
-                <ResultRowWrapper>
-                <ResultRowBox2>
-                        <ResultLogoImage2 src={koreasocialLogoImage}/>
-                        <ResultBoxTitle2>ESG 청년창업 아이디어 공모전</ResultBoxTitle2>
-                        <ResultBoxDescription2>우수상 수상 (3위)</ResultBoxDescription2>
-                    </ResultRowBox2>
+                    <ResultRowWrapper>
+                        <ResultRowBox>
+                            <ResultLogoImage src={dysonLogoImage} />
+                            <ResultBoxTitle>제임스 다이슨 어워드</ResultBoxTitle>
+                            <ResultBoxDescription>국내전 우승 (1위)</ResultBoxDescription>
+                        </ResultRowBox>
+                        <ResultRowBox>
+                            <ResultLogoImage src={metaLogoImage} />
+                            <ResultBoxTitle>META AR 콘텐츠 공모전</ResultBoxTitle>
+                            <ResultBoxDescription>Best Creator 수상 (1위)</ResultBoxDescription>
+                        </ResultRowBox>
+                    </ResultRowWrapper>
 
-                    <ResultRowBox2>
-                        <ResultLogoImage2 src={hongikLogoImage}/>
-                        <ResultBoxTitle2>2022 창업경진대회</ResultBoxTitle2>
-                        <ResultBoxDescription2>3위 1팀</ResultBoxDescription2>
-                        <ResultBoxTitle2>2023 창업경진대회</ResultBoxTitle2>
-                        <ResultBoxDescription2>2위 1팀, 3위 1팀</ResultBoxDescription2>
-                    </ResultRowBox2>
+                    <ResultRowWrapper>
+                        <ResultRowBox2>
+                            <ResultLogoImage3 src={motieLogoImage} />
+                            <ResultBoxTitle2>공학 페스티벌</ResultBoxTitle2>
+                            <ResultBoxDescription2>산업통상자원부 장관상 (2위)</ResultBoxDescription2>
+                        </ResultRowBox2>
+                        <ResultRowBox2>
+                            <ResultLogoImage3 src={asanLogoImage} />
+                            <ResultBoxTitle2>AER 컴퍼티션</ResultBoxTitle2>
+                            <ResultBoxDescription2>최우수상 수상 (2위)</ResultBoxDescription2>
+                        </ResultRowBox2>
+                        <ResultRowBox2>
+                            <ResultLogoImage3 src={cossLogoImage} />
+                            <ResultBoxTitle2>바이오헬스 창업경진대회</ResultBoxTitle2>
+                            <ResultBoxDescription2>대상 수상 (1위)</ResultBoxDescription2>
+                        </ResultRowBox2>
+                    </ResultRowWrapper>
 
-                    <ResultRowBox2>
-                        <ResultLogoImage2 src={hisuLogoImage}/>
-                        <ResultBoxTitle2>2022 HISU 데모데이</ResultBoxTitle2>
-                        <ResultBoxDescription2>동상 1팀</ResultBoxDescription2>
-                        <ResultBoxTitle2>2023 HISU 데모데이</ResultBoxTitle2>
-                        <ResultBoxDescription2>최종 우승 1팀, 은상 1팀, 동상 2팀</ResultBoxDescription2>
-                    </ResultRowBox2>
-                </ResultRowWrapper>
+                    <ResultRowWrapper>
+                        <ResultRowBox2>
+                            <ResultLogoImage3 src={koreasocialLogoImage} />
+                            <ResultBoxTitle2>ESG 청년창업 아이디어 공모전</ResultBoxTitle2>
+                            <ResultBoxDescription2>우수상 수상 (3위)</ResultBoxDescription2>
+                        </ResultRowBox2>
+
+                        <ResultRowBox2>
+                            <ResultLogoImage2 src={hongikLogoImage} />
+                            <ResultBoxTitle2>2022 창업경진대회</ResultBoxTitle2>
+                            <ResultBoxDescription2>3위 1팀</ResultBoxDescription2>
+                            <ResultBoxTitle2>2023 창업경진대회</ResultBoxTitle2>
+                            <ResultBoxDescription2>2위 1팀, 3위 1팀</ResultBoxDescription2>
+                        </ResultRowBox2>
+
+                        <ResultRowBox2>
+                            <ResultLogoImage2 src={hisuLogoImage} />
+                            <ResultBoxTitle2>2022 HISU 데모데이</ResultBoxTitle2>
+                            <ResultBoxDescription2>동상 1팀</ResultBoxDescription2>
+                            <ResultBoxTitle2>2023 HISU 데모데이</ResultBoxTitle2>
+                            <ResultBoxDescription2>최종 우승 1팀, 은상 1팀, 동상 2팀</ResultBoxDescription2>
+                        </ResultRowBox2>
+                    </ResultRowWrapper>
+
                 </ResultColumnWrapper>
             </ResultWrapper>
         </ResultContainer>

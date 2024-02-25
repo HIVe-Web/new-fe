@@ -46,7 +46,7 @@ const MobActivityDescription = styled.div`
 
 const MobActivityWrapper = styled.div`
     display: flex;
-    margin-top: 2vw;
+    margin-top: 1vw;
     align-items: center;
 `;
 

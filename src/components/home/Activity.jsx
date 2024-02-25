@@ -21,7 +21,7 @@ const ActivityTitle = styled.div`
     color: #838BA2;
     text-align: center;
     font-family: Pretendard-Bold, sans-serif;
-    font-size: 3.4vw;
+    font-size: 2.6vw;
     margin-bottom: 1vw;
 `;
 
@@ -30,7 +30,7 @@ const ActivitySubTitle = styled.div`
     text-align: center;
     text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 4vw;
+    font-size: 3.5vw;
     margin-bottom: 1vw;
 `;
 
