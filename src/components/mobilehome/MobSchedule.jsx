@@ -102,6 +102,7 @@ const MobTimelineTitle = styled.div`
     text-align: center;
     font-weight: 800;
     margin-bottom: 1.5vw;
+    margin-top: 2.3vw;
 `;
 
 const MobTimelineDescription = styled.div`
