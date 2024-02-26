@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import '../src/assets/fonts/pretendard.css'
+
 import App from './App';
-import "./fonts/Font.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

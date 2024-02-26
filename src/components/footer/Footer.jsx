@@ -1,65 +1,59 @@
 import React from "react";
 import styled from "styled-components";
 
-// 미디어 쿼리를 위한 기본 설정
-const sizes = {
-  tablet: '768px',
-  desktop: '1024px',
-};
-
-const media = {
-  tablet: `(max-width: ${sizes.tablet})`,
-  desktop: `(min-width: ${sizes.desktop})`,
-};
+import InstargramLogoImg from "../../assets/images/instagramLogo.svg"
 
 const StyledFooter = styled.footer`
-  background-color: #070814;
-  padding: 20px 0;
+  background-color: #1C1C1C;
+  padding: 5vw 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-
-  @media ${media.desktop} {
-    height: 218px;
-    width: 100%;
-  }
+  height: 10vw; // 데스크탑 화면에 맞춘 높이
+  width: 100%; // 데스크탑 화면의 너비
 `;
 
 const FooterContent = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: column; // 데스크탑 화면 기준으로 변경
   align-items: center;
-  justify-content: center;
-  gap: 20px;
-
-  @media ${media.desktop} {
-    flex-direction: column;
-    justify-content: space-around;
-    width: 1240px;
-  }
+  justify-content: space-around; // 데스크탑 화면 기준으로 변경
+  width: 100%; // 데스크탑 화면의 너비
 `;
 
 const SocialLinks = styled.div`
   display: flex;
-  gap: 20px;
+  gap: 4vw; // 간격 유지
 `;
 
 const SocialLink = styled.a`
   text-decoration: none;
   color: #a5b2c5;
   font-family: "Pretendard-Medium", Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 1.8vw; // 데스크탑 화면 기준 사이즈
   font-weight: 500;
-  letter-spacing: -0.2px;
 `;
 
 const FooterInfo = styled.div`
   color: #606475;
   font-family: "Pretendard-Medium", Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 1.8vw; // 데스크탑 화면 기준 사이즈
+  margin-top: 4vw; // 상단 여백
+`;
+
+const InstragramLogo = styled.img`
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  height: 1.3vw;
+  width: 1.3vw;
+  align-self: center;
+  max-width: 100%;
+  max-height: 100%; // 뷰포트 높이의 50%를 최대 높이로 설정
+  margin-right: 0.3vw;
+  margin-left: 1vw;
 `;
 
 export const Footer = () => {
@@ -67,14 +61,13 @@ export const Footer = () => {
     <StyledFooter>
       <FooterContent>
         <SocialLinks>
-          <SocialLink href="#">Hongik Univ.</SocialLink>
-          <SocialLink href="#">Introduce</SocialLink>
-          <SocialLink href="#">Instagram</SocialLink>
+          <SocialLink href="https://www.hongik.ac.kr/index.do">Hongik Univ.</SocialLink>
+          <SocialLink href="https://www.instagram.com/hive_hongik/">
+          <InstragramLogo src={InstargramLogoImg}/>
+            Instagram
+          </SocialLink>
         </SocialLinks>
-        <SocialLinks>
-          <SocialLink href="#">Kakao channel    |    @HIVe</SocialLink>
-          <SocialLink href="#">E-mail   |   hive_hongik@naver.com</SocialLink>
-        </SocialLinks>
+        
         <FooterInfo>© 2024 HIVe. ALL RIGHTS RESERVED.</FooterInfo>
       </FooterContent>
     </StyledFooter>
