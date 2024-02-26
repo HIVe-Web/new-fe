@@ -16,21 +16,17 @@ justify-content: center;
 display: flex;
 flex-direction: column;
 background-color: #2a2a2a;
-width: 90vw;
+width: 86vw;
 position: relative;
-transition: min-height 0.5s ease;
-min-height: ${props => props.expanded ? "30vw" : "18vw"};
+transition: all 0.3s ease;
+padding: 2vw; // 조정된 패딩
 margin-bottom: 2vw;
-align-items: center;
 `;
 
 const MobActivityQuestionWrapper = styled.div`
 display: flex;
 width: 90vw;
 align-items: center;
-justify-content: flex-start;
-margin-bottom: 2vw;
-margin-top: 5vw;
 `;
 
 const MobActivityQuestionText = styled.div`
@@ -40,29 +36,31 @@ font-size: 4.2vw;
 font-weight: 600;
 margin-left: 3vw;
 margin-right: 1vw;
-transition: text-align 2s ease;
+margin-top: 2vw;
+margin-bottom: 2vw;
 `;
 
 const MobActivityText = styled.div`
 color: #ffffff;
 margin-left: 1vw;
 font-family: "Pretendard-Bold", Helvetica;
-font-weight: 600;
-font-size: 4vw;
-transition: text-align 2s ease;
+font-weight: 100;
+font-size: 3.5vw;
 `;
 
 const MobDropDownText = styled.div`
 color: #ffffff;
 font-family: "Pretendard-Regular", Helvetica;
-width: 67vw;
+line-height: 1.5;
+width: 74vw;
 font-size: 2.8vw;
-margin-top: 3vw;
+margin-left: 9.2vw;
 display: flex;
 opacity: ${props => props.show ? 1 : 0};
-max-height: ${props => props.show ? "10vw" : "0"};
+max-height: ${props => props.show ? "30vw" : "0"};
 overflow: hidden;
-transition: opacity 0.5s ease, max-height 0.5s ease;
+transition: opacity 0.9s ease, max-height 0.9s ease, visibility 0.9s;
+visibility: ${props => props.show ? 'visible' : 'hidden'};
 `;
 
 export const MobActivityTab = () => {
@@ -94,7 +92,7 @@ export const MobActivityTab = () => {
                     <MobActivityQuestionText>Q.</MobActivityQuestionText>
                     <MobActivityText>정기 세션은 언제 진행되나요?</MobActivityText>
                 </MobActivityQuestionWrapper>
-                <MobDropDownText show={showDropDown1}>매주 목요일 6시에 정기 활동이 진행됩니다.</MobDropDownText>
+                <MobDropDownText show={showDropDown1}>정기 세션은 매주 목요일 오후 6시에 인문사회관 D동 308호에서 진행됩니다!</MobDropDownText>
             </MobActivityTextBox>
 
             <MobActivityTextBox expanded={showDropDown2}>
@@ -102,7 +100,8 @@ export const MobActivityTab = () => {
                     <MobActivityQuestionText>Q.</MobActivityQuestionText>
                     <MobActivityText>정기 세션에서는 어떤 활동을 하나요?</MobActivityText>
                 </MobActivityQuestionWrapper>
-                <MobDropDownText show={showDropDown2}>팀별 프로젝트, 창업 교육 및 강연 등 다양한 활동이 예정되어 있습니다.</MobDropDownText>
+                <MobDropDownText show={showDropDown2}>창업 교육 및 강연, 팀별 프로젝트 진행과 피드백 공유, 공모전 및 대회 준비 등 다양한 활동을 진행합니다. <br/>
+                정기 세션 이외에도 피그마 스터디, 코딩 스터디 등 다양한 활동들을 자체적으로 운영하고 있습니다.</MobDropDownText>
             </MobActivityTextBox>
 
             <MobActivityTextBox expanded={showDropDown3}>
@@ -118,8 +117,10 @@ export const MobActivityTab = () => {
                     <MobActivityQuestionText>Q.</MobActivityQuestionText>
                     <MobActivityText>창업에 대해 몰라도 활동 가능한가요?</MobActivityText>
                 </MobActivityQuestionWrapper>
-                <MobDropDownText show={showDropDown4}>네, 차근차근 배워나갈 수 있도록 정기 세션이 진행될 예정입니다.</MobDropDownText>
+                <MobDropDownText show={showDropDown4}>네! 창업에 대한 기초부터 차근차근 배워나갈 수 있도록 정기 세션이 진행될 예정입니다! <br/>
+                추가적으로 창업 경험이 있는 하이브 기존 부원들로부터 많은 정보와 인사이트를 알아가실 수 있답니다!</MobDropDownText>
             </MobActivityTextBox>
+            
         </MobActivityContainer>
     );
 };

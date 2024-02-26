@@ -94,6 +94,7 @@ export const Persona = () => {
       <FirstDescription>하이브는 창의적인 아이디어와 열정을 가진 학생들이 모여<br />
         혁신적인 사업을 기획하고 실행합니다.</FirstDescription>
       <PersonaWrapper>
+        {/* 컴퓨터공학과 D씨 */}
         <PersonaDetailContainer>
           <PersonaSpeechBubble>
             <PersonaText>
@@ -106,6 +107,8 @@ export const Persona = () => {
             컴퓨터공학과 D씨
           </PersonaName>
         </PersonaDetailContainer>
+
+        {/* 시각디자인과 S씨 */}
         <PersonaDetailContainer>
           <PersonaSpeechBubble>
             <PersonaText>
@@ -119,6 +122,7 @@ export const Persona = () => {
           </PersonaName>
         </PersonaDetailContainer>
 
+        {/* 경영학과 J씨 */}
         <PersonaDetailContainer>
           <PersonaSpeechBubble>
             <PersonaText>
@@ -131,6 +135,7 @@ export const Persona = () => {
             경영학과 J씨
           </PersonaName>
         </PersonaDetailContainer>
+
       </PersonaWrapper>
     </PersonaContainer>
   )

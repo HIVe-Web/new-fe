@@ -41,7 +41,7 @@ const MobActivityDescription = styled.div`
     text-align: center;
     line-height: 1.5;
     font-size: 4vw;
-    margin-bottom: 15vw;
+    margin-bottom: 11vw;
 `;
 
 const MobActivityWrapper = styled.div`

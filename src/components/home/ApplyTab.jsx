@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
-import downArrowImage from "../../assets/images/downArrow.png"
-import upArrowImage from "../../assets/images/upArrow.png"
+import downArrowImage from "../../assets/images/downArrow.png";
+import upArrowImage from "../../assets/images/upArrow.png";
 
 const ApplyContainer = styled.div`
     background-color: #1C1C1C;
@@ -15,14 +15,14 @@ const ApplyContainer = styled.div`
 
 const ApplyTextBox = styled.div`
     border-radius: 1vw;
-    justify-content:center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     background-color: #2a2a2a;
-    width: 62vw;
+    width: 67vw;
     position: relative;
-    transition: min-height 0.5s ease;
-    min-height: ${props => props.expanded ? "13vw" : "8vw"};
+    transition: all 0.3s ease;
+    padding: 2vw; // 조정된 패딩
     margin-bottom: 2vw;
 `;
 
@@ -30,48 +30,45 @@ const ApplyQuestionWrapper = styled.div`
     display: flex;
     width: 60vw;
     align-items: center;
-    margin-top: 2.6vw;
 `;
 
 const ApplyQuestionText = styled.div`
     color: #52FF98;
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 2.3vw;
-    margin-left: 2vw;
-    transition: text-align 2s ease;
+    font-size: 2.4vw;
+    margin-left: 0.5vw;
 `;
 
 const ApplyText = styled.div`
     color: #ffffff;
     margin-left: 1vw;
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 1.7vw;
-    transition: text-align 2s ease;
+    font-size: 1.9vw;
 `;
 
 const ApplyArrowImage = styled.img`
     position: absolute;
-    right: 5vw;
-    aspect-ratio: 1;
-    object-fit: contain;
-    height: 2.5vw;
-    width: 2.5vw;
+    right: 4vw;
     cursor: pointer;
+    transition: transform 0.3s ease;
+    ${props => props.expanded && css`transform: rotate(180deg);`}
 `;
 
 const DropDownText = styled.div`
     color: #ffffff;
     font-family: "Pretendard-Regular", Helvetica;
-    width: 60vw;
+    line-height: 1.5;
+    width: 55vw;
     font-size: 1.5vw;
-    margin-top: 3vw;
-    margin-left: 5.3vw;
+    margin-left: 3.9vw;
     display: flex;
     opacity: ${props => props.show ? 1 : 0};
-    max-height: ${props => props.show ? "4vw" : "0"};
+    max-height: ${props => props.show ? "11vw" : "0"}; // 적절한 최대 높이 조정
     overflow: hidden;
-    transition: opacity 0.5s ease, max-height 0.5s ease;
+    transition: opacity 0.9s ease, max-height 0.9s ease, visibility 0.9s;
+    visibility: ${props => props.show ? 'visible' : 'hidden'};
 `;
+
 
 export const ApplyTab = () => {
     const [showDropDown1, setShowDropDown1] = useState(false);
@@ -112,7 +109,7 @@ export const ApplyTab = () => {
                     <ApplyText>프로젝트나 협업 경험이 없어도 지원 가능한가요?</ApplyText>
                     <ApplyArrowImage src={arrowImage1} onClick={toggleDropDown1}/>                    
                 </ApplyQuestionWrapper>
-                <DropDownText show={showDropDown1}>네, 창업에 대한 의지만 있다면 누구나 가능합니다!</DropDownText>
+                <DropDownText show={showDropDown1}><br/>네, 창업에 대한 의지만 있다면 누구나 가능합니다!<br/>하이브는 열정을 가지고 진심어린 마음으로 창업 경험을 쌓고 싶은 분들을 기다리고 있습니다!<br/></DropDownText>
             </ApplyTextBox>
 
             <ApplyTextBox expanded={showDropDown2}>
@@ -121,7 +118,8 @@ export const ApplyTab = () => {
                     <ApplyText>포트폴리오를 따로 제출해야 하나요?</ApplyText>
                     <ApplyArrowImage src={arrowImage2} onClick={toggleDropDown2}/>                    
                 </ApplyQuestionWrapper>
-                <DropDownText show={showDropDown2}>포트폴리오가 있을 시 제출 가능하나, 필수는 아닙니다.</DropDownText>
+                <DropDownText show={showDropDown2}><br/>포트폴리오는 필수가 아니지만 제출 가능합니다!<br/>포트폴리오가 있으신 분들은 능력과 경험을 추가적으로 어필하실 수 있답니다! 
+                <br/> 포트폴리오가 없으신 분들은 서류에서 창업에 대한 의지와 하이브 활동에 대한 열정을 중점으로 지원자님을 어필해보세요!</DropDownText>
             </ApplyTextBox>
 
             <ApplyTextBox expanded={showDropDown3}>
@@ -130,7 +128,7 @@ export const ApplyTab = () => {
                     <ApplyText>면접은 어떤 방식으로 진행되나요?</ApplyText>
                     <ApplyArrowImage src={arrowImage3} onClick={toggleDropDown3}/>                    
                 </ApplyQuestionWrapper>
-                <DropDownText show={showDropDown3}>지원하신 서류 바탕으로 면접이 이루어 집니다.</DropDownText>
+                <DropDownText show={showDropDown3}><br/>면접은 대면으로 진행되며 작성해주신 서류 항목 중심으로 질의응답이 이루어집니다!</DropDownText>
             </ApplyTextBox>
             
             <ApplyTextBox expanded={showDropDown4}>
@@ -139,7 +137,7 @@ export const ApplyTab = () => {
                     <ApplyText>지원 결과는 어떻게 확인할 수 있나요?</ApplyText>
                     <ApplyArrowImage src={arrowImage4} onClick={toggleDropDown4}/>                    
                 </ApplyQuestionWrapper>
-                <DropDownText show={showDropDown4}>서류, 면접 결과 모두 기재해주신 연락처로 안내해드립니다.</DropDownText>
+                <DropDownText show={showDropDown4}><br/>서류, 면접 결과 모두 기재해주신 연락처로 합불 여부에 대해 연락을 드릴 예정입니다!</DropDownText>
             </ApplyTextBox>
             
         </ApplyContainer>

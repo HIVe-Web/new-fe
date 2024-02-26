@@ -16,7 +16,7 @@ const MobResultContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 30vw;
+    margin-top: 25vw;
 `;
 
 const MobResultTitle = styled.div`

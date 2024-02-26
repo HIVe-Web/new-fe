@@ -31,11 +31,11 @@ const MobCalendarImage = styled.img`
   aspect-ratio: 1;
   object-fit: cover; // 이미지 비율을 유지하면서 컨테이너를 채우기 위해 'cover' 사용
   object-position: center;
-  width: 40vw; // 뷰포트 너비의 50% 사용
+  width: 45vw; // 뷰포트 너비의 50% 사용
   align-self: center;
   margin-top: 5vh; // 뷰포트 높이의 5% 사용
-  max-width: 70%;
-  max-height: 70%; // 뷰포트 높이의 50%를 최대 높이로 설정
+  max-width: 80%;
+  max-height: 80%; // 뷰포트 높이의 50%를 최대 높이로 설정
 `;
 
 export const MobCalendar = () => {

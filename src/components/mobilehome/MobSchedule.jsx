@@ -8,7 +8,7 @@ const MobScheduleContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 30vw;
+    margin-top: 25vw;
 `;
 
 // Schedule
@@ -58,8 +58,8 @@ const MobScheduleDescription = styled.div`
     color: #D8D8D8;
     font-family: "Pretendard", Helvetica;
     font-size: 4.5vw;
-    margin-top: 5.5vw;
-    margin-bottom: 5.5vw;
+    margin-top: 0.5vw;
+    margin-bottom: 10.5vw;
 
     span.footDescription{
         font-size: 1.5vw;

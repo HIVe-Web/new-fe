@@ -26,7 +26,7 @@ const ApplyHive = styled.div`
   background-color: rgba(42, 42, 42, 0.7);
   display: flex;
   align-items: center;
-  width: 62vw;
+  width: 71vw;
   height: 5vw;
   position: sticky;
   bottom: 1vw;
@@ -38,7 +38,7 @@ const ApplyHiveText = styled.div`
   color: #ffffff;
   text-align: center;
   font-family: "Pretendard-Bold", Helvetica;
-  font-size: 2.35vw;
+  font-size: 2.7vw;
 `;
 
 export const DesktopHomePage = () => {

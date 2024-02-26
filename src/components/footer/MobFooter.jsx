@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import InstargramLogoImg from "../../assets/images/instagramLogo.svg"
+
 const MobStyledFooter = styled.footer`
   background-color: #1C1C1C;
   display: flex;
@@ -8,6 +10,7 @@ const MobStyledFooter = styled.footer`
   align-items: center;
   justify-content: center;
   text-align: center;
+  height: 30vw;
 `;
 
 const MobFooterContent = styled.div`
@@ -29,14 +32,28 @@ const MobSocialLink = styled.a`
   text-decoration: none;
   color: #a5b2c5;
   font-family: "Pretendard-Medium", Helvetica, sans-serif;
-  font-size: 2.3vw;
+  font-size: 3vw;
   font-weight: 500;
+  margin: 1vw;
 `;
 
 const MobFooterInfo = styled.div`
   color: #606475;
   font-family: "Pretendard-Medium", Helvetica, sans-serif;
-  font-size: 2.3vw;
+  font-size: 3vw;
+`;
+
+const MobInstragramLogo = styled.img`
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  height: 2vw;
+  width: 2vw;
+  align-self: center;
+  max-width: 100%;
+  max-height: 100%; // 뷰포트 높이의 50%를 최대 높이로 설정
+  margin-right: 1vw;
+  margin-left: 1vw;
 `;
 
 export const MobFooter = () => {
@@ -45,13 +62,10 @@ export const MobFooter = () => {
       <MobFooterContent>
         <MobSocialLinks>
           <MobSocialLink href="https://www.hongik.ac.kr/index.do">Hongik Univ.</MobSocialLink>
-          <MobSocialLink href="https://home.hongik.ac.kr/kr/life/seoul-hive.do">Introduce</MobSocialLink>
-          <MobSocialLink href="https://www.instagram.com/hive_hongik/">Instagram</MobSocialLink>
-        </MobSocialLinks>
-
-        <MobSocialLinks>
-          <MobSocialLink href="#">Kakao channel    |    @HIVe</MobSocialLink>
-          <MobSocialLink href="#">E-mail   |   hive_hongik@naver.com</MobSocialLink>
+          <MobSocialLink href="https://www.instagram.com/hive_hongik/">
+            <MobInstragramLogo src={InstargramLogoImg}/>
+            Instagram
+            </MobSocialLink>
         </MobSocialLinks>
         <MobFooterInfo>© 2024 HIVe. ALL RIGHTS RESERVED.</MobFooterInfo>
       </MobFooterContent>

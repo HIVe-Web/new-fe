@@ -7,7 +7,7 @@ const MobTargetContainer = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: 30vw;
+    margin-top: 25vw;
 `;
 
 const MobTargetTitle = styled.div`
