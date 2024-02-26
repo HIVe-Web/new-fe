@@ -27,6 +27,7 @@ const MobApplyQuestionWrapper = styled.div`
     display: flex;
     width: 90vw;
     align-items: center;
+    margin-top: 1vw;
 `;
 
 const MobApplyQuestionText = styled.div`
@@ -55,6 +56,7 @@ line-height: 1.5;
 width: 74vw;
 font-size: 2.8vw;
 margin-left: 9.2vw;
+margin-bottom: 1.4vw;
 display: flex;
 opacity: ${props => props.show ? 1 : 0};
 max-height: ${props => props.show ? "30vw" : "0"};
@@ -93,7 +95,7 @@ export const MobApplyTab = () => {
                     <MobApplyText>프로젝트나 협업 경험이 없어도 지원 가능한가요?</MobApplyText>
                 </MobApplyQuestionWrapper>
                 <MobDropDownText show={showDropDown1}>네, 창업에 대한 의지만 있다면 누구나 가능합니다!<br/>
-                하이브는 열정을 가지고 진심어린 마음으로 창업 경험을 쌓고 싶은 분들을 기다리고 있습니다!<br/><br/>
+                하이브는 열정을 가지고 진심어린 마음으로 창업 경험을 쌓고 싶은 분들을 기다리고 있습니다!
                 </MobDropDownText>
             </MobApplyTextBox>
 
@@ -104,7 +106,7 @@ export const MobApplyTab = () => {
                 </MobApplyQuestionWrapper>
                 <MobDropDownText show={showDropDown2}>포트폴리오는 필수가 아니지만 제출 가능합니다! <br/>
                 포트폴리오가 있으신 분들은 능력과 경험을 추가적으로 어필하실 수 있답니다!
-                포트폴리오가 없으신 분들은 서류에서 창업에 대한 의지와 하이브 활동에 대한 열정을 중점으로 지원자님을 어필해보세요!<br/><br/>
+                포트폴리오가 없으신 분들은 서류에서 창업에 대한 의지와 하이브 활동에 대한 열정을 중점으로 지원자님을 어필해보세요!<br/>
                 </MobDropDownText>
             </MobApplyTextBox>
 
@@ -113,7 +115,7 @@ export const MobApplyTab = () => {
                     <MobApplyQuestionText>Q.</MobApplyQuestionText>
                     <MobApplyText>면접은 어떤 방식으로 진행되나요?</MobApplyText>
                 </MobApplyQuestionWrapper>
-                <MobDropDownText show={showDropDown3}>면접은 대면으로 진행되며 작성해주신 서류 항목 중심으로 <br/>질의응답이 이루어집니다!<br/><br/></MobDropDownText>
+                <MobDropDownText show={showDropDown3}>면접은 대면으로 진행되며 작성해주신 서류 항목 중심으로 <br/>질의응답이 이루어집니다!<br/></MobDropDownText>
             </MobApplyTextBox>
 
             <MobApplyTextBox expanded={showDropDown4}>
@@ -121,7 +123,7 @@ export const MobApplyTab = () => {
                     <MobApplyQuestionText>Q.</MobApplyQuestionText>
                     <MobApplyText>지원 결과는 어떻게 확인할 수 있나요?</MobApplyText>
                 </MobApplyQuestionWrapper>
-                <MobDropDownText show={showDropDown4}>서류, 면접 결과 모두 기재해주신 연락처로 합불 여부에 대해 연락을 드릴 예정입니다!<br/><br/></MobDropDownText>
+                <MobDropDownText show={showDropDown4}>서류, 면접 결과 모두 기재해주신 연락처로 합불 여부에 대해 연락을 드릴 예정입니다!<br/></MobDropDownText>
             </MobApplyTextBox>
         </MobApplyContainer>
     );
