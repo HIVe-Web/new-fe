@@ -52,7 +52,7 @@ const InstragramLogo = styled.img`
   align-self: center;
   max-width: 100%;
   max-height: 100%; // 뷰포트 높이의 50%를 최대 높이로 설정
-  margin-right: 0.3vw;
+  margin-right: 0.45vw;
   margin-left: 1vw;
 `;
 

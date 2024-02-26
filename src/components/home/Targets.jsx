@@ -15,7 +15,7 @@ const TargetTitle = styled.div`
     text-align: center;
     font-family: Pretendard-Bold, sans-serif;
     font-size: 2.6vw;
-    margin-bottom: 0.5vw;
+    margin-bottom: 0.7vw;
 `;
 
 const TargetSubTitle = styled.div`

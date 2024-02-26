@@ -31,6 +31,7 @@ const ScheduleTitle = styled.div`
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 2.6vw;
     text-align: center;
+    margin-bottom: 0.7vw;
 `;
 
 // 고정핀 이미지 
