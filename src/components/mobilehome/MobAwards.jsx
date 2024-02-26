@@ -76,7 +76,7 @@ const MobResultColumnBox2 = styled.div`
     text-align: center;
 `;
 
-const MobResultLogoImage = styled.img`
+const MobResultLogoImage = styled.object`
     aspect-ratio: 1;
     object-fit: contain;
     height: 35vw;
@@ -86,13 +86,13 @@ const MobResultLogoImage = styled.img`
     max-height: 50%;
 `;
 
-const MobResultLogoImage2 = styled.img`
+const MobResultLogoImage2 = styled.object`
     aspect-ratio: 1;
     object-fit: contain;
     height: 35vw;
     width: 80vw;
     margin-top: 4vw;
-    max-width: 90%;
+    max-width: 80%;
     max-height: 50%;
 `;
 
@@ -122,43 +122,43 @@ export const MobAwards = () => {
             <MobResultWrapper>
                 <MobResultColumnWrapper>
                     <MobResultColumnBox>
-                        <MobResultLogoImage src={MobdysonLogoImage}/>
+                        <MobResultLogoImage data={MobdysonLogoImage} type="image/png"/>
                         <MobResultBoxTitle>제임스 다이슨 어워드</MobResultBoxTitle>
                         <MobResultBoxDescription>국내전 우승 (1위)</MobResultBoxDescription>
                     </MobResultColumnBox>
 
                     <MobResultColumnBox>
-                        <MobResultLogoImage src={MobmetaLogoImage}/>
+                        <MobResultLogoImage data={MobmetaLogoImage} type="image/png"/>
                         <MobResultBoxTitle>META AR 콘텐츠 공모전</MobResultBoxTitle>
                         <MobResultBoxDescription>Best Creator 수상 (1위)</MobResultBoxDescription>
                     </MobResultColumnBox>
 
                     <MobResultColumnBox>
-                        <MobResultLogoImage2 src={MobmotieLogoImage}/>
+                        <MobResultLogoImage2 data={MobmotieLogoImage} type=""/>
                         <MobResultBoxTitle>공학 페스티벌</MobResultBoxTitle>
                         <MobResultBoxDescription>산업통상자원부 장관상 (2위)</MobResultBoxDescription>
                     </MobResultColumnBox>
 
                     <MobResultColumnBox>
-                        <MobResultLogoImage2 src={MobasanLogoImage}/>
+                        <MobResultLogoImage2 data={MobasanLogoImage} type=""/>
                         <MobResultBoxTitle>AER 컴퍼티션</MobResultBoxTitle>
                         <MobResultBoxDescription>최우수상 수상 (2위)</MobResultBoxDescription>
                     </MobResultColumnBox>
 
                     <MobResultColumnBox>
-                        <MobResultLogoImage2 src={MobkoreasocialLogoImage}/>
+                        <MobResultLogoImage data={MobkoreasocialLogoImage} type=""/>
                         <MobResultBoxTitle>ESG 청년창업 아이디어 공모전</MobResultBoxTitle>
                         <MobResultBoxDescription>수상 (3위)</MobResultBoxDescription>
                     </MobResultColumnBox>
 
                     <MobResultColumnBox>
-                        <MobResultLogoImage2 src={MobcossLogoImage}/>
+                        <MobResultLogoImage2 data={MobcossLogoImage} type=""/>
                         <MobResultBoxTitle>바이오헬스 창업경진대회</MobResultBoxTitle>
                         <MobResultBoxDescription>대상 수상 (1위)</MobResultBoxDescription>
                     </MobResultColumnBox>
 
                     <MobResultColumnBox2>
-                        <MobResultLogoImage2 src={MobhisuLogoImage}/>
+                        <MobResultLogoImage2 data={MobhisuLogoImage} type=""/>
                         <MobResultBoxTitle>2022 HISU 데모데이</MobResultBoxTitle>
                         <MobResultBoxDescription>동상 1팀</MobResultBoxDescription>
                         <br/>
@@ -167,7 +167,7 @@ export const MobAwards = () => {
                     </MobResultColumnBox2>
 
                     <MobResultColumnBox2>
-                        <MobResultLogoImage src={MobhongikLogoImage}/>
+                        <MobResultLogoImage data={MobhongikLogoImage} type=""/>
                         <MobResultBoxTitle>2022 창업경진대회</MobResultBoxTitle>
                         <MobResultBoxDescription>3위 (1팀)</MobResultBoxDescription>
                         <br/>
