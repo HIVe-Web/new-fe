@@ -153,7 +153,7 @@ export const Schedule = () => {
                 <TimelineArrow src={ArrowImage} />
                 <TimelineBox><TimelineTitle>최종 결과 발표<TimelineDescription>3월 13일(수)</TimelineDescription></TimelineTitle></TimelineBox>
                 <TimelineArrow src={ArrowImage} />
-                <TimelineBox><TimelineTitle>오리엔테이션<TimelineDescription>3월 14일(수)</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>오리엔테이션<TimelineDescription>3월 14일(목)</TimelineDescription></TimelineTitle></TimelineBox>
             </TimelineWrapper>
 
             <ScheduleDescription>
