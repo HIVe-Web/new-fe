@@ -24,12 +24,14 @@ position: relative;
 transition: all 0.3s ease;
 padding: 2vw; // 조정된 패딩
 margin-bottom: 2vw;
+cursor: pointer;
 `;
 
 const ActivityQuestionWrapper = styled.div`
 display: flex;
 width: 60vw;
 align-items: center;
+cursor: pointer;
 `;
 
 const ActivityQuestionText = styled.div`
@@ -102,39 +104,39 @@ export const ActivityTab = () => {
 
     return (
         <ActivityContainer>
-            <ActivityTextBox expanded={showDropDown1}>
+            <ActivityTextBox expanded={showDropDown1} onClick={toggleDropDown1}>
                 <ActivityQuestionWrapper>
                     <ActivityQuestionText>Q.</ActivityQuestionText>
                     <ActivityText>정기 세션은 언제 진행되나요?</ActivityText>
-                    <ActivityArrowImage src={arrowImage1} onClick={toggleDropDown1} />
+                    <ActivityArrowImage src={arrowImage1} />
                 </ActivityQuestionWrapper>
-                <DropDownText show={showDropDown1}><br/>정기 세션은 매주 목요일 오후 6시에 인문사회관 D동 308호에서 진행됩니다!</DropDownText>
+                <DropDownText show={showDropDown1} ><br/>정기 세션은 매주 목요일 오후 6시에 인문사회관 D동 308호에서 진행됩니다!</DropDownText>
             </ActivityTextBox>
 
-            <ActivityTextBox expanded={showDropDown2}>
+            <ActivityTextBox expanded={showDropDown2} onClick={toggleDropDown2}>
                 <ActivityQuestionWrapper>
                     <ActivityQuestionText>Q.</ActivityQuestionText>
                     <ActivityText>정기 세션에서는 어떤 활동을 하나요?</ActivityText>
-                    <ActivityArrowImage src={arrowImage2} onClick={toggleDropDown2} />
+                    <ActivityArrowImage src={arrowImage2}  />
                 </ActivityQuestionWrapper>
                 <DropDownText show={showDropDown2}><br/>창업 교육 및 강연, 팀별 프로젝트 진행과 피드백 공유, 공모전 및 대회 준비 등 다양한 활동을 <br/>진행합니다.
                 정기 세션 이외에도 피그마 스터디, 코딩 스터디 등 다양한 활동들을 자체적으로 <br/>운영하고 있습니다.</DropDownText>
             </ActivityTextBox>
 
-            <ActivityTextBox expanded={showDropDown3}>
+            <ActivityTextBox expanded={showDropDown3} onClick={toggleDropDown3}>
                 <ActivityQuestionWrapper>
                     <ActivityQuestionText>Q.</ActivityQuestionText>
                     <ActivityText>팀 빌딩은 어떻게 이루어지나요?</ActivityText>
-                    <ActivityArrowImage src={arrowImage3} onClick={toggleDropDown3} />
+                    <ActivityArrowImage src={arrowImage3} />
                 </ActivityQuestionWrapper>
                 <DropDownText show={showDropDown3}><br/>지원하신 서류와 면접 내용을 바탕으로 운영진이 구성할 예정입니다.</DropDownText>
             </ActivityTextBox>
 
-            <ActivityTextBox expanded={showDropDown4}>
+            <ActivityTextBox expanded={showDropDown4} onClick={toggleDropDown4}>
                 <ActivityQuestionWrapper>
                     <ActivityQuestionText>Q.</ActivityQuestionText>
                     <ActivityText>창업에 대해 몰라도 활동 가능한가요?</ActivityText>
-                    <ActivityArrowImage src={arrowImage4} onClick={toggleDropDown4} />
+                    <ActivityArrowImage src={arrowImage4} />
                 </ActivityQuestionWrapper>
                 <DropDownText show={showDropDown4}><br/>네! 창업에 대한 기초부터 차근차근 배워나갈 수 있도록 정기 세션이 진행될 예정입니다.<br/>
                 추가적으로 창업 경험이 있는 하이브 기존 부원들로부터 많은 정보와 인사이트를 알아가실 수 있답니다!</DropDownText>

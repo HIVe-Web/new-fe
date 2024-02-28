@@ -89,8 +89,8 @@ export const MobApplyTab = () => {
 
     return (
         <MobApplyContainer>
-            <MobApplyTextBox expanded={showDropDown1}>
-                <MobApplyQuestionWrapper onClick={toggleDropDown1}>
+            <MobApplyTextBox expanded={showDropDown1} onClick={toggleDropDown1}>
+                <MobApplyQuestionWrapper>
                     <MobApplyQuestionText>Q.</MobApplyQuestionText>
                     <MobApplyText>프로젝트나 협업 경험이 없어도 지원 가능한가요?</MobApplyText>
                 </MobApplyQuestionWrapper>
@@ -99,8 +99,8 @@ export const MobApplyTab = () => {
                 </MobDropDownText>
             </MobApplyTextBox>
 
-            <MobApplyTextBox expanded={showDropDown2}>
-                <MobApplyQuestionWrapper onClick={toggleDropDown2}>
+            <MobApplyTextBox expanded={showDropDown2} onClick={toggleDropDown2}>
+                <MobApplyQuestionWrapper>
                     <MobApplyQuestionText>Q.</MobApplyQuestionText>
                     <MobApplyText>포트폴리오를 따로 제출해야 하나요?</MobApplyText>
                 </MobApplyQuestionWrapper>
@@ -110,16 +110,16 @@ export const MobApplyTab = () => {
                 </MobDropDownText>
             </MobApplyTextBox>
 
-            <MobApplyTextBox expanded={showDropDown3}>
-                <MobApplyQuestionWrapper onClick={toggleDropDown3}>
+            <MobApplyTextBox expanded={showDropDown3} onClick={toggleDropDown3}>
+                <MobApplyQuestionWrapper>
                     <MobApplyQuestionText>Q.</MobApplyQuestionText>
                     <MobApplyText>면접은 어떤 방식으로 진행되나요?</MobApplyText>
                 </MobApplyQuestionWrapper>
                 <MobDropDownText show={showDropDown3}>면접은 대면으로 진행되며 작성해주신 서류 항목 중심으로 <br/>질의응답이 이루어집니다!<br/></MobDropDownText>
             </MobApplyTextBox>
 
-            <MobApplyTextBox expanded={showDropDown4}>
-                <MobApplyQuestionWrapper onClick={toggleDropDown4}>
+            <MobApplyTextBox expanded={showDropDown4} onClick={toggleDropDown4}>
+                <MobApplyQuestionWrapper>
                     <MobApplyQuestionText>Q.</MobApplyQuestionText>
                     <MobApplyText>지원 결과는 어떻게 확인할 수 있나요?</MobApplyText>
                 </MobApplyQuestionWrapper>
