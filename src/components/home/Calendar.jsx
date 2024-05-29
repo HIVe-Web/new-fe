@@ -46,7 +46,7 @@ export const Calendar = () => {
     return (
         <CalendarContainer>
         <CalendarText>모집 마감 기한</CalendarText>
-        <CalendarDateText>*3월 9일 23시 59분까지*</CalendarDateText>
+        <CalendarDateText>*3월 8일 23시 59분까지*</CalendarDateText>
         <CalendarImage src={calendarImage} />
       </CalendarContainer>
     )
