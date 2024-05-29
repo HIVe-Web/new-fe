@@ -24,12 +24,14 @@ const ApplyTextBox = styled.div`
     transition: all 0.3s ease;
     padding: 2vw; // 조정된 패딩
     margin-bottom: 2vw;
+    cursor: pointer;
 `;
 
 const ApplyQuestionWrapper = styled.div`
-    display: flex;
-    width: 60vw;
-    align-items: center;
+display: flex;
+width: 60vw;
+align-items: center;
+cursor: pointer;
 `;
 
 const ApplyQuestionText = styled.div`
@@ -103,41 +105,43 @@ export const ApplyTab = () => {
 
     return (
         <ApplyContainer>
-            <ApplyTextBox expanded={showDropDown1}>
+            <ApplyTextBox expanded={showDropDown1} onClick={toggleDropDown1}>
                 <ApplyQuestionWrapper>
                     <ApplyQuestionText>Q.</ApplyQuestionText>
                     <ApplyText>프로젝트나 협업 경험이 없어도 지원 가능한가요?</ApplyText>
-                    <ApplyArrowImage src={arrowImage1} onClick={toggleDropDown1}/>                    
+                    <ApplyArrowImage src={arrowImage1} />                    
                 </ApplyQuestionWrapper>
-                <DropDownText show={showDropDown1}><br/>네, 창업에 대한 의지만 있다면 누구나 가능합니다!<br/>하이브는 열정을 가지고 진심어린 마음으로 창업 경험을 쌓고 싶은 분들을 기다리고 있습니다!<br/></DropDownText>
+                <DropDownText show={showDropDown1}><br/>네, 창업에 대한 의지만 있다면 누구나 지원 가능합니다. 
+                <br/>하이브는 열정을 가지고 진심어린 마음으로 창업 경험을 쌓고 싶은 분들을 기다리고 있습니다!<br/></DropDownText>
             </ApplyTextBox>
 
-            <ApplyTextBox expanded={showDropDown2}>
+            <ApplyTextBox expanded={showDropDown2} onClick={toggleDropDown2}>
                 <ApplyQuestionWrapper>
                     <ApplyQuestionText>Q.</ApplyQuestionText>
                     <ApplyText>포트폴리오를 따로 제출해야 하나요?</ApplyText>
-                    <ApplyArrowImage src={arrowImage2} onClick={toggleDropDown2}/>                    
+                    <ApplyArrowImage src={arrowImage2} />                    
                 </ApplyQuestionWrapper>
-                <DropDownText show={showDropDown2}><br/>포트폴리오는 필수가 아니지만 제출 가능합니다!<br/>포트폴리오가 있으신 분들은 능력과 경험을 추가적으로 어필하실 수 있답니다! 
-                <br/> 포트폴리오가 없으신 분들은 서류에서 창업에 대한 의지와 하이브 활동에 대한 열정을 중점으로 지원자님을 어필해보세요!</DropDownText>
+                <DropDownText show={showDropDown2}><br/>포트폴리오의 경우 필수는 아니지만 상황에 따라 제출하실 수 있습니다.<br/>
+                포트폴리오가 있으신 분들은 본인의 역량과 경험을 더욱 잘 보여줄 수 있으며, 없으신 분들은 <br/>
+                서류에서 창업에 대한 의지와 하이브 활동에 대한 열정을 중점으로 본인을 어필해보세요!</DropDownText>
             </ApplyTextBox>
 
-            <ApplyTextBox expanded={showDropDown3}>
+            <ApplyTextBox expanded={showDropDown3} onClick={toggleDropDown3}>
                 <ApplyQuestionWrapper>
                     <ApplyQuestionText>Q.</ApplyQuestionText>
                     <ApplyText>면접은 어떤 방식으로 진행되나요?</ApplyText>
-                    <ApplyArrowImage src={arrowImage3} onClick={toggleDropDown3}/>                    
+                    <ApplyArrowImage src={arrowImage3} />                    
                 </ApplyQuestionWrapper>
                 <DropDownText show={showDropDown3}><br/>면접은 대면으로 진행되며 작성해주신 서류 항목 중심으로 질의응답이 이루어집니다!</DropDownText>
             </ApplyTextBox>
             
-            <ApplyTextBox expanded={showDropDown4}>
+            <ApplyTextBox expanded={showDropDown4} onClick={toggleDropDown4}>
                 <ApplyQuestionWrapper>
                     <ApplyQuestionText>Q.</ApplyQuestionText>
                     <ApplyText>지원 결과는 어떻게 확인할 수 있나요?</ApplyText>
-                    <ApplyArrowImage src={arrowImage4} onClick={toggleDropDown4}/>                    
+                    <ApplyArrowImage src={arrowImage4} />                    
                 </ApplyQuestionWrapper>
-                <DropDownText show={showDropDown4}><br/>서류, 면접 결과 모두 기재해주신 연락처로 합불 여부에 대해 연락을 드릴 예정입니다!</DropDownText>
+                <DropDownText show={showDropDown4}><br/>서류, 면접 결과 모두 기재해주신 연락처로 심사 결과에 대해 연락을 드릴 예정입니다!</DropDownText>
             </ApplyTextBox>
             
         </ApplyContainer>

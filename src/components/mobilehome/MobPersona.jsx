@@ -68,7 +68,7 @@ const MobPersonaText = styled.div`
   font-weight: 650;
 `;
 
-const MobPersonaImage = styled.img`
+const MobPersonaImage = styled.object`
   aspect-ratio: 1;
   object-fit: contain; // 이미지 비율을 유지하면서 컨테이너를 채우기 위해 'cover' 사용
   object-position: center;
@@ -123,7 +123,7 @@ export const MobPersona = () => {
                             </MobPersonaText>
                         </MobPersonaSpeechBubble>
                         <MobPersonaSpeechBubbleImage />
-                        <MobPersonaImage src={hiceDImage} />
+                        <MobPersonaImage data={hiceDImage} type=""/>
                         <MobPersonaName>
                             컴퓨터공학과 D씨
                         </MobPersonaName>
@@ -138,7 +138,7 @@ export const MobPersona = () => {
                             </MobPersonaText>
                         </MobPersonaSpeechBubble>
                         <MobPersonaSpeechBubbleImage />
-                        <MobPersonaImage src={hivcdSImage} />
+                        <MobPersonaImage data={hivcdSImage} type=""/>
                         <MobPersonaName>
                             시각디자인과 S씨
                         </MobPersonaName>
@@ -152,7 +152,7 @@ export const MobPersona = () => {
                             </MobPersonaText>
                         </MobPersonaSpeechBubble>
                         <MobPersonaSpeechBubbleImage />
-                        <MobPersonaImage src={businessJImage} />
+                        <MobPersonaImage data={businessJImage} type=""/>
                         <MobPersonaName>
                             경영학과 J씨
                         </MobPersonaName>

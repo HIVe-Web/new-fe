@@ -27,7 +27,7 @@ const MobCalendarDateText = styled.div`
   margin-top: 3vw;
 `;
 
-const MobCalendarImage = styled.img`
+const MobCalendarImage = styled.object`
   aspect-ratio: 1;
   object-fit: cover; // 이미지 비율을 유지하면서 컨테이너를 채우기 위해 'cover' 사용
   object-position: center;
@@ -42,8 +42,8 @@ export const MobCalendar = () => {
     return (
         <MobCalendarContainer>
             <MobCalendarText>모집 마감 기한</MobCalendarText>
-            <MobCalendarDateText>*3월 9일 23시 59분까지*</MobCalendarDateText>
-            <MobCalendarImage src={calendarImage} />
+            <MobCalendarDateText>*3월 8일 23시 59분까지*</MobCalendarDateText>
+            <MobCalendarImage data={calendarImage} type=""/>
         </MobCalendarContainer>
     )
 };

@@ -85,7 +85,6 @@ const ResultRowBox2 = styled.div`
     width: 20vw;
     height: 20vw;
     margin: 0.5vw;
-
     text-align: center;
 `;
 
@@ -96,7 +95,7 @@ const ResultLogoImage = styled.img`
     width: 15vw;
     max-width: 45%;
     max-height: 50%;
-    margin-top: 0.5vw;
+    margin-top: 1vw;
 `;
 
 const ResultLogoImage2 = styled.img`
@@ -115,7 +114,7 @@ const ResultLogoImage3 = styled.img`
     width: 15vw;
     max-width: 80%;
     max-height: 55%;
-    margin-top: 0.7vw;
+    margin-top: 1.7vw;
     margin-bottom: 0.7vw;
 `;
 

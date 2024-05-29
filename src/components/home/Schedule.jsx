@@ -31,6 +31,7 @@ const ScheduleTitle = styled.div`
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 2.6vw;
     text-align: center;
+    margin-bottom: 0.7vw;
 `;
 
 // 고정핀 이미지 
@@ -152,7 +153,7 @@ export const Schedule = () => {
                 <TimelineArrow src={ArrowImage} />
                 <TimelineBox><TimelineTitle>최종 결과 발표<TimelineDescription>3월 13일(수)</TimelineDescription></TimelineTitle></TimelineBox>
                 <TimelineArrow src={ArrowImage} />
-                <TimelineBox><TimelineTitle>오리엔테이션<TimelineDescription>3월 14일(수)</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>오리엔테이션<TimelineDescription>3월 14일(목)</TimelineDescription></TimelineTitle></TimelineBox>
             </TimelineWrapper>
 
             <ScheduleDescription>

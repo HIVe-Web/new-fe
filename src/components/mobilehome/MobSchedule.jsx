@@ -102,6 +102,7 @@ const MobTimelineTitle = styled.div`
     text-align: center;
     font-weight: 800;
     margin-bottom: 1.5vw;
+    margin-top: 2.3vw;
 `;
 
 const MobTimelineDescription = styled.div`
@@ -139,11 +140,11 @@ export const Schedule = () => {
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>최종 결과 발표<MobTimelineDescription>3월 13일 (수)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>최종 결과 발표<MobTimelineDescription>3월 13일(수)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>오리엔테이션<MobTimelineDescription>3월 14일 (목)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>오리엔테이션<MobTimelineDescription>3월 14일(목)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
         </MobScheduleContainer>
     );
