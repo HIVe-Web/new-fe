@@ -10,7 +10,7 @@ const MobHistoryContainer = styled.div`
 `;
 
 const MobHistoryTitle = styled.div`
-  color: #ffffff;
+  color: #000000;
   font-family: "Pretendard-Bold", Helvetica;
   font-size: 5vw;
   font-weight: 900;
@@ -25,7 +25,7 @@ const MobHistoryDetailContainerWrapper = styled.div`
 
 const MobHistoryDetailContainer = styled.div`
   border-radius: 2vw;
-  background-color: #2A2A2A;
+  background-color: #F4F6FA;
   display: flex;
   flex-direction:column;
   justify-content: center;
@@ -39,7 +39,7 @@ const MobHistoryDetailContainer = styled.div`
 `;
 
 const MobHistoryHeadText = styled.div`
-  color: #A49F9F;
+  color: #6A6F7A;
   font-family: "Pretendard-SemiBold", Helvetica;
   font-size: 3.5vw;
   font-weight: 900;
@@ -48,7 +48,7 @@ const MobHistoryHeadText = styled.div`
 `;
 
 const MobHistoryText = styled.div`
-  color: #ffffff;
+  color: #000000;
   font-family: "Pretendard-Bold", Helvetica;
   font-size: 4.5vw;
   font-weight: 900;
