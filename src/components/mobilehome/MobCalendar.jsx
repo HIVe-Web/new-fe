@@ -12,18 +12,19 @@ const MobCalendarContainer = styled.div`
 `;
 
 const MobCalendarText = styled.div`
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   font-family: "Pretendard-Bold", Helvetica;
-  font-weight: 700;
-  font-size: 8vw;
+  font-weight: bold;
+  font-size: 10vw;
 `;
 
 const MobCalendarDateText = styled.div`
-  color: #52FF98;
+  color: #4A4DFF;
   text-align: center;
   font-family: Pretendard, sans-serif;
-  font-size: 5vw;
+  font-weight: bold;
+  font-size: 7vw;
   margin-top: 3vw;
 `;
 
@@ -38,12 +39,33 @@ const MobCalendarImage = styled.object`
   max-height: 80%; // 뷰포트 높이의 50%를 최대 높이로 설정
 `;
 
+const MobCalendarDescription = styled.div`
+    color: #000000;
+    font-family: "Pretendard", Helvetica;
+    font-size: 4.5vw;
+    font-weight: 750;
+    line-height: 1.5;
+    margin-top: 5.5vw;
+    margin-bottom: 0.5vw;
+    text-align: center;
+
+    span.footDescription{
+        font-size: 1.5vw;
+    }
+`;
+
+
 export const MobCalendar = () => {
     return (
         <MobCalendarContainer>
             <MobCalendarText>모집 마감 기한</MobCalendarText>
-            <MobCalendarDateText>*3월 8일 23시 59분까지*</MobCalendarDateText>
+            <MobCalendarDateText>*9월 6일 23시 59분까지*</MobCalendarDateText>
             <MobCalendarImage data={calendarImage} type=""/>
+            <MobCalendarDescription>
+              창업에 관심을 가진 다양한 학생들을 만나<br />
+              실제 사업화까지 경험해볼 수 있는 기회를 잡으세요!
+              <br />
+            </MobCalendarDescription>
         </MobCalendarContainer>
     )
 };
