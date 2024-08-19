@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const MobTargetContainer = styled.div`
-    background-color: #1C1C1C;
+    background-color: E5E7FF;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -19,7 +19,7 @@ const MobTargetTitle = styled.div`
 `;
 
 const MobTargetSubTitle = styled.div`
-    color: #52FF98;
+    color: #4A4DFF;
     text-align: center;
     text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -33,14 +33,14 @@ const MobTargetTextBox = styled.div`
     box-shadow: 0.2vw 0.2vw 0.73vw 0px rgba(142, 142, 142, 0.25); /* 2px, 7.3px를 vw 단위로 변환 */
     align-items: center;
     display: flex;
-    background-color: #2a2a2a;
+    background-color: #9CA9FF;
     min-height: 20vw;
     width: 85vw;
     margin: 2vw;
 `;
 
 const MobTargetTextNumber = styled.div`
-    color: #52FF98;
+    color: #4A4DFF;
     font-family: "Pretendard-ExtraBold", Helvetica;
     font-size: 5vw;
     text-align: center;
@@ -51,7 +51,7 @@ const MobTargetText = styled.div`
     color: #ffffff;
     margin-left: 2vw;
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 4.5vw;
+    font-size: 4.3vw;
 `;
 
 
