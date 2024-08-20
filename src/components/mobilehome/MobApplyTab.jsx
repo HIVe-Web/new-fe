@@ -50,7 +50,7 @@ font-size: 3.5vw;
 `;
 
 const MobDropDownText = styled.div`
-color: #ffffff;
+color: #000000;
 font-family: "Pretendard-Regular", Helvetica;
 line-height: 1.5;
 width: 74vw;
