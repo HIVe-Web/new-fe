@@ -74,7 +74,7 @@ export const MobTargets = () => {
             </MobTargetTextBox>
             <MobTargetTextBox>
                 <MobTargetTextNumber>04</MobTargetTextNumber>
-                <MobTargetText>보람찬 대학 생활을 원하는 분</MobTargetText>
+                <MobTargetText>대학 생활을 더 특별하게 만들고 싶은 분</MobTargetText>
             </MobTargetTextBox>
         </MobTargetContainer>
     )

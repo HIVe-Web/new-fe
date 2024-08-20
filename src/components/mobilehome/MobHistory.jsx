@@ -25,7 +25,7 @@ const MobHistoryDetailContainerWrapper = styled.div`
 
 const MobHistoryDetailContainer = styled.div`
   border-radius: 2vw;
-  background-color: #F4F6FA;
+  background-color: #D7DDFF;
   display: flex;
   flex-direction:column;
   justify-content: center;
@@ -39,7 +39,7 @@ const MobHistoryDetailContainer = styled.div`
 `;
 
 const MobHistoryHeadText = styled.div`
-  color: #6A6F7A;
+  color: #23257B;
   font-family: "Pretendard-SemiBold", Helvetica;
   font-size: 3.5vw;
   font-weight: 900;

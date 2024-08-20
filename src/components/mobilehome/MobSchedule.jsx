@@ -73,8 +73,8 @@ const MobTimelineWrapper = styled.div`
 
 const MobTimelineBox = styled.div`
   border-radius: 1.5vw;
-  border: 0.5vw solid #4A4DFF;
-  background-color: #ffffff;
+  border: 0.5vw solid #222251;
+  background-color: #222251;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,7 +96,7 @@ const MobTimelineArrow = styled.img`
 `;
 
 const MobTimelineTitle = styled.div`
-    color: #2A2A2A;
+    color: #ffffff;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 5.1vw;
     text-align: center;
@@ -106,7 +106,7 @@ const MobTimelineTitle = styled.div`
 `;
 
 const MobTimelineDescription = styled.div`
-    color: #6E6E6E;
+    color: #ffffff;
     font-family: "Pretendard-Bold", Helvetica;
     text-align: center;
     font-size: 4.3vw;

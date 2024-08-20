@@ -5,7 +5,7 @@ import MobApplyTab from "./MobApplyTab";
 import MobActivityTab from "./MobActivityTab";
 
 const MobFAQContainer = styled.div`
-    background-color: #1C1C1C;
+    background-color: #FEFEFE;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -23,7 +23,7 @@ const MobFAQTitle = styled.div`
 `;
 
 const MobFAQSubTitle = styled.div`
-    color: #52FF98;
+    color: #4A4DFF;
     text-align: center;
     text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -33,7 +33,7 @@ const MobFAQSubTitle = styled.div`
 `;
 
 const MobTabContainer = styled.div`
-    background-color: #1C1C1C;
+    background-color: #ffffff;
 `;
 
 const MobTabHeader = styled.div`
@@ -46,7 +46,7 @@ const MobTabHeader = styled.div`
 `;
 
 const MobTabButtonStyled = styled.div`
-    color: ${props => props.active ? "#52FF98" : "#ffffff"};
+    color: ${props => props.active ? "#4A4DFF" : "#000000"};
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 4.2vw;
     font-weight: 700;

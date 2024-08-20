@@ -9,7 +9,7 @@ import MobhackathonImage from "../../assets/images/hackathon.png"
 import MobnetworkingImage from "../../assets/images/networking.png"
 
 const MobActivityContainer = styled.div`
-    background-color: #1C1C1C;
+    background-color: #FEFEFE;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -26,7 +26,7 @@ const MobActivityTitle = styled.div`
 `;
 
 const MobActivitySubTitle = styled.div`
-    color: #52FF98;
+    color: #4A4DFF;
     text-align: center;
     text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -35,14 +35,14 @@ const MobActivitySubTitle = styled.div`
     margin-bottom: 3.2vw;
 `;
 
-const MobActivityDescription = styled.div`
-    color: #ffffff;
-    font-family: "Pretendard-SemiBold", Helvetica;
-    text-align: center;
-    line-height: 1.5;
-    font-size: 4vw;
-    margin-bottom: 11vw;
-`;
+// const MobActivityDescription = styled.div`
+//     color: #6E6E6E; 
+//     font-family: "Pretendard-SemiBold", Helvetica;
+//     text-align: center;
+//     line-height: 1.5;
+//     font-size: 4vw;
+//     margin-bottom: 11vw;
+// `;
 
 const MobActivityWrapper = styled.div`
     display: flex;
@@ -87,7 +87,7 @@ const MobActivityRowBox = styled.div`
 const MobActivityBoxTitle = styled.div`
     color: #ffffff;
     font-family: "Pretendard-Medium", Helvetica;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 3.5vw;
     white-space: nowrap;
     margin-left: 2.4vw;
@@ -107,7 +107,6 @@ export const MobActivity = () => {
         <MobActivityContainer>
             <MobActivityTitle>Activity</MobActivityTitle>
             <MobActivitySubTitle>주요 활동</MobActivitySubTitle>
-            <MobActivityDescription>HIVe에서는 서비스 및 제품, 기술 등 다양한 분야의<br /> 창업 활동을 진행하고 있습니다.</MobActivityDescription>
             <MobActivityWrapper>
 
                 <MobActivityColumnWrapper>

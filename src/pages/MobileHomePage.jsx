@@ -12,7 +12,7 @@ import MobAwards from "../components/mobilehome/MobAwards";
 import MobFAQ from "../components/mobilehome/MobFAQ";
 
 const MainContainer = styled.div`
-  background-color: #1C1C1C;
+  background-color: #FFFFFF;
   display: flex;
   align-items: center;
   flex-direction: column;

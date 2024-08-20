@@ -30,7 +30,7 @@ const MobPersonaWrapper = styled.div`
 `;
 
 const MobFirstDescription = styled.div`
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 5.4vw;
@@ -41,7 +41,7 @@ const MobFirstDescription = styled.div`
 `;
 
 const MobPersonaSpeechBubble = styled.div`
-  background-color: #ffffff;
+  background-color: #F1F3FF;
   border: 0px none;
   border-radius: 1.7vw;
   width: 63vw;
@@ -78,6 +78,7 @@ const MobPersonaImage = styled.object`
   max-width: 100%;
   max-height: 100%; // 뷰포트 높이의 50%를 최대 높이로 설정
   margin-top: 4vw;
+  //background-color: #FFFFFF;
 `;
 
 const MobPersonaName = styled.div`
@@ -94,7 +95,7 @@ const MobPersonaName = styled.div`
 export const MobPersona = () => {
     return (
         <MobPersonaContainer>
-            <MobFirstDescription>창의적인 아이디어와 <br/>열정을 가진 학생들이 모여<br />
+            <MobFirstDescription>하이브는 창의적인 아이디어와 <br/>열정을 가진 학생들이 모여<br />
                     혁신적인 사업을 기획하고 실행합니다.</MobFirstDescription>
 
             <Swiper
@@ -115,7 +116,7 @@ export const MobPersona = () => {
                 className="mySwiper"
             >
                 
-                <SwiperSlide>
+                <SwiperSlide> 
                     <MobPersonaWrapper>
                         <MobPersonaSpeechBubble>
                             <MobPersonaText>

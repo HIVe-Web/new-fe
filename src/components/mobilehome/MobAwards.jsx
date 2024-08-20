@@ -20,7 +20,7 @@ const MobResultContainer = styled.div`
 `;
 
 const MobResultTitle = styled.div`
-    color: #838BA2;
+    color: #000000;
     text-align: center;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 5.5vw;
@@ -28,7 +28,7 @@ const MobResultTitle = styled.div`
 `;
 
 const MobResultSubTitleText = styled.div`
-    color: #52FF98;
+    color: #4A4DFF;
     text-align: center;
     text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -38,7 +38,7 @@ const MobResultSubTitleText = styled.div`
 `;
 
 const MobResultDateText = styled.div`
-    color: #F9F9F9;
+    color: #8884A8;
     text-align: center;
     font-family: "Pretendard-Bold", Helvetica;
     font-weight: 700;
@@ -115,9 +115,9 @@ const MobResultBoxDescription = styled.div`
 export const MobAwards = () => {
     return (
         <MobResultContainer>
-            <MobResultTitle>Awards</MobResultTitle>
+            <MobResultTitle>지난 3년</MobResultTitle>
             <MobResultSubTitleText>HIVe 활동 성과</MobResultSubTitleText>
-            <MobResultDateText>2021 ~ 2023</MobResultDateText>
+            <MobResultDateText>2021 ~ 2024 상반기</MobResultDateText>
 
             <MobResultWrapper>
                 <MobResultColumnWrapper>
