@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+import ResultBackgroundImage from "../../assets/images/resultBackground.svg"
 import lightBackImage from "../../assets/images/lightBack.png"
 import dysonLogoImage from "../../assets/images/dysonLogo.png"
 import metaLogoImage from "../../assets/images/metaLogo.png"
@@ -12,6 +13,10 @@ import hongikLogoImage from "../../assets/images/hongikLogo.png"
 import hisuLogoImage from "../../assets/images/hisuLogo.svg"
 
 const ResultContainer = styled.div`
+    background: url(${ResultBackgroundImage});
+    width: 100%;
+    height: 100vw;
+    background-size: 100%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -29,7 +34,7 @@ const ResultPolygon = styled.img`
 `;
 
 const ResultTitle = styled.div`
-    color: #838BA2;
+    color: #000000;
     text-align: center;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 2.6vw;
@@ -38,7 +43,7 @@ const ResultTitle = styled.div`
 `;
 
 const ResultSubTitleText = styled.div`
-    color: #52FF98;
+    color: #4A4DFF;
     text-align: center;
     text-shadow: 0vw; 0.2vw; 0.2vw; rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -47,7 +52,7 @@ const ResultSubTitleText = styled.div`
 `;
 
 const ResultDateText = styled.div`
-    color: #ffffff;
+    color: #8884A8;
     text-align: center;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 2vw;
@@ -71,7 +76,7 @@ const ResultRowWrapper = styled.div`
 `;
 
 const ResultRowBox = styled.div`
-    background-color: #ffffff;
+    background-color: #FEFEFE;
     border-radius: 1.5vw;
     width: 29.9vw;
     height: 20vw;
@@ -80,7 +85,7 @@ const ResultRowBox = styled.div`
 `;
 
 const ResultRowBox2 = styled.div`
-    background-color: #ffffff;
+    background-color: #FEFEFE;
     border-radius: 1.5vw;
     width: 20vw;
     height: 20vw;
@@ -149,7 +154,7 @@ const ResultBoxDescription2 = styled.div`
 export const Result = () => {
     return (
         <ResultContainer>
-            <ResultPolygon src={lightBackImage} />
+            {/* <ResultPolygon src={lightBackImage} /> */}
             <ResultTitle>
                 지난 3년
             </ResultTitle>

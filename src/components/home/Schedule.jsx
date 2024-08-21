@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import PinImage from "../../assets/images/pin.png";
-import ArrowImage from "../../assets/images/arrowGreen.svg";
+import ArrowImage from "../../assets/images/arrowGray.svg";
 
 const ScheduleContainer = styled.div`
     display: flex;
@@ -26,7 +26,7 @@ const ScheduleColumnWrapper = styled.div`
 
 // Schedule 글자
 const ScheduleTitle = styled.div`
-    color: #838BA2;
+    color: #8884A8;
     text-align: center;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 2.6vw;
@@ -48,7 +48,7 @@ const ScheduleSubImage = styled.img`
 
 // 29기 모집 안내 글자
 const ScheduleSubTitleText = styled.div`
-    color: #53FF98;
+    color: #4A4DFF;
     text-align: center;
     text-shadow: 0vw; 0.2vw; 0.2vw; rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -62,7 +62,7 @@ const ScheduleSubTitle = styled.div`
 
 // 일정 변동 글자
 const ScheduleDescription = styled.div`
-    color: #D8D8D8;
+    color: #AEAAD2;
     font-family: "Pretendard", Helvetica;
     font-size: 2vw;
     margin-top: 1.5vw;
@@ -72,12 +72,6 @@ const ScheduleDescription = styled.div`
     }
 `;
 
-
-
-
-
-
-
 const TimelineWrapper = styled.div`
     display: flex;
     margin-top: 4.5vw;
@@ -86,8 +80,7 @@ const TimelineWrapper = styled.div`
 
 const TimelineBox = styled.div`
   border-radius: 1.5vw;
-  border: 0.18vw solid #53FF98;
-  background-color: #ffffff;
+  background-color: #222251;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -109,14 +102,14 @@ const TimelineArrow = styled.img`
 `;
 
 const TimelineTitle = styled.div`
-    color: #2A2A2A;
+    color: #FFFFFF;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 1.7vw;
     text-align: center;
 `;
 
 const TimelineDescription = styled.div`
-    color: #6E6E6E;
+    color: #FFFFFF;
     font-family: "Pretendard-Bold", Helvetica;
     text-align: center;
     font-size: 1.15vw;
@@ -131,7 +124,7 @@ export const Schedule = () => {
                 <ScheduleColumnWrapper>
                     <ScheduleTitle>Schedule</ScheduleTitle>
                     <ScheduleSubTitle>
-                        <ScheduleSubTitleText>29기 모집 안내</ScheduleSubTitleText>
+                        <ScheduleSubTitleText>29.5기 모집 안내</ScheduleSubTitleText>
                     </ScheduleSubTitle>
                 </ScheduleColumnWrapper>
             </ScheduleRowWrapper>
@@ -145,15 +138,15 @@ export const Schedule = () => {
             </ScheduleDescription>
 
             <TimelineWrapper>
-                <TimelineBox><TimelineTitle>서류 접수<TimelineDescription>2월 28일(수) ~ 3월 8일(금)</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>서류 접수<TimelineDescription>8월 27일(화) ~ 9월 6일(금)</TimelineDescription></TimelineTitle></TimelineBox>
                 <TimelineArrow src={ArrowImage} />
-                <TimelineBox><TimelineTitle>서류 발표<TimelineDescription>3월 9일(토) 18시 이후</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>서류 발표<TimelineDescription>9월 7일(토) 18시 이후</TimelineDescription></TimelineTitle></TimelineBox>
                 <TimelineArrow src={ArrowImage} />
-                <TimelineBox><TimelineTitle>면접 심사<TimelineDescription>3월 11일(월) ~ 3월 12일(화)</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>면접 심사<TimelineDescription>9월 9일(월) ~ 9월 10일(화)</TimelineDescription></TimelineTitle></TimelineBox>
                 <TimelineArrow src={ArrowImage} />
-                <TimelineBox><TimelineTitle>최종 결과 발표<TimelineDescription>3월 13일(수)</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>최종 결과 발표<TimelineDescription>9월 11일(수)</TimelineDescription></TimelineTitle></TimelineBox>
                 <TimelineArrow src={ArrowImage} />
-                <TimelineBox><TimelineTitle>오리엔테이션<TimelineDescription>3월 14일(목)</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>오리엔테이션<TimelineDescription>9월 12일(목)</TimelineDescription></TimelineTitle></TimelineBox>
             </TimelineWrapper>
 
             <ScheduleDescription>

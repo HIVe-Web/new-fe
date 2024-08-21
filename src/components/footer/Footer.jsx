@@ -4,7 +4,7 @@ import styled from "styled-components";
 import InstargramLogoImg from "../../assets/images/instagramLogo.svg"
 
 const StyledFooter = styled.footer`
-  background-color: #1C1C1C;
+  background-color: #fefefe;
   padding: 5vw 0;
   display: flex;
   flex-direction: column;

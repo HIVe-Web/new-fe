@@ -5,7 +5,7 @@ import downArrowImage from "../../assets/images/downArrow.png"
 import upArrowImage from "../../assets/images/upArrow.png"
 
 const ActivityContainer = styled.div`
-background-color: #1C1C1C;
+background-color: #FFFFFF;
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -18,7 +18,7 @@ border-radius: 1vw;
 justify-content: center;
 display: flex;
 flex-direction: column;
-background-color: #2a2a2a;
+background-color: #D7DDFF;
 width: 67vw;
 position: relative;
 transition: all 0.3s ease;
@@ -35,14 +35,14 @@ cursor: pointer;
 `;
 
 const ActivityQuestionText = styled.div`
-color: #52FF98;
+color: #4A4DFF;
 font-family: "Pretendard-Bold", Helvetica;
 font-size: 2.4vw;
 margin-left: 0.5vw;
 `;
 
 const ActivityText = styled.div`
-color: #ffffff;
+color: #000000;
 margin-left: 1vw;
 font-family: "Pretendard-Bold", Helvetica;
 font-size: 1.9vw;
@@ -57,7 +57,7 @@ ${props => props.expanded && css`transform: rotate(180deg);`}
 `;
 
 const DropDownText = styled.div`
-color: #ffffff;
+color: #000000;
 font-family: "Pretendard-Regular", Helvetica;
 line-height: 1.5;
 width: 55vw;

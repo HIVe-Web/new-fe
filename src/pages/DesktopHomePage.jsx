@@ -12,7 +12,7 @@ import Intro from "../components/home/Intro"
 import FAQ from "../components/home/FAQ"
 
 const MainContainer = styled.div`
-  background-color: #1C1C1C;
+  background-color: #FFFFFF;
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -23,11 +23,12 @@ const MainContainer = styled.div`
 `;
 
 const ApplyHive = styled.div`
-  background-color: rgba(42, 42, 42, 0.7);
+  background-color: rgba(74, 77, 255, 0.7);
+  border-radius: 1vw;
   display: flex;
   align-items: center;
   width: 71vw;
-  height: 5vw;
+  height: 5.5vw;
   position: sticky;
   bottom: 1vw;
   justify-content:center;
@@ -48,16 +49,16 @@ export const DesktopHomePage = () => {
 
   return (
     <MainContainer>
-      <Intro/>
-      <Persona/>
-      <Calendar/>
-      <History/>
-      <Schedule/>
-      <Targets/>
-      <Activity/>
-      <Result/>
-      <FAQ/>
-      <ApplyHive onClick={handleApplyClick}><ApplyHiveText>29기 지원하기</ApplyHiveText></ApplyHive>
+      <Intro />
+      {/* <Persona/> */}
+      <Calendar />
+      <History />
+      <Schedule />
+      <Targets />
+      <Activity />
+      <Result />
+      <FAQ />
+      <ApplyHive onClick={handleApplyClick}><ApplyHiveText>29.5기 지원하기</ApplyHiveText></ApplyHive>
     </MainContainer>
   );
 };

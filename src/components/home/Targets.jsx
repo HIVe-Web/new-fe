@@ -1,8 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 
+import TargetBackgroundImage from "../../assets/images/targetBackground.svg"
+
 const TargetContainer = styled.div`
-    background-color: #1C1C1C;
+    background: url(${TargetBackgroundImage});
+    width: 100%;
+    height: 61vw;
+    background-size: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -11,7 +16,7 @@ const TargetContainer = styled.div`
 `;
 
 const TargetTitle = styled.div`
-    color: #838BA2;
+    color: #8884A8;
     text-align: center;
     font-family: Pretendard-Bold, sans-serif;
     font-size: 2.6vw;
@@ -19,9 +24,8 @@ const TargetTitle = styled.div`
 `;
 
 const TargetSubTitle = styled.div`
-    color: #52FF98;
+    color: #4A4DFF;
     text-align: center;
-    text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 3.5vw;
     margin-bottom: 1.5vw;
@@ -29,17 +33,16 @@ const TargetSubTitle = styled.div`
 
 const TargetTextBox = styled.div`
     border-radius: 1vw; 
-    box-shadow: 0.2vw 0.2vw 0.73vw 0px rgba(142, 142, 142, 0.25); /* 2px, 7.3px를 vw 단위로 변환 */
     align-items: center;
     display: flex;
-    background-color: #2a2a2a;
+    background-color: #F1F3FF;
     min-height: 8vw;
     width: 60vw;
     margin: 1.3vw;
 `;
 
 const TargetTextNumber = styled.div`
-    color: #52FF98;
+    color: #4A4DFF;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 3vw;
     text-align: center;
@@ -47,7 +50,7 @@ const TargetTextNumber = styled.div`
 `;
 
 const TargetText = styled.div`
-    color: #ffffff;
+    color: #000000;
     margin-left: 2vw;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 2.3vw;
@@ -61,7 +64,7 @@ export const Targets = () => {
             <TargetSubTitle>모집 대상</TargetSubTitle>
             <TargetTextBox>
                 <TargetTextNumber>01</TargetTextNumber>
-                <TargetText>홍익대학교 재학생 / 휴학생</TargetText>
+                <TargetText>A홍익대학교 재학생 / 휴학생</TargetText>
             </TargetTextBox>
             <TargetTextBox>
                 <TargetTextNumber>02</TargetTextNumber>
@@ -73,7 +76,7 @@ export const Targets = () => {
             </TargetTextBox>
             <TargetTextBox>
                 <TargetTextNumber>04</TargetTextNumber>
-                <TargetText>보람찬 대학 생활을 원하는 분</TargetText>
+                <TargetText>대학 생활을 더 특별하게 만들고 싶은 분</TargetText>
             </TargetTextBox>
         </TargetContainer>
     )

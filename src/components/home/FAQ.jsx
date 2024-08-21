@@ -5,7 +5,7 @@ import ApplyTab from "./ApplyTab";
 import ActivityTab from "./ActivityTab";
 
 const FAQContainer = styled.div`
-    background-color: #1C1C1C;
+    background-color: #FFFFFF;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -15,7 +15,7 @@ const FAQContainer = styled.div`
 `;
 
 const FAQTitle = styled.div`
-    color: #838BA2;
+    color: #8884A8;
     text-align: center;
     font-family: Pretendard-Bold, sans-serif;
     font-size: 2.6vw;
@@ -23,16 +23,15 @@ const FAQTitle = styled.div`
 `;
 
 const FAQSubTitle = styled.div`
-    color: #52FF98;
+    color: #4A4DFF;
     text-align: center;
-    text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 3.5vw;
     margin-bottom: 1vw;
 `;
 
 const TabContainer = styled.div`
-    background-color: #1C1C1C;
+    background-color: #fefefe;
 `;
 
 const TabHeader = styled.div`
@@ -45,7 +44,7 @@ const TabHeader = styled.div`
 `;
 
 const TabButtonStyled = styled.div`
-    color: ${props => props.active ? "#52FF98" : "#ffffff"};
+    color: ${props => props.active ? "#4A4DFF" : "#000000"};
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 2.3vw;
     font-weight: 700;

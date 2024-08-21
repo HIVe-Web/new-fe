@@ -9,23 +9,14 @@ const HistoryContainer = styled.div`
   margin-top: 4vw;
 `;
 
-const HistoryTitle = styled.div`
-  color: #ffffff;
-  font-family: "Pretendard-Bold", Helvetica;
-  font-size: 2.5vw;
-  text-align: center;
-  line-height: 1.5;
-  margin-bottom: 5vw;
-`;
-
 const HistoryDetailContainerWrapper = styled.div`
   display: flex;
 `;
 
 const HistoryDetailContainer = styled.div`
   border-radius: 2vw;
-  box-shadow: 0.2vw 0.2vw 0.73vw 0px rgba(142, 142, 142, 0.25); /* 2px, 7.3px를 vw 단위로 변환 */ 
-  background-color: #2A2A2A;
+  box-shadow: 0vw 1.3vw 1.8vw 0px rgba(0, 0, 0, 0.32); /* 20px, 26px를 vw 단위로 변환 */ 
+  background-color: #D7DDFF;
   display: flex;
   flex-direction:column;
   justify-content: center;
@@ -39,7 +30,7 @@ const HistoryDetailContainer = styled.div`
 `;
 
 const HistoryHeadText = styled.div`
-  color: #A49F9F;
+  color: #23257B;
   font-family: "Pretendard-SemiBold", Helvetica;
   font-size: 2vw;
   text-align: center;
@@ -47,7 +38,7 @@ const HistoryHeadText = styled.div`
 `;
 
 const HistoryText = styled.div`
-  color: #ffffff;
+  color: #000000;
   font-family: "Pretendard-Bold", Helvetica;
   font-size: 2.8vw;
   text-align: center;
@@ -55,39 +46,36 @@ const HistoryText = styled.div`
 `;
 
 export const History = () => {
-    return (
-        <HistoryContainer>
-        <HistoryTitle>
-          창업에 관심을 가진 다양한 학생들을 만나 <br />실제 사업화까지 경험해볼 수 있는 기회를 잡으세요!
-        </HistoryTitle>
-        <HistoryDetailContainerWrapper>
-          <HistoryDetailContainer>
-            <HistoryHeadText>
-              설립된 지
-            </HistoryHeadText>
-            <HistoryText>
-              29년
-            </HistoryText>
-          </HistoryDetailContainer>
-          <HistoryDetailContainer>
-            <HistoryHeadText>
-              누적 회원 수
-            </HistoryHeadText>
-            <HistoryText>
-              1,000명 +
-            </HistoryText>
-          </HistoryDetailContainer>
-          <HistoryDetailContainer>
-            <HistoryHeadText>
-              진행된 프로젝트
-            </HistoryHeadText>
-            <HistoryText>
-              300건 +
-            </HistoryText>
-          </HistoryDetailContainer>
-        </HistoryDetailContainerWrapper>
-      </HistoryContainer>
-    );
+  return (
+    <HistoryContainer>
+      <HistoryDetailContainerWrapper>
+        <HistoryDetailContainer>
+          <HistoryHeadText>
+            설립된 지
+          </HistoryHeadText>
+          <HistoryText>
+            29년
+          </HistoryText>
+        </HistoryDetailContainer>
+        <HistoryDetailContainer>
+          <HistoryHeadText>
+            누적 회원 수
+          </HistoryHeadText>
+          <HistoryText>
+            1,000명 +
+          </HistoryText>
+        </HistoryDetailContainer>
+        <HistoryDetailContainer>
+          <HistoryHeadText>
+            진행된 프로젝트
+          </HistoryHeadText>
+          <HistoryText>
+            300건 +
+          </HistoryText>
+        </HistoryDetailContainer>
+      </HistoryDetailContainerWrapper>
+    </HistoryContainer>
+  );
 };
 
 export default History;

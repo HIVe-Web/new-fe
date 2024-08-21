@@ -13,7 +13,7 @@ const PersonaContainer = styled.div`
 `;
 
 const FirstDescription = styled.div`
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   font-family: "Pretendard-Bold", Helvetica;
   font-size: 2.2vw;
@@ -40,7 +40,7 @@ const PersonaDetailContainer = styled.div`
 `;
 
 const PersonaSpeechBubble = styled.div`
-  background-color: #ffffff;
+  background-color: #eeeeee;
   border: 0px none;
   border-radius: 1.3vw;
   width: 20vw;
@@ -53,7 +53,7 @@ const PersonaSpeechBubble = styled.div`
 const PersonaSpeechBubbleImage = styled.div`
   width: 0vw;
   height: 0vw;
-  border-top: 1.8vw solid #ffffff;
+  border-top: 1.8vw solid #eeeeee;
   border-left: 1vw solid transparent;
   border-right: 1vw solid transparent;
 `;
@@ -78,7 +78,7 @@ const PersonaImage = styled.img`
 `;
 
 const PersonaName = styled.div`
-  color: #ffffff;
+  color: #000000;
   font-family: "Pretendard", Helvetica;
   font-size: 2vw;
   font-weight: 500;

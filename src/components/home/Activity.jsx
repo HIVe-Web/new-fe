@@ -9,7 +9,7 @@ import hackathonImage from "../../assets/images/hackathon.png"
 import networkingImage from "../../assets/images/networking.png"
 
 const ActivityContainer = styled.div`
-    background-color: #1C1C1C;
+    background-color: #FFFFFF;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -18,7 +18,7 @@ const ActivityContainer = styled.div`
 `;
 
 const ActivityTitle = styled.div`
-    color: #838BA2;
+    color: #8884A8;
     text-align: center;
     font-family: Pretendard-Bold, sans-serif;
     font-size: 2.6vw;
@@ -26,16 +26,15 @@ const ActivityTitle = styled.div`
 `;
 
 const ActivitySubTitle = styled.div`
-    color: #52FF98;
+    color: #4A4DFF;
     text-align: center;
-    text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 3.5vw;
     margin-bottom: 1vw;
 `;
 
 const ActivityDescription = styled.div`
-    color: #ffffff;
+    color: #FFFFFF;
     font-family: "Pretendard-SemiBold", Helvetica;
     font-size: 2vw;
 `;
@@ -58,16 +57,16 @@ const ActivityRowWrapper = styled.div`
 `;
 
 const ActivityBoxContainer = styled.div`
-    height: 20vw;
-    width: 22vw;
+    height: 19vw;
+    width: 24vw;
     margin: 1vw;
 `;
 
 const ActivityRowBox = styled.div`
-    background: linear-gradient(180deg, rgba(0,0,0,0.71) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0) 100%);
     border-radius: 1vw;
-    height: 20vw;
-    width: 22vw;
+    height: 19vw;
+    width: 24vw;
     margin: 1vw;
     position: absolute;
 `;
@@ -75,15 +74,15 @@ const ActivityRowBox = styled.div`
 const ActivityImage = styled.img`
     object-position: center;
     border-radius: 1vw;
-    height: 20vw;
-    width: 22vw;
+    height: 19vw;
+    width: 24vw;
     margin: 1vw;
     align-self: center;
     position: absolute;
 `;
 
 const ActivityBoxTitle = styled.div`
-    color: #ffffff;
+    color: #FFFFFF;
     font-family: "Pretendard-Medium", Helvetica;
     font-weight: 700;
     font-size: 2.2vw;
@@ -94,7 +93,7 @@ const ActivityBoxTitle = styled.div`
 `;
 
 const ActivityBoxDesciption = styled.div`
-    color: #adadad;
+    color: #AEAEAE;
     font-family: "Pretendard-Medium", Helvetica;
     font-size: 1.4vw;
     margin-left: 1.8vw;
