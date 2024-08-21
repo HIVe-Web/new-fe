@@ -22,7 +22,7 @@ const MainContainer = styled.div`
 `;
 
 const ApplyHive = styled.div`
-  background-color: #2A2A2A;
+  background-color: #4A4DFF;
   border-radius: 2vw; 
   display: flex;
   align-items: center;
@@ -58,7 +58,7 @@ export const MobileHomePage = () => {
         <MobActivity/>
         <MobAwards/>
         <MobFAQ/>
-        <ApplyHive onClick={handleApplyClick}><ApplyHiveText>29기 지원하기</ApplyHiveText></ApplyHive>
+        <ApplyHive onClick={handleApplyClick}><ApplyHiveText>29.5기 지원하기</ApplyHiveText></ApplyHive>
       </MainContainer>
     );
   };
