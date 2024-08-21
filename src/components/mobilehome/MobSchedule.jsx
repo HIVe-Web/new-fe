@@ -1,14 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 import MobPinImage from "../../assets/images/pin.png";
-import downLineArrowImage from "../../assets/images/downLineArrow.svg";
+import downLineArrowImage from "../../assets/images/arrowGray.png";
 
 const MobScheduleContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 25vw;
+    margin-top: 30vw;
 `;
 
 // Schedule
@@ -83,6 +83,7 @@ const MobTimelineBox = styled.div`
   text-align: center;
   width: 65vw;
   height: 20vw;
+  margin-top: -1vw;
 `;
 
 const MobTimelineArrow = styled.img`
@@ -92,7 +93,7 @@ const MobTimelineArrow = styled.img`
     width: 7vw;
     max-width: 100%;
     max-height: 100%;
-
+    z-index: 1;
 `;
 
 const MobTimelineTitle = styled.div`
@@ -152,11 +153,11 @@ export const Schedule = () => {
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>최종 결과 발표<MobTimelineDescription>9월 11일(수 )</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>최종 결과 발표<MobTimelineDescription>9월 11일(수)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>오리엔테이션<MobTimelineDescription>3월 14일(목)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>오리엔테이션<MobTimelineDescription>9월 12일(목)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobInterviewDescription>
                 * 면접 심사는 대면으로 진행됩니다.
