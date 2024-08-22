@@ -9,7 +9,7 @@ import MobhackathonImage from "../../assets/images/hackathon.png"
 import MobnetworkingImage from "../../assets/images/networking.png"
 
 const MobActivityContainer = styled.div`
-    background-color: #FEFEFE;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     flex-direction: column;
