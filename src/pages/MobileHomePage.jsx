@@ -50,7 +50,7 @@ export const MobileHomePage = () => {
     return (
       <MainContainer>
         <MobIntro/>
-        <MobPersona/>
+        {/* <MobPersona/> */}
         <MobCalendar/>
         <MobHistory/>
         <MobSchedule/>

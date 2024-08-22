@@ -49,7 +49,7 @@ export const DesktopHomePage = () => {
   return (
     <MainContainer>
       <Intro/>
-      <Persona/>
+      {/* <Persona/> */}
       <Calendar/>
       <History/>
       <Schedule/>
