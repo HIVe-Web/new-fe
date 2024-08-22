@@ -44,7 +44,7 @@ const ApplyHiveText = styled.div`
 
 export const DesktopHomePage = () => {
   const handleApplyClick = () => {
-    window.open('https://tally.so/r/waYvzv', '_blank', 'noopener,noreferrer');
+    window.open('https://tally.so/r/mKLPo8', '_blank', 'noopener,noreferrer');
   };
 
   return (
