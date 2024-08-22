@@ -54,9 +54,10 @@ const MobPersonaSpeechBubble = styled.div`
 const MobPersonaSpeechBubbleImage = styled.div`
   width: 0; // 너비는 여전히 0으로 설정 (삼각형 모양을 유지하기 위해)
   height: 0; // 높이는 여전히 0으로 설정
-  border-top: 3vw solid #ffffff; // 말풍선의 "말" 부분의 크기를 결정
+  border-top: 3vw solid #000000; // 말풍선의 "말" 부분의 크기를 결정
   border-left: 1.8vw solid transparent; // 말풍선 꼬리의 왼쪽 부분
   border-right: 1.8vw solid transparent; // 말풍선 꼬리의 오른쪽 부분
+  z-index: 1;
 `;
 
 

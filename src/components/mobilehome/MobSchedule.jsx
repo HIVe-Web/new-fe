@@ -3,6 +3,15 @@ import styled from "styled-components";
 import MobPinImage from "../../assets/images/pin.png";
 import downLineArrowImage from "../../assets/images/arrowGray.png";
 
+import ScheduleBackgroundImage from "../../assets/images/ScheduleBackground.svg" 
+
+const MobHeadContainer = styled.div`
+  background: url(${ScheduleBackgroundImage});
+  width: 100%;
+  background-size: contain;
+  margin-top: 100px;
+`;
+
 const MobScheduleContainer = styled.div`
     display: flex;
     flex-direction: column;
@@ -128,6 +137,7 @@ const MobInterviewDescription = styled.div`
 
 export const Schedule = () => {
     return (
+    <MobHeadContainer>
         <MobScheduleContainer>
             <MobScheduleTitle>Schedule</MobScheduleTitle>
             <MobScheduleSubtitleWrapper>
@@ -153,7 +163,7 @@ export const Schedule = () => {
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>최종 결과 발표<MobTimelineDescription>9월 11일(수)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>최종 결과 발표<MobTimelineDescription>9월 11일(수 )</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
@@ -163,6 +173,7 @@ export const Schedule = () => {
                 * 면접 심사는 대면으로 진행됩니다.
             </MobInterviewDescription>
         </MobScheduleContainer>
+    </MobHeadContainer>
     );
 };
 
