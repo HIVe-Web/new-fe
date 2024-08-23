@@ -22,8 +22,7 @@ const MainContainer = styled.div`
 `;
 
 const ApplyHive = styled.div`
-  background-color: rgba(74, 77, 255, 0.7);
-
+  background-color: #ffffff;
   border-radius: 2vw; 
   display: flex;
   align-items: center;
@@ -33,7 +32,8 @@ const ApplyHive = styled.div`
   bottom: 1vw;
   justify-content:center;
   cursor: pointer;
-  z-index: 9999;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* 위아래, 좌우 모든 방향에 그림자 추가 */
+
 `;
 
 const ApplyHiveText = styled.div`
