@@ -8,8 +8,16 @@ import MobpresentationImage from "../../assets/images/presentation.png"
 import MobhackathonImage from "../../assets/images/hackathon.png"
 import MobnetworkingImage from "../../assets/images/networking.png"
 
+import ActivityBackgroundImage from "../../assets/images/ActivityBackground.svg"
+
+const MobActivityHeadContainer = styled.div`
+  background: url(${ActivityBackgroundImage});
+  width: 100vw;
+  height: 170vw;
+  background-size: cover;
+`;
+
 const MobActivityContainer = styled.div`
-    background-color: #ffffff;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -104,6 +112,7 @@ const MobActivityBoxDesciption = styled.div`
 
 export const MobActivity = () => {
     return (
+    <MobActivityHeadContainer>
         <MobActivityContainer>
             <MobActivityTitle>Activity</MobActivityTitle>
             <MobActivitySubTitle>주요 활동</MobActivitySubTitle>
@@ -161,6 +170,7 @@ export const MobActivity = () => {
                 </MobActivityColumnWrapper>
             </MobActivityWrapper>
         </MobActivityContainer>
+    </MobActivityHeadContainer>
     )
 };
 

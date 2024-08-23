@@ -6,7 +6,7 @@ const MobHistoryContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 14vw;
+  margin-top: 1vw;
 `;
 
 const MobHistoryTitle = styled.div`
@@ -32,10 +32,11 @@ const MobHistoryDetailContainer = styled.div`
   align-items: center;
   white-space: nowrap;
   text-align: center;
-  width: 15vw;
-  height: 25vw;
+  width: 17vw;
+  height: 27vw;
   padding: 0 5vw;
   margin: 2.5vw;
+  box-shadow: -2px 4px 2px rgba(0, 0, 0, 0.4);
 `;
 
 const MobHistoryHeadText = styled.div`

@@ -1,8 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 
+import TargetBackgroundImage from "../../assets/images/TargetBackground.svg" 
+
+const MobTargetHeadContainer = styled.div`
+  background: url(${TargetBackgroundImage});
+  width: 100vw;
+  height: 160vw;
+  background-size: cover;
+  margin-top: 100px;
+  background-position: center;
+`;
+
 const MobTargetContainer = styled.div`
-    background-color: #FFFFFF;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -33,8 +43,8 @@ const MobTargetTextBox = styled.div`
     box-shadow: 0.2vw 0.2vw 0.73vw 0px rgba(142, 142, 142, 0.25); /* 2px, 7.3px를 vw 단위로 변환 */
     align-items: center;
     display: flex;
-    background-color: #F4F6FA;
-    min-height: 20vw;
+    background-color: #F1F3FF;
+    min-height: 15vw;
     width: 85vw;
     margin: 2vw;
 `;
@@ -57,6 +67,7 @@ const MobTargetText = styled.div`
 
 export const MobTargets = () => {
     return (
+    <MobTargetHeadContainer>
         <MobTargetContainer>
             <MobTargetTitle>Targets</MobTargetTitle>
             <MobTargetSubTitle>모집 대상</MobTargetSubTitle>
@@ -77,6 +88,7 @@ export const MobTargets = () => {
                 <MobTargetText>대학 생활을 더 특별하게 만들고 싶은 분</MobTargetText>
             </MobTargetTextBox>
         </MobTargetContainer>
+    </MobTargetHeadContainer>
     )
 };
 

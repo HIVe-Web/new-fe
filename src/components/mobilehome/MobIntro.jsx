@@ -20,7 +20,7 @@ import businessJImage from '../../assets/images/businessJ.svg'
 const MobHeadContainer = styled.div`
   background: url(${WebBackgroundImage});
   width: 100vw; // 가로 폭을 화면 너비에 맞춤
-  height: 100vw; // 최소 높이를 화면 높이에 맞춤
+  height: 120vw; // 최소 높이를 화면 높이에 맞춤
   background-size: cover; // 배경 이미지가 컨테이너를 꽉 채우도록 조정
   margin-bottom : 1200px;
   `;
@@ -39,7 +39,7 @@ const MobHeadContainer = styled.div`
 const MobIntroBox = styled.div`
   display: flex;
   flex-direction: column;
-  height: 30vw;
+  height: 58vw;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -50,8 +50,8 @@ const MobHiveIntroduction = styled.div`
   display: flex;x
   flex-direction: column;
   color: #ffffff;
-  font-family: "Pretendard-Bold", Helvetica;
-  font-size: 4.6vw;
+  font-family: "Pretendard", Helvetica;
+  font-size: 4.0vw;
   text-align: center;
   justify-content: center;
   align-items: center;

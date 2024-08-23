@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const MobActivityContainer = styled.div`
-background-color: #ffffff;
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -15,7 +14,7 @@ border-radius: 1vw;
 justify-content: center;
 display: flex;
 flex-direction: column;
-background-color: #D7DDFF;
+background-color: #FFFFFF;
 width: 86vw;
 position: relative;
 transition: all 0.3s ease;
@@ -50,8 +49,8 @@ font-size: 3.5vw;
 `;
 
 const MobDropDownText = styled.div`
-color: #000000;
-font-family: "Pretendard-Regular", Helvetica;
+color: #4A4DFF;
+font-family: "Pretendard-bold", Helvetica;
 line-height: 1.5;
 width: 74vw;
 font-size: 2.8vw;

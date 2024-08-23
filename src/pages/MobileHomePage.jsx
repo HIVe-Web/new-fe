@@ -12,9 +12,9 @@ import MobAwards from "../components/mobilehome/MobAwards";
 import MobFAQ from "../components/mobilehome/MobFAQ";
 
 const MainContainer = styled.div`
-  background-color: #FFFFFF;
   display: flex;
   align-items: center;
+  margin: 0 auto;
   flex-direction: column;
   justify-content: center;
   height: 100%
@@ -22,7 +22,8 @@ const MainContainer = styled.div`
 `;
 
 const ApplyHive = styled.div`
-  background-color: #4A4DFF;
+  background-color: rgba(74, 77, 255, 0.7);
+
   border-radius: 2vw; 
   display: flex;
   align-items: center;
@@ -36,7 +37,7 @@ const ApplyHive = styled.div`
 `;
 
 const ApplyHiveText = styled.div`
-  color: #ffffff;
+  color: #4A4DFF;
   text-align: center;
   font-family: "Pretendard-Bold", Helvetica;
   font-weight: 650;
@@ -45,7 +46,7 @@ const ApplyHiveText = styled.div`
 
 export const MobileHomePage = () => {
     const handleApplyClick = () => {
-      window.open('https://tally.so/r/waYvzv', '_blank', 'noopener,noreferrer');
+      window.open('https://tally.so/r/mKLPo8', '_blank', 'noopener,noreferrer');
     };
     return (
       <MainContainer>

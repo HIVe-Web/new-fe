@@ -7,7 +7,8 @@ import ScheduleBackgroundImage from "../../assets/images/ScheduleBackground.svg"
 
 const MobHeadContainer = styled.div`
   background: url(${ScheduleBackgroundImage});
-  width: 100%;
+  width: 100vw;
+  height: 170vw;
   background-size: contain;
   margin-top: 100px;
 `;
@@ -17,7 +18,7 @@ const MobScheduleContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 30vw;
+    margin-top: 0vw;
 `;
 
 // Schedule
@@ -64,7 +65,7 @@ const MobScheduleSubTitleText = styled.div`
 `;
 
 const MobScheduleDescription = styled.div`
-    color: #9DA1AD;
+    color: #36353B;
     font-family: "Pretendard", Helvetica;
     font-size: 4.5vw;
     margin-top: 0.5vw;
@@ -90,7 +91,7 @@ const MobTimelineBox = styled.div`
   align-items: center;
   white-space: nowrap;
   text-align: center;
-  width: 65vw;
+  width: 68vw;
   height: 20vw;
   margin-top: -1vw;
 `;
@@ -116,7 +117,7 @@ const MobTimelineTitle = styled.div`
 `;
 
 const MobTimelineDescription = styled.div`
-    color: #ffffff;
+    color: #ffffff; 
     font-family: "Pretendard-Bold", Helvetica;
     text-align: center;
     font-size: 4.3vw;
