@@ -5,7 +5,7 @@ import MobsessionImage from "../../assets/images/session.png"
 import MobprojectImage from "../../assets/images/project.png"
 import MobeducationImage from "../../assets/images/education.png"
 import MobpresentationImage from "../../assets/images/presentation.png"
-import MobhackathonImage from "../../assets/images/hackathon.png"
+import MobideathonImage from "../../assets/images/ideathon.png"
 import MobnetworkingImage from "../../assets/images/networking.png"
 
 import ActivityBackgroundImage from "../../assets/images/ActivityBackground.svg"
@@ -153,9 +153,9 @@ export const MobActivity = () => {
                     </MobActivityRowWrapper>
                     <MobActivityRowWrapper>
                         <MobActivityBoxContainer>
-                            <MobActivityImage src={MobhackathonImage} />
+                            <MobActivityImage src={MobideathonImage} />
                             <MobActivityRowBox>
-                                <MobActivityBoxTitle>해커톤</MobActivityBoxTitle>
+                                <MobActivityBoxTitle>아이디어톤</MobActivityBoxTitle>
                                 <MobActivityBoxDesciption>Hackathon</MobActivityBoxDesciption>
                             </MobActivityRowBox>
                         </MobActivityBoxContainer>

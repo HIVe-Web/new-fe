@@ -14,10 +14,12 @@ import MobESGImage from "../../assets/images/ESGLogo.svg"
 import MobDongukImage  from "../../assets/images/DongukLogo.svg"
 import MobcossLogoImage2 from "../../assets/images/cossLogo2.svg"
 import MobhanyangImage from "../../assets/images/hanyangLogo.svg"
+import MobBokunImage from "../../assets/images/BokunLogo.svg"
+import MobReddotImage from "../../assets/images/Reddotlogo.svg"
 
 const MobAwardsHeadContainer = styled.div`
   width: 100vw;
-  height: 450vw;
+  height: 500vw;
   background: linear-gradient(180deg, #FFFFFF 0%, #5F6EE8 17%, #161658 50%, #161658 68%);
 
   `;
@@ -179,17 +181,31 @@ export const MobAwards = () => {
                 <MobResultColumnWrapper>
                      
                     <MobResultColumnBox>
+                        <MobResultLogoImage data={MobReddotImage} type=""/>
+                        <MobResultBoxTitle>Red Dot Award:<br/>Design Concept 2024</MobResultBoxTitle>
+                    </MobResultColumnBox>
+
+                    <MobResultColumnBox>
                         <MobResultLogoImage data={MobdysonLogoImage} type="image/png"/>
                         <MobResultBoxTitle>제임스 다이슨 어워드</MobResultBoxTitle>
                         <MobResultBoxDescription>국내전 우승 (1위)</MobResultBoxDescription>
                     </MobResultColumnBox>
 
-                    <MobResultColumnBox>
-                        <MobResultLogoImage data={MobmetaLogoImage} type="image/png"/>
-                        <MobResultBoxTitle>META AR 콘텐츠 공모전</MobResultBoxTitle>
-                        <MobResultBoxDescription>Best Creator 수상 (1위)</MobResultBoxDescription>
-                    </MobResultColumnBox>
+                    <MobResultRowWrapper>
 
+                        <MobResultRowBox>
+                            <MobResultLogoImage2 data={MobmetaLogoImage} type="image/png"/>
+                            <MobResultBoxTitle2><br/>META AR 콘텐츠 공모전</MobResultBoxTitle2>
+                            <MobResultBoxDescription2>Best Creator 수상 (1위)</MobResultBoxDescription2>
+                        </MobResultRowBox>
+
+                        <MobResultRowBox>
+                            <MobResultLogoImage2 data={MobBokunImage} type=""/>
+                            <MobResultBoxTitle2><br/>국민행복 서비스<br/>발굴/창업 경진대회</MobResultBoxTitle2>
+                            <MobResultBoxDescription2>대상 (보건복지부장관상)</MobResultBoxDescription2>
+                        </MobResultRowBox>
+
+                    </MobResultRowWrapper>
                     <MobResultRowWrapper>
 
                         <MobResultRowBox>
