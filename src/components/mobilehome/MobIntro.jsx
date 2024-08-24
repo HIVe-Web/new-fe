@@ -80,13 +80,13 @@ const MobPersonaContainer = styled.div`
 `;
 
 const MobPersonaWrapper = styled.div`
-    display: flex;  
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
     justify-content: center;
     margin-top: 20vw;
 `;
+
 
 const MobPersonaDetailContainer = styled.div`
   display: flex;  
@@ -94,6 +94,7 @@ const MobPersonaDetailContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 30vw;
   margin: 1.2vw;
 `;
 
@@ -108,21 +109,46 @@ const MobFirstDescription = styled.div`
     line-height: 1.5;
 `;
 
-const MobPersonaSpeechBubble = styled.div`
-  background-color: #F1F3FF;
+const MobPersonaSpeechBubble1 = styled.div`
+  background-color: #D7DDFF;
   border: 0px none;
   border-radius: 1.7vw;
-  width: 63vw;
+  width: 50vw;
   height: 20vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: -4vw;
+`;
+
+const MobPersonaSpeechBubble2 = styled.div`
+  background-color: #D7DDFF;
+  border: 0px none;
+  border-radius: 1.7vw;
+  width: 50vw;
+  height: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4vw;
+  top: -10vw;
+`;
+
+const MobPersonaSpeechBubble3 = styled.div`
+  background-color: #D7DDFF;
+  border: 0px none;
+  border-radius: 1.7vw;
+  width: 50vw;
+  height: 20vw;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4vw;
 `;
 
 const MobPersonaSpeechBubbleImage = styled.div`
   width: 0; // 너비는 여전히 0으로 설정 (삼각형 모양을 유지하기 위해)
   height: 0; // 높이는 여전히 0으로 설정
-  border-top: 3vw solid #ffffff; // 말풍선의 "말" 부분의 크기를 결정
+  border-top: 3vw solid #000000; // 말풍선의 "말" 부분의 크기를 결정
   border-left: 1.8vw solid transparent; // 말풍선 꼬리의 왼쪽 부분
   border-right: 1.8vw solid transparent; // 말풍선 꼬리의 오른쪽 부분
 `;
@@ -141,10 +167,21 @@ const MobPersonaImage = styled.object`
   object-fit: contain; // 이미지 비율을 유지하면서 컨테이너를 채우기 위해 'cover' 사용
   object-position: center;
   height: 50vw;
+  width: 30vw;
+  align-self: center;
+
+  margin-top: 4vw;
+  //background-color: #FFFFFF;
+`;
+
+const MobPersonaImage2 = styled.object`
+  aspect-ratio: 1;
+  object-fit: contain; // 이미지 비율을 유지하면서 컨테이너를 채우기 위해 'cover' 사용
+  object-position: center;
+  height: 50vw;
   width: 50vw;
   align-self: center;
-  max-width: 100%;
-  max-height: 100%; // 뷰포트 높이의 50%를 최대 높이로 설정
+
   margin-top: 4vw;
   //background-color: #FFFFFF;
 `;
@@ -173,12 +210,13 @@ export const MobIntro = () => {
                     혁신적인 사업을 기획하고 실행합니다.</MobFirstDescription>
 
             <MobPersonaWrapper>
+
               <MobPersonaDetailContainer>
-                  <MobPersonaSpeechBubble>
+                  <MobPersonaSpeechBubble1>
                       <MobPersonaText>
-                          단기성 프로젝트가 아닌 <br />실제 창업까지 실현 해보고 싶어요
+                          단기성 프로젝트를 넘어 <br />실제 창업까지 이끌어내고 싶어요.
                       </MobPersonaText>
-                  </MobPersonaSpeechBubble>
+                  </MobPersonaSpeechBubble1>
                   <MobPersonaSpeechBubbleImage />
                   <MobPersonaImage data={hiceDImage}/>
                   <MobPersonaName>
@@ -188,24 +226,24 @@ export const MobIntro = () => {
               
 
                 <MobPersonaDetailContainer>
-                  <MobPersonaSpeechBubble>
+                  <MobPersonaSpeechBubble2>
                       <MobPersonaText>
                           디자인 역량을 살려 실제 사업에 <br /> 필요한 아이템을 만들고 싶어요.
                       </MobPersonaText>
-                  </MobPersonaSpeechBubble>
+                  </MobPersonaSpeechBubble2>
                   <MobPersonaSpeechBubbleImage />
-                  <MobPersonaImage data={hivcdSImage}/>
+                  <MobPersonaImage2 data={hivcdSImage}/>
                   <MobPersonaName>
                       시각디자인과 S씨
                   </MobPersonaName>
                 </MobPersonaDetailContainer>  
 
                 <MobPersonaDetailContainer>
-                  <MobPersonaSpeechBubble>
+                  <MobPersonaSpeechBubble3>
                       <MobPersonaText>
                           막연히 창업에 대한 꿈은 있지만 <br /> 어떻게 시작해야 할 지 모르겠어요.
                       </MobPersonaText>
-                  </MobPersonaSpeechBubble>
+                  </MobPersonaSpeechBubble3>
                   <MobPersonaSpeechBubbleImage />
                   <MobPersonaImage data={businessJImage}/>
                   <MobPersonaName>
