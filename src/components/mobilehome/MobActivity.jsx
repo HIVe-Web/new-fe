@@ -76,6 +76,16 @@ const MobActivityBoxContainer = styled.div`
 `;
 
 const MobActivityImage = styled.img`
+
+    object-position: center;
+    border-radius: 1vw;
+    height: 38vw;
+    width: 44vw;
+    align-self: center;
+    position: absolute;
+`;
+
+const MobActivityImage2 = styled.img`
     object-position: center;
     border-radius: 1vw;
     height: 38vw;
@@ -137,7 +147,7 @@ export const MobActivity = () => {
                     </MobActivityRowWrapper>
                     <MobActivityRowWrapper>
                         <MobActivityBoxContainer>
-                            <MobActivityImage src={MobeducationImage} />
+                            <MobActivityImage2 src={MobeducationImage} />
                             <MobActivityRowBox>
                                 <MobActivityBoxTitle>창업 교육 · 멘토링</MobActivityBoxTitle>
                                 <MobActivityBoxDesciption>Start-up education</MobActivityBoxDesciption>

@@ -217,6 +217,7 @@ const MobPersonaSideName = styled.div`
   text-align: center;
   white-space: nowrap;
   margin-bottom: 18vw;
+  margin-top:
 `;
 
 const MobPersonaMainName = styled.div`
@@ -224,9 +225,10 @@ const MobPersonaMainName = styled.div`
   font-family: "Pretendard-Bold", Helvetica;
   font-size: 5vw;
   font-weight: 700;
-  margin-top: 10vw;
+  margin-top: 9vw;
   text-align: center;
   white-space: nowrap;
+  
 `;
 
 export const MobIntro = () => {
