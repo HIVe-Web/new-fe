@@ -22,7 +22,7 @@ const MobHeadContainer = styled.div`
   width: 100vw; // 가로 폭을 화면 너비에 맞춤
   height: 120vw; // 최소 높이를 화면 높이에 맞춤
   background-size: cover; // 배경 이미지가 컨테이너를 꽉 채우도록 조정
-  margin-bottom : 1200px;
+  margin-bottom : 400px;
   `;
 
 // const MobgradientBackBox = styled.div`
@@ -84,9 +84,23 @@ const MobPersonaWrapper = styled.div`
     flex-direction: row;
     align-items: flex-end;
     justify-content: center;
-    margin-top: 20vw;
+    margin-top: 10vw;
 `;
 
+const MobPersonaSideSection = styled.div`
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`;
+
+const MobPersonaMainSection = styled.div`
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+`;
 
 const MobPersonaDetailContainer = styled.div`
   display: flex;  
@@ -114,7 +128,7 @@ const MobPersonaSpeechBubble1 = styled.div`
   border: 0px none;
   border-radius: 1.7vw;
   width: 50vw;
-  height: 20vw;
+  height: 15vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,21 +139,20 @@ const MobPersonaSpeechBubble2 = styled.div`
   background-color: #D7DDFF;
   border: 0px none;
   border-radius: 1.7vw;
-  width: 50vw;
-  height: 20vw;
+  width: 70vw;
+  height: 15vw;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: -4vw;
-  top: -10vw;
 `;
 
 const MobPersonaSpeechBubble3 = styled.div`
   background-color: #D7DDFF;
   border: 0px none;
   border-radius: 1.7vw;
-  width: 50vw;
-  height: 20vw;
+  width: 40vw;
+  height: 10vw;
   justify-content: center;
   align-items: center;
   margin-right: -4vw;
@@ -148,30 +161,39 @@ const MobPersonaSpeechBubble3 = styled.div`
 const MobPersonaSpeechBubbleImage = styled.div`
   width: 0; // 너비는 여전히 0으로 설정 (삼각형 모양을 유지하기 위해)
   height: 0; // 높이는 여전히 0으로 설정
-  border-top: 3vw solid #000000; // 말풍선의 "말" 부분의 크기를 결정
+  border-top: 3vw solid #D7DDFF; // 말풍선의 "말" 부분의 크기를 결정
   border-left: 1.8vw solid transparent; // 말풍선 꼬리의 왼쪽 부분
   border-right: 1.8vw solid transparent; // 말풍선 꼬리의 오른쪽 부분
 `;
 
 
-const MobPersonaText = styled.div`
+const MobPersonaMainText = styled.div`
+  color: #000000;
+  text-align: center;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-size: 4vw;
+  font-weight: 650;
+`;
+
+const MobPersonaSideText = styled.div`
   color: #000000;
   text-align: center;
   font-family: "Pretendard-SemiBold", Helvetica;
-  font-size: 4.3vw;
+  font-size: 3vw;
   font-weight: 650;
 `;
 
 const MobPersonaImage = styled.object`
-  aspect-ratio: 1;
+  //aspect-ratio: 1;
   object-fit: contain; // 이미지 비율을 유지하면서 컨테이너를 채우기 위해 'cover' 사용
   object-position: center;
   height: 50vw;
   width: 30vw;
   align-self: center;
-
-  margin-top: 4vw;
-  //background-color: #FFFFFF;
+  
+  margin-top: -10vw;
+  margin-bottom: -15vw;
+  //background-color: #000000;
 `;
 
 const MobPersonaImage2 = styled.object`
@@ -179,19 +201,30 @@ const MobPersonaImage2 = styled.object`
   object-fit: contain; // 이미지 비율을 유지하면서 컨테이너를 채우기 위해 'cover' 사용
   object-position: center;
   height: 50vw;
-  width: 50vw;
+  width: 55vw;
   align-self: center;
-
-  margin-top: 4vw;
-  //background-color: #FFFFFF;
+  z-index: 99;
+  margin-top: 5vw;
+  //background-color: #000000;
 `;
 
-const MobPersonaName = styled.div`
-  color: #ffffff;
+const MobPersonaSideName = styled.div`
+  color: #000000;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-size: 3vw;
+  font-weight: 700;
+  margin-top: 3vw;
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: 18vw;
+`;
+
+const MobPersonaMainName = styled.div`
+  color: #000000;
   font-family: "Pretendard-Bold", Helvetica;
   font-size: 5vw;
   font-weight: 700;
-  margin-top: 3vw;
+  margin-top: 10vw;
   text-align: center;
   white-space: nowrap;
 `;
@@ -210,49 +243,53 @@ export const MobIntro = () => {
                     혁신적인 사업을 기획하고 실행합니다.</MobFirstDescription>
 
             <MobPersonaWrapper>
-
-              <MobPersonaDetailContainer>
+              <MobPersonaSideSection>
+                <MobPersonaDetailContainer>
                   <MobPersonaSpeechBubble1>
-                      <MobPersonaText>
-                          단기성 프로젝트를 넘어 <br />실제 창업까지 이끌어내고 싶어요.
-                      </MobPersonaText>
+                      <MobPersonaSideText>
+                          창업에 대한 열망은 크지만, 시작을<br/>위한 명확한 방향이 필요해요.
+                      </MobPersonaSideText>
                   </MobPersonaSpeechBubble1>
                   <MobPersonaSpeechBubbleImage />
                   <MobPersonaImage data={hiceDImage}/>
-                  <MobPersonaName>
-                      컴퓨터공학과 D씨
-                  </MobPersonaName>
+                  <MobPersonaSideName>
+                      경영학과 J씨
+                  </MobPersonaSideName>
                 </MobPersonaDetailContainer>
-              
+              </MobPersonaSideSection>
 
+              <MobPersonaMainSection>
                 <MobPersonaDetailContainer>
                   <MobPersonaSpeechBubble2>
-                      <MobPersonaText>
+                      <MobPersonaMainText>
                           디자인 역량을 살려 실제 사업에 <br /> 필요한 아이템을 만들고 싶어요.
-                      </MobPersonaText>
+                      </MobPersonaMainText>
                   </MobPersonaSpeechBubble2>
                   <MobPersonaSpeechBubbleImage />
                   <MobPersonaImage2 data={hivcdSImage}/>
-                  <MobPersonaName>
-                      시각디자인과 S씨
-                  </MobPersonaName>
+                    <MobPersonaMainName>
+                        시각디자인과 S씨
+                    </MobPersonaMainName>
                 </MobPersonaDetailContainer>  
+              </MobPersonaMainSection>
 
+              <MobPersonaSideSection> 
                 <MobPersonaDetailContainer>
                   <MobPersonaSpeechBubble3>
-                      <MobPersonaText>
-                          막연히 창업에 대한 꿈은 있지만 <br /> 어떻게 시작해야 할 지 모르겠어요.
-                      </MobPersonaText>
+                      <MobPersonaSideText>
+                          단기성 프로젝트를 넘어 <br />실제 창업까지 이끌어내고 싶어요.
+                      </MobPersonaSideText>
                   </MobPersonaSpeechBubble3>
                   <MobPersonaSpeechBubbleImage />
                   <MobPersonaImage data={businessJImage}/>
-                  <MobPersonaName>
-                      경영학과 J씨
-                  </MobPersonaName>
+                  <MobPersonaSideName>
+                      컴퓨터공학과 D씨
+                  </MobPersonaSideName>
                 </MobPersonaDetailContainer>
+              </MobPersonaSideSection>
 
-              </MobPersonaWrapper>
-        </MobPersonaContainer>
+            </MobPersonaWrapper>
+      </MobPersonaContainer>
     </MobHeadContainer>
   );
 };
