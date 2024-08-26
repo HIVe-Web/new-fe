@@ -146,12 +146,12 @@ export const Intro = () => {
         <PersonaWrapper>
           {/* 컴퓨터공학과 D씨 */}
           <PersonaDetailContainer>
-            <PersonaSpeechBubble>
+            <PersonaSpeechBubble style={{ backgroundColor: '#D7DDFF' }}>
               <PersonaText>
                 단기성 프로젝트가 아닌 <br />실제 창업까지 실현 해보고 싶어요.
               </PersonaText>
             </PersonaSpeechBubble>
-            <PersonaSpeechBubbleImage />
+            <PersonaSpeechBubbleImage style={{ borderTop: '1.8vw solid #D7DDFF' }} />
             <PersonaImage src={hiceDImage} />
             <PersonaName>
               컴퓨터공학과 D씨
@@ -166,7 +166,7 @@ export const Intro = () => {
               </PersonaText>
             </PersonaSpeechBubble>
             <PersonaSpeechBubbleImage />
-            <PersonaImage src={hivcdSImage} style={{width: '34.18vw'}} />
+            <PersonaImage src={hivcdSImage} style={{ width: '35vw' }} />
             <PersonaName>
               시각디자인과 S씨
             </PersonaName>

@@ -51,7 +51,7 @@ const ResultPolygon = styled.img`
 `;
 
 const ResultTitle = styled.div`
-    color: #000000;
+    color: #8884A8;
     text-align: center;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 2.6vw;
@@ -69,7 +69,7 @@ const ResultSubTitleText = styled.div`
 `;
 
 const ResultDateText = styled.div`
-    color: #FFFFFF;
+    color: #55526A;
     text-align: center;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 2vw;
@@ -79,6 +79,7 @@ const ResultWrapper = styled.div`
     display: flex;
     margin-top: 4vw;
     align-items: center;
+    margin-top : 5vw;
 `;
 
 const ResultColumnWrapper = styled.div`
@@ -178,7 +179,7 @@ export const Result = () => {
                 HIVe 활동 성과
             </ResultSubTitleText>
             <ResultDateText>
-                2021 - 2024 싱반기
+                2022 - 2024
             </ResultDateText>
 
             <ResultWrapper>

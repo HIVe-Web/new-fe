@@ -78,19 +78,20 @@ const TimelineWrapper = styled.div`
     align-items: center;
 `;
 
-const TimelineBox = styled.div`
-  border-radius: 1.5vw;
-  background-color: #222251;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  white-space: nowrap;
-  text-align: center;
-  width: 15.5vw;
-  height: 7vw;
-  max-width: 20vw;
-`;
+    const TimelineBox = styled.div`
+    border-radius: 1.5vw;
+    border: solid 2px #4A4DFF;
+    background-color: #222251;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    text-align: center;
+    width: 15.5vw;
+    height: 7vw;
+    max-width: 20vw;
+    `;
 
 const TimelineArrow = styled.img`
     aspect-ratio: 1;
