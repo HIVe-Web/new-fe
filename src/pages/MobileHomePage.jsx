@@ -33,7 +33,7 @@ const ApplyHive = styled.div`
   justify-content:center;
   cursor: pointer;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* 위아래, 좌우 모든 방향에 그림자 추가 */
-
+  z-index: 100;
 `;
 
 const ApplyHiveText = styled.div`

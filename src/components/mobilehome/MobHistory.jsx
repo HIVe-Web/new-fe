@@ -6,17 +6,7 @@ const MobHistoryContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 1vw;
-`;
-
-const MobHistoryTitle = styled.div`
-  color: #000000;
-  font-family: "Pretendard-Bold", Helvetica;
-  font-size: 5vw;
-  font-weight: 900;
-  text-align: center;
-  line-height: 1.5;
-  margin-bottom: 8vw;
+  margin-top: 40vw;
 `;
 
 const MobHistoryDetailContainerWrapper = styled.div`
@@ -59,9 +49,6 @@ const MobHistoryText = styled.div`
 export const MobHistory = () => {
     return (
         <MobHistoryContainer>
-            <MobHistoryTitle>
-                창업에 관심을 가진 다양한 학생들을 만나 <br />사업화까지 경험해볼 수 있는 기회를 잡으세요!
-            </MobHistoryTitle>
             <MobHistoryDetailContainerWrapper>
                 <MobHistoryDetailContainer>
                     <MobHistoryHeadText>

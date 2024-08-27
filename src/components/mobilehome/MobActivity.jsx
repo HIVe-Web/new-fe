@@ -76,7 +76,6 @@ const MobActivityBoxContainer = styled.div`
 `;
 
 const MobActivityImage = styled.img`
-
     object-position: center;
     border-radius: 1vw;
     height: 38vw;

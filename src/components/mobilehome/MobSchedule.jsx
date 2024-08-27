@@ -1,12 +1,19 @@
 import React from "react";
 import styled from "styled-components";
 import MobPinImage from "../../assets/images/pin.png";
-import downLineArrowImage from "../../assets/images/arrowGray.svg";
+import downLineArrowImage from "../../assets/images/arrowGray2.svg";
 
 import ScheduleBackgroundImage from "../../assets/images/ScheduleBackground.svg" 
 
 const MobHeadContainer = styled.div`
-  background: url(${ScheduleBackgroundImage});
+background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,  /* 상단 부분 연하게 */
+    rgba(255, 255, 255, 0) 10%, /* 상단 부분에서 완전 투명 */
+    rgba(255, 255, 255, 0) 85%, /* 하단 부분에서 완전 투명 */
+    rgba(255, 255, 255, 1) 100% /* 하단 부분 연하게 */
+  ), 
+  url(${ScheduleBackgroundImage});
   width: 100vw;
   height: 170vw;
   background-size: contain;

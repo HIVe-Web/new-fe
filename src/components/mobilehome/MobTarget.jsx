@@ -6,7 +6,7 @@ import TargetBackgroundImage from "../../assets/images/TargetBackgroundMob.svg"
 const MobTargetHeadContainer = styled.div`
   background: url(${TargetBackgroundImage});
   width: 100vw;
-  height: 160vw;
+  height: 130vw;
   background-size: cover;
   margin-top: 100px;
   background-position: center;
@@ -35,7 +35,7 @@ const MobTargetSubTitle = styled.div`
     font-family: "Pretendard-Bold", Helvetica;
     font-weight: 700;
     font-size: 8vw;
-    margin-bottom: 3vw;
+    margin-bottom: 5vw;
 `;
 
 const MobTargetTextBox = styled.div`
