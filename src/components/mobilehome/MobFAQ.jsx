@@ -4,15 +4,28 @@ import styled from "styled-components";
 import MobApplyTab from "./MobApplyTab";
 import MobActivityTab from "./MobActivityTab";
 
-const MobFAQContainer = styled.div`
-    background-color: #1C1C1C;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 18vw;
-    width: 70vw;
+import MobFAQBackgroundImage from "../../assets/images/FAQBackground.svg" 
+
+const MobFAQHeadContainer = styled.div`
+  background: url(${MobFAQBackgroundImage});
+  width: 100vw;
+  min-height: 200vw;
+  background-size: cover;
+  background-position: center;
+  margin-top: -1vw;
+  
 `;
+
+const MobFAQContainer = styled.div`
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vw;
+
+`;
+
 
 const MobFAQTitle = styled.div`
     color: #838BA2;
@@ -23,7 +36,7 @@ const MobFAQTitle = styled.div`
 `;
 
 const MobFAQSubTitle = styled.div`
-    color: #52FF98;
+    color: #FFFFFF;
     text-align: center;
     text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -33,7 +46,6 @@ const MobFAQSubTitle = styled.div`
 `;
 
 const MobTabContainer = styled.div`
-    background-color: #1C1C1C;
 `;
 
 const MobTabHeader = styled.div`
@@ -46,7 +58,7 @@ const MobTabHeader = styled.div`
 `;
 
 const MobTabButtonStyled = styled.div`
-    color: ${props => props.active ? "#52FF98" : "#ffffff"};
+    color: ${props => props.active ? "#4A4DFF" : "#D7DDFF"};
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 4.2vw;
     font-weight: 700;
@@ -73,20 +85,22 @@ export const MobFAQ = () => {
     };
 
     return (
-        <MobFAQContainer>
-            <MobFAQTitle>FAQ</MobFAQTitle>
-            <MobFAQSubTitle>자주 하는 질문</MobFAQSubTitle>
-            <MobTabContainer>
-                <MobTabHeader>
-                    <MobTabButton tabName={"지원"} onClick={() => onClickTabButton(1)} active={tab === "MobApplyTab"} />
-                    <MobTabButton tabName={"활동"} onClick={() => onClickTabButton(2)} active={tab === "MobActivityTab"} />
-                </MobTabHeader>
-                <MobTabBody>
-                    {tab === "MobApplyTab" && <MobApplyTab />}
-                    {tab === "MobActivityTab" && <MobActivityTab />}
-                </MobTabBody>
-            </MobTabContainer>
-        </MobFAQContainer>
+        <MobFAQHeadContainer>
+            <MobFAQContainer>
+                <MobFAQTitle>FAQ</MobFAQTitle>
+                <MobFAQSubTitle>자주 하는 질문</MobFAQSubTitle>
+                <MobTabContainer>
+                    <MobTabHeader>
+                        <MobTabButton tabName={"지원"} onClick={() => onClickTabButton(1)} active={tab === "MobApplyTab"} />
+                        <MobTabButton tabName={"활동"} onClick={() => onClickTabButton(2)} active={tab === "MobActivityTab"} />
+                    </MobTabHeader>
+                    <MobTabBody>
+                        {tab === "MobApplyTab" && <MobApplyTab />}
+                        {tab === "MobActivityTab" && <MobActivityTab />}
+                    </MobTabBody>
+                </MobTabContainer>
+            </MobFAQContainer>
+        </MobFAQHeadContainer>
     )
 };
 

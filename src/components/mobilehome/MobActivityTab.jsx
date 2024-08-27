@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const MobActivityContainer = styled.div`
-background-color: #1C1C1C;
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -15,7 +14,7 @@ border-radius: 1vw;
 justify-content: center;
 display: flex;
 flex-direction: column;
-background-color: #2a2a2a;
+background-color: #FFFFFF;
 width: 86vw;
 position: relative;
 transition: all 0.3s ease;
@@ -31,7 +30,7 @@ margin-top: 1vw;
 `;
 
 const MobActivityQuestionText = styled.div`
-color: #52FF98;
+color: #4A4DFF;
 font-family: "Pretendard-Bold", Helvetica;
 font-size: 4.2vw;
 font-weight: 600;
@@ -42,7 +41,7 @@ margin-bottom: 2vw;
 `;
 
 const MobActivityText = styled.div`
-color: #ffffff;
+color: #000000;
 margin-left: 1vw;
 font-family: "Pretendard-Bold", Helvetica;
 font-weight: 100;
@@ -50,8 +49,8 @@ font-size: 3.5vw;
 `;
 
 const MobDropDownText = styled.div`
-color: #ffffff;
-font-family: "Pretendard-Regular", Helvetica;
+color: #4A4DFF;
+font-family: "Pretendard-bold", Helvetica;
 line-height: 1.5;
 width: 74vw;
 font-size: 2.8vw;
@@ -102,8 +101,8 @@ export const MobActivityTab = () => {
                     <MobActivityQuestionText>Q.</MobActivityQuestionText>
                     <MobActivityText>정기 세션에서는 어떤 활동을 하나요?</MobActivityText>
                 </MobActivityQuestionWrapper>
-                <MobDropDownText show={showDropDown2}>
-                창업 교육 및 강연, 팀별 프로젝트 진행과 피드백 공유, 공모전 및 <br/>대회 준비, 해커톤 등 다양한 활동을 진행합니다. <br/>
+                <MobDropDownText show={showDropDown2}> 
+                창업 교육 및 강연, 팀별 프로젝트 진행과 피드백 공유, 공모전 및 <br/>대회 준비, 아이디어톤 등 다양한 활동을 진행합니다. <br/>
                 정기 세션 이외에도 피그마 스터디, 코딩 스터디 등 다양한 활동들을 자체적으로 운영하고 있습니다.</MobDropDownText>
             </MobActivityTextBox>
 

@@ -5,7 +5,7 @@ import sessionImage from "../../assets/images/session.png"
 import projectImage from "../../assets/images/project.png"
 import educationImage from "../../assets/images/education.png"
 import presentationImage from "../../assets/images/presentation.png"
-import hackathonImage from "../../assets/images/hackathon.png"
+import ideaathonImage from "../../assets/images/ideathon.png"
 import networkingImage from "../../assets/images/networking.png"
 
 const ActivityContainer = styled.div`
@@ -142,10 +142,10 @@ export const Activity = () => {
                             </ActivityRowBox>
                         </ActivityBoxContainer>
                         <ActivityBoxContainer>
-                            <ActivityImage src={hackathonImage} />
+                            <ActivityImage src={ideaathonImage} />
                             <ActivityRowBox>
-                                <ActivityBoxTitle>해커톤</ActivityBoxTitle>
-                                <ActivityBoxDesciption>Hackathon</ActivityBoxDesciption>
+                                <ActivityBoxTitle>아이디어톤</ActivityBoxTitle>
+                                <ActivityBoxDesciption>Ideathon</ActivityBoxDesciption>
                             </ActivityRowBox>
                         </ActivityBoxContainer>
                         <ActivityBoxContainer>

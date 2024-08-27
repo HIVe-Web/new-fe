@@ -23,7 +23,7 @@ const MainContainer = styled.div`
 `;
 
 const ApplyHive = styled.div`
-  background-color: rgba(74, 77, 255, 0.7);
+  background-color: #333660;
   border-radius: 1vw;
   display: flex;
   align-items: center;
@@ -33,6 +33,8 @@ const ApplyHive = styled.div`
   bottom: 1vw;
   justify-content:center;
   cursor: pointer;
+  box-shadow: 0vw 0.5vw 1.1vw rgba(0, 0, 0, 0.42);
+  backdrop-filter: blur(1.4vw);
 `;
 
 const ApplyHiveText = styled.div`

@@ -5,11 +5,19 @@ import MobsessionImage from "../../assets/images/session.png"
 import MobprojectImage from "../../assets/images/project.png"
 import MobeducationImage from "../../assets/images/education.png"
 import MobpresentationImage from "../../assets/images/presentation.png"
-import MobhackathonImage from "../../assets/images/hackathon.png"
+import MobideathonImage from "../../assets/images/ideathon.png"
 import MobnetworkingImage from "../../assets/images/networking.png"
 
+import ActivityBackgroundImage from "../../assets/images/ActivityBackground.svg"
+
+const MobActivityHeadContainer = styled.div`
+  background: url(${ActivityBackgroundImage});
+  width: 100vw;
+  height: 170vw;
+  background-size: cover;
+`;
+
 const MobActivityContainer = styled.div`
-    background-color: #1C1C1C;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -26,7 +34,7 @@ const MobActivityTitle = styled.div`
 `;
 
 const MobActivitySubTitle = styled.div`
-    color: #52FF98;
+    color: #4A4DFF;
     text-align: center;
     text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -35,14 +43,14 @@ const MobActivitySubTitle = styled.div`
     margin-bottom: 3.2vw;
 `;
 
-const MobActivityDescription = styled.div`
-    color: #ffffff;
-    font-family: "Pretendard-SemiBold", Helvetica;
-    text-align: center;
-    line-height: 1.5;
-    font-size: 4vw;
-    margin-bottom: 11vw;
-`;
+// const MobActivityDescription = styled.div`
+//     color: #6E6E6E; 
+//     font-family: "Pretendard-SemiBold", Helvetica;
+//     text-align: center;
+//     line-height: 1.5;
+//     font-size: 4vw;
+//     margin-bottom: 11vw;
+// `;
 
 const MobActivityWrapper = styled.div`
     display: flex;
@@ -68,6 +76,16 @@ const MobActivityBoxContainer = styled.div`
 `;
 
 const MobActivityImage = styled.img`
+
+    object-position: center;
+    border-radius: 1vw;
+    height: 38vw;
+    width: 44vw;
+    align-self: center;
+    position: absolute;
+`;
+
+const MobActivityImage2 = styled.img`
     object-position: center;
     border-radius: 1vw;
     height: 38vw;
@@ -87,7 +105,7 @@ const MobActivityRowBox = styled.div`
 const MobActivityBoxTitle = styled.div`
     color: #ffffff;
     font-family: "Pretendard-Medium", Helvetica;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 3.5vw;
     white-space: nowrap;
     margin-left: 2.4vw;
@@ -104,10 +122,10 @@ const MobActivityBoxDesciption = styled.div`
 
 export const MobActivity = () => {
     return (
+    <MobActivityHeadContainer>
         <MobActivityContainer>
             <MobActivityTitle>Activity</MobActivityTitle>
             <MobActivitySubTitle>주요 활동</MobActivitySubTitle>
-            <MobActivityDescription>HIVe에서는 서비스 및 제품, 기술 등 다양한 분야의<br /> 창업 활동을 진행하고 있습니다.</MobActivityDescription>
             <MobActivityWrapper>
 
                 <MobActivityColumnWrapper>
@@ -129,7 +147,7 @@ export const MobActivity = () => {
                     </MobActivityRowWrapper>
                     <MobActivityRowWrapper>
                         <MobActivityBoxContainer>
-                            <MobActivityImage src={MobeducationImage} />
+                            <MobActivityImage2 src={MobeducationImage} />
                             <MobActivityRowBox>
                                 <MobActivityBoxTitle>창업 교육 · 멘토링</MobActivityBoxTitle>
                                 <MobActivityBoxDesciption>Start-up education</MobActivityBoxDesciption>
@@ -145,9 +163,9 @@ export const MobActivity = () => {
                     </MobActivityRowWrapper>
                     <MobActivityRowWrapper>
                         <MobActivityBoxContainer>
-                            <MobActivityImage src={MobhackathonImage} />
+                            <MobActivityImage src={MobideathonImage} />
                             <MobActivityRowBox>
-                                <MobActivityBoxTitle>해커톤</MobActivityBoxTitle>
+                                <MobActivityBoxTitle>아이디어톤</MobActivityBoxTitle>
                                 <MobActivityBoxDesciption>Hackathon</MobActivityBoxDesciption>
                             </MobActivityRowBox>
                         </MobActivityBoxContainer>
@@ -162,6 +180,7 @@ export const MobActivity = () => {
                 </MobActivityColumnWrapper>
             </MobActivityWrapper>
         </MobActivityContainer>
+    </MobActivityHeadContainer>
     )
 };
 

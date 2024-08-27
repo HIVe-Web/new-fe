@@ -5,7 +5,7 @@ import ResultBackgroundImage from "../../assets/images/resultBackground.svg"
 
 import redDotLogoImage from "../../assets/images/redDotLogo.png"
 import mohwLogoImage from "../../assets/images/mohwLogo.png"
-import dysonLogoImage from "../../assets/images/dysonLogo.png"
+import dysonLogoImage from "../../assets/images/dysonLogo.png" 
 import metaLogoImage from "../../assets/images/metaLogo.png"
 import sctLogoImage from "../../assets/images/sctLogo.png"
 import haiLogoImage from "../../assets/images/haiLogo.png"
@@ -18,7 +18,7 @@ import cossLogoImage from "../../assets/images/cossLogo.png"
 import moeLogoImage from "../../assets/images/moeLogo.png"
 import hisuLogoImage from "../../assets/images/hisuLogo.png"
 import hongikLogoImage from "../../assets/images/hongikLogo.png"
-import coss2LogoImage from "../../assets/images/coss2Logo.png"
+import coss2LogoImage from "../../assets/images/cossLogo2.png"
 
 const ResultContainer = styled.div`
     background: linear-gradient(

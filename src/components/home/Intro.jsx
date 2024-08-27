@@ -166,7 +166,7 @@ export const Intro = () => {
               </PersonaText>
             </PersonaSpeechBubble>
             <PersonaSpeechBubbleImage />
-            <PersonaImage src={hivcdSImage} style={{ width: '35vw' }} />
+            <PersonaImage src={hivcdSImage} style={{ width: '34.18vw' }} />
             <PersonaName>
               시각디자인과 S씨
             </PersonaName>

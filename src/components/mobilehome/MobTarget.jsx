@@ -1,8 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 
+import TargetBackgroundImage from "../../assets/images/TargetBackgroundMob.svg" 
+
+const MobTargetHeadContainer = styled.div`
+  background: url(${TargetBackgroundImage});
+  width: 100vw;
+  height: 160vw;
+  background-size: cover;
+  margin-top: 100px;
+  background-position: center;
+`;
+
 const MobTargetContainer = styled.div`
-    background-color: #1C1C1C;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -19,7 +29,7 @@ const MobTargetTitle = styled.div`
 `;
 
 const MobTargetSubTitle = styled.div`
-    color: #52FF98;
+    color: #4A4DFF;
     text-align: center;
     text-shadow: 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
@@ -33,14 +43,14 @@ const MobTargetTextBox = styled.div`
     box-shadow: 0.2vw 0.2vw 0.73vw 0px rgba(142, 142, 142, 0.25); /* 2px, 7.3px를 vw 단위로 변환 */
     align-items: center;
     display: flex;
-    background-color: #2a2a2a;
-    min-height: 20vw;
+    background-color: #F1F3FF;
+    min-height: 15vw;
     width: 85vw;
     margin: 2vw;
 `;
 
 const MobTargetTextNumber = styled.div`
-    color: #52FF98;
+    color: #4A4DFF;
     font-family: "Pretendard-ExtraBold", Helvetica;
     font-size: 5vw;
     text-align: center;
@@ -48,15 +58,16 @@ const MobTargetTextNumber = styled.div`
 `;
 
 const MobTargetText = styled.div`
-    color: #ffffff;
+    color: #000000;
     margin-left: 2vw;
     font-family: "Pretendard-Bold", Helvetica;
-    font-size: 4.5vw;
+    font-size: 4.3vw;
 `;
 
 
 export const MobTargets = () => {
     return (
+    <MobTargetHeadContainer>
         <MobTargetContainer>
             <MobTargetTitle>Targets</MobTargetTitle>
             <MobTargetSubTitle>모집 대상</MobTargetSubTitle>
@@ -74,9 +85,10 @@ export const MobTargets = () => {
             </MobTargetTextBox>
             <MobTargetTextBox>
                 <MobTargetTextNumber>04</MobTargetTextNumber>
-                <MobTargetText>보람찬 대학 생활을 원하는 분</MobTargetText>
+                <MobTargetText>대학 생활을 더 특별하게 만들고 싶은 분</MobTargetText>
             </MobTargetTextBox>
         </MobTargetContainer>
+    </MobTargetHeadContainer>
     )
 };
 

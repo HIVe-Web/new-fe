@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const MobApplyContainer = styled.div`
-    background-color: #1C1C1C;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -15,7 +14,7 @@ const MobApplyTextBox = styled.div`
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-color: #2a2a2a;
+    background-color: #ffffff;
     width: 86vw;
     position: relative;
     transition: all 0.3s ease;
@@ -31,7 +30,7 @@ const MobApplyQuestionWrapper = styled.div`
 `;
 
 const MobApplyQuestionText = styled.div`
-    color: #52FF98;
+    color: #4A4DFF;
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 4.2vw;
     font-weight: 600;
@@ -42,7 +41,7 @@ const MobApplyQuestionText = styled.div`
 `;
 
 const MobApplyText = styled.div`
-color: #ffffff;
+color: #000000;
 margin-left: 1vw;
 font-family: "Pretendard-Bold", Helvetica;
 font-weight: 100;
@@ -50,8 +49,8 @@ font-size: 3.5vw;
 `;
 
 const MobDropDownText = styled.div`
-color: #ffffff;
-font-family: "Pretendard-Regular", Helvetica;
+color: #4A4DFF;
+font-family: "Pretendard-bold", Helvetica;
 line-height: 1.5;
 width: 74vw;
 font-size: 2.8vw;

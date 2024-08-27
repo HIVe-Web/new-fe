@@ -12,9 +12,9 @@ import MobAwards from "../components/mobilehome/MobAwards";
 import MobFAQ from "../components/mobilehome/MobFAQ";
 
 const MainContainer = styled.div`
-  background-color: #1C1C1C;
   display: flex;
   align-items: center;
+  margin: 0 auto;
   flex-direction: column;
   justify-content: center;
   height: 100%
@@ -22,7 +22,7 @@ const MainContainer = styled.div`
 `;
 
 const ApplyHive = styled.div`
-  background-color: #2A2A2A;
+  background-color: #ffffff;
   border-radius: 2vw; 
   display: flex;
   align-items: center;
@@ -32,11 +32,12 @@ const ApplyHive = styled.div`
   bottom: 1vw;
   justify-content:center;
   cursor: pointer;
-  z-index: 9999;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* 위아래, 좌우 모든 방향에 그림자 추가 */
+
 `;
 
 const ApplyHiveText = styled.div`
-  color: #ffffff;
+  color: #4A4DFF;
   text-align: center;
   font-family: "Pretendard-Bold", Helvetica;
   font-weight: 650;
@@ -44,23 +45,23 @@ const ApplyHiveText = styled.div`
 `;
 
 export const MobileHomePage = () => {
-    const handleApplyClick = () => {
-      window.open('https://tally.so/r/waYvzv', '_blank', 'noopener,noreferrer');
-    };
-    return (
-      <MainContainer>
-        <MobIntro/>
-        <MobPersona/>
-        <MobCalendar/>
-        <MobHistory/>
-        <MobSchedule/>
-        <MobTargets/>
-        <MobActivity/>
-        <MobAwards/>
-        <MobFAQ/>
-        <ApplyHive onClick={handleApplyClick}><ApplyHiveText>29기 지원하기</ApplyHiveText></ApplyHive>
-      </MainContainer>
-    );
+  const handleApplyClick = () => {
+    window.open('https://tally.so/r/mKLPo8', '_blank', 'noopener,noreferrer');
   };
-  
-  export default MobileHomePage;
+  return (
+    <MainContainer>
+      <MobIntro />
+      {/* <MobPersona/> */}
+      <MobCalendar />
+      <MobHistory />
+      <MobSchedule />
+      <MobTargets />
+      <MobActivity />
+      <MobAwards />
+      <MobFAQ />
+      <ApplyHive onClick={handleApplyClick}><ApplyHiveText>29.5기 지원하기</ApplyHiveText></ApplyHive>
+    </MainContainer>
+  );
+};
+
+export default MobileHomePage;
