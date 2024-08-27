@@ -225,10 +225,10 @@ const MobPersonaMainName = styled.div`
   font-family: "Pretendard-Bold", Helvetica;
   font-size: 5vw;
   font-weight: 700;
-  margin-top: 9vw;
+  margin-top: -5vw;
   text-align: center;
   white-space: nowrap;
-  
+  margin-bottom: 11vw;
 `;
 
 export const MobIntro = () => {
@@ -269,9 +269,9 @@ export const MobIntro = () => {
                   </MobPersonaSpeechBubble2>
                   <MobPersonaSpeechBubbleImage />
                   <MobPersonaImage2 data={hivcdSImage}/>
-                    <MobPersonaMainName>
-                        시각디자인과 S씨
-                    </MobPersonaMainName>
+                      <MobPersonaMainName>
+                          시각디자인과 S씨
+                      </MobPersonaMainName>
                 </MobPersonaDetailContainer>  
               </MobPersonaMainSection>
 
