@@ -58,7 +58,7 @@ const MobTabHeader = styled.div`
 `;
 
 const MobTabButtonStyled = styled.div`
-    color: ${props => props.active ? "#4A4DFF" : "#D7DDFF"};
+    color: ${props => props.active ? "#ffffff" : "#8E93B0"};
     font-family: "Pretendard-Bold", Helvetica;
     font-size: 4.2vw;
     font-weight: 700;

@@ -15,6 +15,7 @@ const MobActivityHeadContainer = styled.div`
   width: 100vw;
   height: 170vw;
   background-size: cover;
+  
 `;
 
 const MobActivityContainer = styled.div`
@@ -22,7 +23,7 @@ const MobActivityContainer = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: 30vw;
+    margin-top: 20vw;
 `;
 
 const MobActivityTitle = styled.div`

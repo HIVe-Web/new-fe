@@ -47,12 +47,13 @@ const MobScheduleSubtitleWrapper = styled.div`
 const MobScheduleSubImage = styled.img`
     aspect-ratio: 1;
     object-fit: contain;
-    height: 9vw;
+    height: 7vw;
     width: 9vw;
     max-width: 70%;
     max-height: 70%;
     margin-bottom: 8vw;
-    margin-right: 1vw;
+    margin-right: -2vw;
+    margin-top: -6vw;
 `;
 
 const MobScheduleSubTitle = styled.div`
@@ -67,7 +68,7 @@ const MobScheduleSubTitleText = styled.div`
     text-shadow: 0vw; 0.2vw; 0.2vw; rgba(0, 0, 0, 0.25);
     font-family: "Pretendard-Bold", Helvetica;
     font-weight: 700;
-    font-size: 8vw;
+    font-size: 7vw;
     margin-right: 10vw;
 `;
 
@@ -75,7 +76,7 @@ const MobScheduleDescription = styled.div`
     color: #36353B;
     font-family: "Pretendard", Helvetica;
     font-size: 4.5vw;
-    margin-top: 0.5vw;
+    margin-top: 5vw;
     margin-bottom: 10.5vw;
 
     span.footDescription{
@@ -125,7 +126,8 @@ const MobTimelineTitle = styled.div`
 
 const MobTimelineDescription = styled.div`
     color: #ffffff; 
-    font-family: "Pretendard-Bold", Helvetica;
+    font-family: "Pretendard", Helvetica;
+    font-weight: 300;
     text-align: center;
     font-size: 4.3vw;
     margin-top: 1.5vw;
@@ -151,7 +153,7 @@ export const Schedule = () => {
             <MobScheduleSubtitleWrapper>
                 <MobScheduleSubImage src={MobPinImage}/>
                 <MobScheduleSubTitle>
-                    <MobScheduleSubTitleText>29.5기 모집 안내</MobScheduleSubTitleText>
+                    <MobScheduleSubTitleText>29.5기 모집 일정</MobScheduleSubTitleText>
                 </MobScheduleSubTitle>
             </MobScheduleSubtitleWrapper>
             <MobScheduleDescription>
@@ -171,7 +173,7 @@ export const Schedule = () => {
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>최종 결과 발표<MobTimelineDescription>9월 11일(수 )</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>최종 결과 발표<MobTimelineDescription>9월 11일(수)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>

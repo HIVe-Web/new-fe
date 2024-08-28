@@ -8,7 +8,7 @@ const MobTargetHeadContainer = styled.div`
   width: 100vw;
   height: 130vw;
   background-size: cover;
-  margin-top: 100px;
+  margin-top: 20px;
   background-position: center;
 `;
 

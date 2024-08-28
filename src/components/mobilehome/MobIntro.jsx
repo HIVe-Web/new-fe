@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import WebBackgroundImage from "../../assets/images/webBackground.svg"
-import HiveLogoImage from "../../assets/images/HIVeLogo.svg"
-import HVCLogoImage from "../../assets/images/Hongik Venture Club.svg"
+import MobBackgroundImage from "../../assets/images/MobBackground.svg"
+import MobHiveLogoImage from "../../assets/images/MobHIVeLogo.svg"
+import MobHVCLogoImage from "../../assets/images/Mob Hongik Venture Club.svg"
 
 import hivcdSImage from '../../assets/images/hivcdS.svg'
 import hiceDImage from '../../assets/images/hiceD.svg'
@@ -18,11 +18,12 @@ import businessJImage from '../../assets/images/businessJ.svg'
 // import { EffectCoverflow, Navigation, Mousewheel } from "swiper/core";
 
 const MobHeadContainer = styled.div`
-  background: url(${WebBackgroundImage});
+  background: url(${MobBackgroundImage});
   width: 100vw; // 가로 폭을 화면 너비에 맞춤
   height: 120vw; // 최소 높이를 화면 높이에 맞춤
   background-size: cover; // 배경 이미지가 컨테이너를 꽉 채우도록 조정
   margin-bottom : 400px;
+   
   `;
 
 // const MobgradientBackBox = styled.div`
@@ -115,7 +116,7 @@ const MobPersonaDetailContainer = styled.div`
 const MobFirstDescription = styled.div`
     color: #000000;
     text-align: center;
-    font-family: "Pretendard-Bold", Helvetica;
+    font-family: "Pretendard", Helvetica;
     font-size: 4.5vw;
     font-weight: 600;
     margin-top: 10vw;
@@ -165,15 +166,15 @@ const MobPersonaSpeechBubbleImage = styled.div`
 
 
 const MobPersonaMainText = styled.div`
-  color: #000000;
+  color: #00199B;
   text-align: center;
-  font-family: "Pretendard-Bold", Helvetica;
+  font-family: "Pretendard-semiBold", Helvetica;
   font-size: 4vw;
   font-weight: 650;
 `;
 
 const MobPersonaSideText1 = styled.div`
-  color: #000000;
+  color: #00199B;
   text-align: center;
   font-family: "Pretendard-SemiBold", Helvetica;
   font-size: 3vw;
@@ -181,7 +182,7 @@ const MobPersonaSideText1 = styled.div`
 `;
 
 const MobPersonaSideText2 = styled.div`
-  color: #000000;
+  color: #00199B;
   text-align: center;
   font-family: "Pretendard-SemiBold", Helvetica;
   font-size: 2.8vw;
@@ -241,20 +242,22 @@ export const MobIntro = () => {
     <MobHeadContainer>
       <MobIntroBox>
         <MobHiveIntroduction>홍익대학교 벤처창업기관 하이브</MobHiveIntroduction>
-        <MobHiveLogoImg src={HiveLogoImage} />
-        <MobHVCLogoImg src={HVCLogoImage} />
+        <MobHiveLogoImg src={MobHiveLogoImage} />
+        <MobHVCLogoImg src={MobHVCLogoImage} />
       </MobIntroBox>
 
       <MobPersonaContainer>
-        <MobFirstDescription>하이브는 창의적인 아이디어와 <br />열정을 가진 학생들이 모여<br />
-          혁신적인 사업을 기획하고 실행합니다.</MobFirstDescription>
+        <MobFirstDescription>
+          <span style={{ fontFamily: 'Pretendard-bold, Helvetica'  }}> 창의적인 아이디어와 <br />열정을 가진 학생들</span>이 모여<br />
+          혁신적인 사업을 기획하고 실행합니다.
+        </MobFirstDescription>
 
         <MobPersonaWrapper>
           <MobPersonaSideSection>
             <MobPersonaDetailContainer>
               <MobPersonaSpeechBubble1>
                 <MobPersonaSideText1>
-                  창업에 대한 열망은 크지만, 시작을<br />위한 명확한 방향이 필요해요.
+                  창업에 대한 열망은 크지만, <br />어떻게 시작할지 모르겠어요.
                 </MobPersonaSideText1>
               </MobPersonaSpeechBubble1>
               <MobPersonaSpeechBubbleImage />
@@ -269,7 +272,7 @@ export const MobIntro = () => {
             <MobPersonaDetailContainer>
               <MobPersonaSpeechBubble2>
                 <MobPersonaMainText>
-                  디자인 역량을 살려 실제 사업에 <br /> 필요한 아이템을 만들고 싶어요.
+                  디자인 역량을 활용하여 실제 사업에 <br /> 필요한 아이템을 만들고 싶어요.
                 </MobPersonaMainText>
               </MobPersonaSpeechBubble2>
               <MobPersonaSpeechBubbleImage />
@@ -284,7 +287,7 @@ export const MobIntro = () => {
             <MobPersonaDetailContainer>
               <MobPersonaSpeechBubble3>
                 <MobPersonaSideText2>
-                  단기성 프로젝트를 넘어 <br />실제 창업까지 이끌어내고 싶어요.
+                  단기 프로젝트를 넘어 <br />실제 창업까지 해보고 싶어요.
                 </MobPersonaSideText2>
               </MobPersonaSpeechBubble3>
               <MobPersonaSpeechBubbleImage />

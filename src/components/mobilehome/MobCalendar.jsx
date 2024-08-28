@@ -16,7 +16,7 @@ const MobHeadContainer = styled.div`
   width: 100%;
   height: 80vw;
   background-size: 100%;
-  margin-top: 40vw;
+  margin-top: 15vw;
 `;
 
 
@@ -59,11 +59,11 @@ const MobCalendarImage = styled.object`
 const MobHistoryTitle = styled.div`
   color: #000000;
   font-family: "Pretendard-Bold", Helvetica;
-  font-size: 5vw;
+  font-size: 4.5vw;
   font-weight: 900;
   text-align: center;
   line-height: 1.5;
-  margin-top: 20vw;
+  margin-top: 10vw;
 `;
 
 export const MobCalendar = () => {
@@ -75,7 +75,7 @@ export const MobCalendar = () => {
         <MobCalendarImage data={calendarImage} type="" />
       </MobCalendarContainer>
       <MobHistoryTitle>
-        창업에 관심을 가진 다양한 학생들을 만나 <br />사업화까지 경험해볼 수 있는 기회를 잡으세요!
+        창업에 관심을 가진 다양한 학생들을 만나 <br /><span style={{ color: '#383BEE'}}>사업화까지 경험해볼 수 있는 기회</span>를 잡으세요!
       </MobHistoryTitle>
     </MobHeadContainer>
   )

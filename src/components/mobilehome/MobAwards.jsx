@@ -172,9 +172,9 @@ export const MobAwards = () => {
     return (
     <MobAwardsHeadContainer>
         <MobResultContainer>
-            <MobResultTitle>지난 3년</MobResultTitle>
+            <MobResultTitle>Awards</MobResultTitle>
             <MobResultSubTitleText>HIVe 활동 성과</MobResultSubTitleText>
-            <MobResultDateText>2021 ~ 2024 상반기</MobResultDateText>
+            <MobResultDateText>2022 ~ 2024</MobResultDateText>
 
 
             <MobResultWrapper>
