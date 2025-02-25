@@ -55,6 +55,8 @@ export const MobileHomePage = () => {
       <MobCalendar />
       <MobHistory />
       <MobSchedule />
+      <MobTargets />
+      <MobActivity />
       <MobAwards />
       <MobFAQ />
       <ApplyHive onClick={handleApplyClick}><ApplyHiveText>30기 지원하기</ApplyHiveText></ApplyHive>
