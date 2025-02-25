@@ -54,11 +54,7 @@ export const History = () => {
             설립된 지
           </HistoryHeadText>
           <HistoryText>
-<<<<<<< HEAD
             30년
-=======
-            29년
->>>>>>> e8717178ddb1d75a6317a41acac52a048505e4eb
           </HistoryText>
         </HistoryDetailContainer>
         <HistoryDetailContainer>
