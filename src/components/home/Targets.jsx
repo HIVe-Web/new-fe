@@ -64,15 +64,7 @@ export const Targets = () => {
             <TargetSubTitle>모집 대상</TargetSubTitle>
             <TargetTextBox>
                 <TargetTextNumber>01</TargetTextNumber>
-<<<<<<< HEAD
-<<<<<<< HEAD
                 <TargetText>홍익대학교 재학생 / 휴학생</TargetText>
-=======
-                <TargetText>A홍익대학교 재학생 / 휴학생</TargetText>
->>>>>>> e8717178ddb1d75a6317a41acac52a048505e4eb
-=======
-                <TargetText>A홍익대학교 재학생 / 휴학생</TargetText>
->>>>>>> e8717178ddb1d75a6317a41acac52a048505e4eb
             </TargetTextBox>
             <TargetTextBox>
                 <TargetTextNumber>02</TargetTextNumber>
