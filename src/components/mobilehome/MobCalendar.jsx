@@ -71,23 +71,10 @@ export const MobCalendar = () => {
     <MobHeadContainer>
       <MobCalendarContainer>
         <MobCalendarText>모집 마감 기한</MobCalendarText>
-<<<<<<< HEAD
-<<<<<<< HEAD
         <MobCalendarDateText>*3월 7일 23시 59분까지*</MobCalendarDateText>
         <MobCalendarImage data={calendarImage} type="" />
       </MobCalendarContainer>
       <MobHistoryTitle> 
-=======
-=======
->>>>>>> e8717178ddb1d75a6317a41acac52a048505e4eb
-        <MobCalendarDateText>*9월 6일 23시 59분까지*</MobCalendarDateText>
-        <MobCalendarImage data={calendarImage} type="" />
-      </MobCalendarContainer>
-      <MobHistoryTitle>
-<<<<<<< HEAD
->>>>>>> e8717178ddb1d75a6317a41acac52a048505e4eb
-=======
->>>>>>> e8717178ddb1d75a6317a41acac52a048505e4eb
         창업에 관심을 가진 다양한 학생들을 만나 <br /><span style={{ color: '#383BEE'}}>사업화까지 경험해볼 수 있는 기회</span>를 잡으세요!
       </MobHistoryTitle>
     </MobHeadContainer>
