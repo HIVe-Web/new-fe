@@ -46,15 +46,7 @@ const ApplyHiveText = styled.div`
 
 export const DesktopHomePage = () => {
   const handleApplyClick = () => {
-<<<<<<< HEAD
-<<<<<<< HEAD
     window.open('https://tally.so/r/3xlo1y', '_blank', 'noopener,noreferrer');
-=======
-    window.open('https://tally.so/r/mKLPo8', '_blank', 'noopener,noreferrer');
->>>>>>> e8717178ddb1d75a6317a41acac52a048505e4eb
-=======
-    window.open('https://tally.so/r/mKLPo8', '_blank', 'noopener,noreferrer');
->>>>>>> e8717178ddb1d75a6317a41acac52a048505e4eb
   };
 
   return (
@@ -68,15 +60,7 @@ export const DesktopHomePage = () => {
       <Activity />
       <Result />
       <FAQ />
-<<<<<<< HEAD
-<<<<<<< HEAD
       <ApplyHive onClick={handleApplyClick}><ApplyHiveText>30기 지원하기</ApplyHiveText></ApplyHive>
-=======
-      <ApplyHive onClick={handleApplyClick}><ApplyHiveText>29.5기 지원하기</ApplyHiveText></ApplyHive>
->>>>>>> e8717178ddb1d75a6317a41acac52a048505e4eb
-=======
-      <ApplyHive onClick={handleApplyClick}><ApplyHiveText>29.5기 지원하기</ApplyHiveText></ApplyHive>
->>>>>>> e8717178ddb1d75a6317a41acac52a048505e4eb
     </MainContainer>
   );
 };
