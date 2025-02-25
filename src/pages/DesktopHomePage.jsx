@@ -1,0 +1,84 @@
+import React from "react";
+import styled from "styled-components";
+
+import Targets from '../components/home/Targets'
+import Activity from "../components/home/Activity";
+import History from "../components/home/History";
+import Schedule from "../components/home/Schedule";
+import Result from "../components/home/Result"
+import Calendar from "../components/home/Calendar"
+import Persona from "../components/home/Persona"
+import Intro from "../components/home/Intro"
+import FAQ from "../components/home/FAQ"
+
+const MainContainer = styled.div`
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+`;
+
+const ApplyHive = styled.div`
+  background-color: #333660;
+  border-radius: 1vw;
+  display: flex;
+  align-items: center;
+  width: 71vw;
+  height: 5.5vw;
+  position: sticky;
+  bottom: 1vw;
+  justify-content:center;
+  cursor: pointer;
+  box-shadow: 0vw 0.5vw 1.1vw rgba(0, 0, 0, 0.42);
+  backdrop-filter: blur(1.4vw);
+`;
+
+const ApplyHiveText = styled.div`
+  color: #ffffff;
+  text-align: center;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-size: 2.7vw;
+`;
+
+export const DesktopHomePage = () => {
+  const handleApplyClick = () => {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    window.open('https://tally.so/r/3xlo1y', '_blank', 'noopener,noreferrer');
+=======
+    window.open('https://tally.so/r/mKLPo8', '_blank', 'noopener,noreferrer');
+>>>>>>> e8717178ddb1d75a6317a41acac52a048505e4eb
+=======
+    window.open('https://tally.so/r/mKLPo8', '_blank', 'noopener,noreferrer');
+>>>>>>> e8717178ddb1d75a6317a41acac52a048505e4eb
+  };
+
+  return (
+    <MainContainer>
+      <Intro />
+      {/* <Persona/> */}
+      <Calendar />
+      <History />
+      <Schedule />
+      <Targets />
+      <Activity />
+      <Result />
+      <FAQ />
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <ApplyHive onClick={handleApplyClick}><ApplyHiveText>30기 지원하기</ApplyHiveText></ApplyHive>
+=======
+      <ApplyHive onClick={handleApplyClick}><ApplyHiveText>29.5기 지원하기</ApplyHiveText></ApplyHive>
+>>>>>>> e8717178ddb1d75a6317a41acac52a048505e4eb
+=======
+      <ApplyHive onClick={handleApplyClick}><ApplyHiveText>29.5기 지원하기</ApplyHiveText></ApplyHive>
+>>>>>>> e8717178ddb1d75a6317a41acac52a048505e4eb
+    </MainContainer>
+  );
+};
+
+export default DesktopHomePage;
