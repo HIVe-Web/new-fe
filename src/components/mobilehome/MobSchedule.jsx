@@ -153,7 +153,7 @@ export const Schedule = () => {
             <MobScheduleSubtitleWrapper>
                 <MobScheduleSubImage src={MobPinImage}/>
                 <MobScheduleSubTitle>
-                    <MobScheduleSubTitleText>30기 모집 일정</MobScheduleSubTitleText>
+                    <MobScheduleSubTitleText>30.5기 모집 일정</MobScheduleSubTitleText>
                 </MobScheduleSubTitle>
             </MobScheduleSubtitleWrapper>
             <MobScheduleDescription>
@@ -161,23 +161,23 @@ export const Schedule = () => {
             </MobScheduleDescription>
 
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>서류 접수<MobTimelineDescription>2월 25일(화) ~ 3월 7일(금)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>서류 접수<MobTimelineDescription>8월 26일(화) ~ 9월 5일(금)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>서류 발표<MobTimelineDescription>3월 8일(토) 18시 이후</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>서류 발표<MobTimelineDescription>9월 6일(토) 18시 이후</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>면접 심사<MobTimelineDescription>3월 10일(월) ~ 3월 11일(화)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>면접 심사<MobTimelineDescription>9월 8일(월) ~ 9월 10일(수)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>최종 결과 발표<MobTimelineDescription>3월 12일(수)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>최종 결과 발표<MobTimelineDescription>9월 10일(수)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>오리엔테이션<MobTimelineDescription>3월 13일(목)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>오리엔테이션<MobTimelineDescription>9월 11일(목)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobInterviewDescription>
                 * 면접 심사는 대면으로 진행됩니다.

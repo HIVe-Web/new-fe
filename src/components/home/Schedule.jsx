@@ -125,7 +125,7 @@ export const Schedule = () => {
                 <ScheduleColumnWrapper>
                     <ScheduleTitle>Schedule</ScheduleTitle>
                     <ScheduleSubTitle>
-                        <ScheduleSubTitleText>30기 모집 안내</ScheduleSubTitleText>
+                        <ScheduleSubTitleText>30.5기 모집 안내</ScheduleSubTitleText>
                     </ScheduleSubTitle>
                 </ScheduleColumnWrapper>
             </ScheduleRowWrapper>
@@ -139,15 +139,15 @@ export const Schedule = () => {
             </ScheduleDescription>
 
             <TimelineWrapper>
-                <TimelineBox><TimelineTitle>서류 접수<TimelineDescription>2월 25일(화) ~ 3월 7일(금)</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>서류 접수<TimelineDescription>8월 26일(화) ~ 9월 5일(금)</TimelineDescription></TimelineTitle></TimelineBox>
                 <TimelineArrow src={ArrowImage} />
-                <TimelineBox><TimelineTitle>서류 발표<TimelineDescription>3월  8일(토) 18시 이후</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>서류 발표<TimelineDescription>9월  6일(토) 18시 이후</TimelineDescription></TimelineTitle></TimelineBox>
                 <TimelineArrow src={ArrowImage} />
-                <TimelineBox><TimelineTitle>면접 심사<TimelineDescription>3월 10일(월) ~ 3월 11일(화)</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>면접 심사<TimelineDescription>9월 8일(월) ~ 9월 10일(수)</TimelineDescription></TimelineTitle></TimelineBox>
                 <TimelineArrow src={ArrowImage} />
-                <TimelineBox><TimelineTitle>최종 결과 발표<TimelineDescription>3월 12일(수)</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>최종 결과 발표<TimelineDescription>9월 10일(수)</TimelineDescription></TimelineTitle></TimelineBox>
                 <TimelineArrow src={ArrowImage} />
-                <TimelineBox><TimelineTitle>오리엔테이션<TimelineDescription>3월 13일(목)</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>오리엔테이션<TimelineDescription>9월 11일(목)</TimelineDescription></TimelineTitle></TimelineBox>
             </TimelineWrapper>
 
             <ScheduleDescription>

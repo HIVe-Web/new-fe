@@ -46,7 +46,7 @@ const ApplyHiveText = styled.div`
 
 export const DesktopHomePage = () => {
   const handleApplyClick = () => {
-    window.open('https://tally.so/r/3xlo1y', '_blank', 'noopener,noreferrer');
+    window.open('https://tally.so/r/mVekEy', '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -60,7 +60,7 @@ export const DesktopHomePage = () => {
       <Activity />
       <Result />
       <FAQ />
-      <ApplyHive onClick={handleApplyClick}><ApplyHiveText>30기 지원하기</ApplyHiveText></ApplyHive>
+      <ApplyHive onClick={handleApplyClick}><ApplyHiveText>30.5기 지원하기</ApplyHiveText></ApplyHive>
     </MainContainer>
   );
 };

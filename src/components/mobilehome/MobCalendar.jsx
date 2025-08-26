@@ -71,7 +71,7 @@ export const MobCalendar = () => {
     <MobHeadContainer>
       <MobCalendarContainer>
         <MobCalendarText>모집 마감 기한</MobCalendarText>
-        <MobCalendarDateText>*3월 7일 23시 59분까지*</MobCalendarDateText>
+        <MobCalendarDateText>9월 5일 23시 59분까지</MobCalendarDateText>
         <MobCalendarImage data={calendarImage} type="" />
       </MobCalendarContainer>
       <MobHistoryTitle> 
