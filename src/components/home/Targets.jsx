@@ -68,7 +68,7 @@ export const Targets = () => {
             </TargetTextBox>
             <TargetTextBox>
                 <TargetTextNumber>02</TargetTextNumber>
-                <TargetText>성별, 학과 무관 창업에 관심 있는 분</TargetText>
+                <TargetText>성별, 나이, 학과 무관 창업에 관심 있는 분</TargetText>
             </TargetTextBox>
             <TargetTextBox>
                 <TargetTextNumber>03</TargetTextNumber>

@@ -118,7 +118,7 @@ const ResultLogoImage = styled.img`
     width: 15vw;
     max-width: 45%;
     max-height: 50%;
-    margin-top: 1.8vw;
+    margin-top: 1vw;
 `;
 
 const ResultLogoImage2 = styled.img`
@@ -179,7 +179,7 @@ export const Result = () => {
                 HIVe 활동 성과
             </ResultSubTitleText>
             <ResultDateText>
-                2022 - 2024
+                2022 - 2025
             </ResultDateText>
 
             <ResultWrapper>
@@ -192,22 +192,27 @@ export const Result = () => {
                         </ResultRowBox>
                         <ResultRowBox>
                             <ResultLogoImage src={mohwLogoImage} />
-                            <ResultBoxTitle>국민행복 서비스 발굴•창업 경진대회</ResultBoxTitle>
-                            <ResultBoxDescription>대상 (보건복지부장관상)</ResultBoxDescription>
+                            <ResultBoxTitle>보건의료빅데이터 활용 창업경진대회</ResultBoxTitle>
+                            <ResultBoxDescription>최우수상 (보건복지부장관상)</ResultBoxDescription>
                         </ResultRowBox>
                     </ResultRowWrapper>
 
                     <ResultRowWrapper>
-                        <ResultRowBox>
+                        <ResultRowBox2>
                             <ResultLogoImage src={dysonLogoImage} />
                             <ResultBoxTitle>제임스 다이슨 어워드</ResultBoxTitle>
                             <ResultBoxDescription>국내전 우승 (1위)</ResultBoxDescription>
-                        </ResultRowBox>
-                        <ResultRowBox>
+                        </ResultRowBox2>
+                        <ResultRowBox2>
+                            <ResultLogoImage src={mohwLogoImage} />
+                            <ResultBoxTitle>국민행복 서비스 <br/> 발굴·창업 경진대회</ResultBoxTitle>
+                            <ResultBoxDescription>대상 (보건복지부장관상)</ResultBoxDescription>
+                        </ResultRowBox2>
+                        <ResultRowBox2>
                             <ResultLogoImage src={metaLogoImage} />
                             <ResultBoxTitle>META AR 콘텐츠 공모전</ResultBoxTitle>
                             <ResultBoxDescription>Best Creator 수상 (1위)</ResultBoxDescription>
-                        </ResultRowBox>
+                        </ResultRowBox2>
                     </ResultRowWrapper>
 
                     <ResultRowWrapper>

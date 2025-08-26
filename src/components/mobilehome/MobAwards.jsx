@@ -174,7 +174,7 @@ export const MobAwards = () => {
         <MobResultContainer>
             <MobResultTitle>Awards</MobResultTitle>
             <MobResultSubTitleText>HIVe 활동 성과</MobResultSubTitleText>
-            <MobResultDateText>2022 ~ 2024</MobResultDateText>
+            <MobResultDateText>2022 ~ 2025</MobResultDateText>
 
 
             <MobResultWrapper>
@@ -192,6 +192,7 @@ export const MobAwards = () => {
                     </MobResultColumnBox>
 
                     <MobResultRowWrapper>
+
 
                         <MobResultRowBox>
                             <MobResultLogoImage2 data={MobmetaLogoImage} type="image/png"/>
