@@ -67,7 +67,7 @@ export const MobFooter = () => {
             Instagram
             </MobSocialLink>
         </MobSocialLinks>
-        <MobFooterInfo>© 2025 HIVe. ALL RIGHTS RESERVED.</MobFooterInfo>
+        <MobFooterInfo>© 2026 HIVe. ALL RIGHTS RESERVED.</MobFooterInfo>
       </MobFooterContent>
     </MobStyledFooter>
   );

@@ -67,7 +67,7 @@ export const Footer = () => {
             Instagram
           </SocialLink>
         </SocialLinks>
-        <FooterInfo>© 2025 HIVe. ALL RIGHTS RESERVED.</FooterInfo>
+        <FooterInfo>© 2026 HIVe. ALL RIGHTS RESERVED.</FooterInfo>
       </FooterContent>
     </StyledFooter>
   );
