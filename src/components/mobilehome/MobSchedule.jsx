@@ -169,7 +169,7 @@ export const Schedule = () => {
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>면접 심사<MobTimelineDescription>9월 10일(목), 9월 15일(화)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>면접 심사<MobTimelineDescription>9월 10일(목) or 9월 15일(화)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
