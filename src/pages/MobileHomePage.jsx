@@ -59,7 +59,7 @@ export const MobileHomePage = () => {
       <MobActivity />
       <MobAwards />
       <MobFAQ />
-      <ApplyHive onClick={handleApplyClick}><ApplyHiveText>31기 지원하기</ApplyHiveText></ApplyHive>
+      <ApplyHive onClick={handleApplyClick}><ApplyHiveText>31.5기 지원하기</ApplyHiveText></ApplyHive>
     </MainContainer>
   );
 };
