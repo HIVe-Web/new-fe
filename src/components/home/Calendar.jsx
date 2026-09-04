@@ -63,7 +63,7 @@ export const Calendar = () => {
     <HeadContainer>
       <CalendarContainer>
         <CalendarText>모집 마감 기한</CalendarText>
-        <CalendarDateText>3월 14일 23시 59분까지</CalendarDateText>
+        <CalendarDateText>9월 8일 23시 59분까지</CalendarDateText>
         <CalendarImage src={calendarImage} />
         <CalendarDetailText>
           창업에 관심을 가진 다양한 학생들을 만나 <br />실제 사업화까지 경험해볼 수 있는 기회를 잡으세요!
