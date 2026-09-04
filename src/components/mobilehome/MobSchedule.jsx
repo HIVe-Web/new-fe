@@ -161,23 +161,23 @@ export const Schedule = () => {
             </MobScheduleDescription>
 
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>서류 접수<MobTimelineDescription>2월 28일(토) ~ 3월 14일(토)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>서류 접수<MobTimelineDescription>9월 4일(금) ~ 9월 8일(화)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>서류 발표<MobTimelineDescription>3월 15일(일) 18시 이후</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>서류 발표<MobTimelineDescription>9월 9일(수) 18시 이후</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>면접 심사<MobTimelineDescription>3월 16일(월) ~ 3월 18일(수)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>면접 심사<MobTimelineDescription>9월 10일(목), 9월 15일(화)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>최종 결과 발표<MobTimelineDescription>3월 18일(수)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>최종 결과 발표<MobTimelineDescription>9월 16일(수)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>오리엔테이션<MobTimelineDescription>3월 19일(목)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>오리엔테이션<MobTimelineDescription>9월 17일(목)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobInterviewDescription>
                 * 면접 심사는 대면으로 진행됩니다.
