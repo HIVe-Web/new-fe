@@ -60,7 +60,7 @@ export const DesktopHomePage = () => {
       <Activity />
       <Result />
       <FAQ />
-      <ApplyHive onClick={handleApplyClick}><ApplyHiveText>31기 지원하기</ApplyHiveText></ApplyHive>
+      <ApplyHive onClick={handleApplyClick}><ApplyHiveText>31.5기 지원하기</ApplyHiveText></ApplyHive>
     </MainContainer>
   );
 };
