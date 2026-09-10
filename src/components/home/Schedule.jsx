@@ -125,7 +125,7 @@ export const Schedule = () => {
                 <ScheduleColumnWrapper>
                     <ScheduleTitle>Schedule</ScheduleTitle>
                     <ScheduleSubTitle>
-                        <ScheduleSubTitleText>31.5기 모집 안내</ScheduleSubTitleText>
+                        <ScheduleSubTitleText>31.5기 추가모집 안내</ScheduleSubTitleText>
                     </ScheduleSubTitle>
                 </ScheduleColumnWrapper>
             </ScheduleRowWrapper>
@@ -139,15 +139,15 @@ export const Schedule = () => {
             </ScheduleDescription>
 
             <TimelineWrapper>
-                <TimelineBox><TimelineTitle>서류 접수<TimelineDescription>9월 4일(금) ~ 9월 8일(화)</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>서류 접수<TimelineDescription>9월 11일(금) ~ 9월 13일(일)</TimelineDescription></TimelineTitle></TimelineBox>
                 <TimelineArrow src={ArrowImage} />
-                <TimelineBox><TimelineTitle>서류 발표<TimelineDescription>9월 9일(수) 18시 이후</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>서류 발표<TimelineDescription>9월 14일(월) 18시 이후</TimelineDescription></TimelineTitle></TimelineBox>
                 <TimelineArrow src={ArrowImage} />
-                <TimelineBox><TimelineTitle>면접 심사<TimelineDescription>9월 10일(목) or 9월 15일(화)</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>면접 심사<TimelineDescription>9월 15일(화)</TimelineDescription></TimelineTitle></TimelineBox>
                 <TimelineArrow src={ArrowImage} />
                 <TimelineBox><TimelineTitle>최종 결과 발표<TimelineDescription>9월 16일(수)</TimelineDescription></TimelineTitle></TimelineBox>
                 <TimelineArrow src={ArrowImage} />
-                <TimelineBox><TimelineTitle>오리엔테이션<TimelineDescription>9월 17일(목)</TimelineDescription></TimelineTitle></TimelineBox>
+                <TimelineBox><TimelineTitle>OT&개강총회<TimelineDescription>9월 17일(목)</TimelineDescription></TimelineTitle></TimelineBox>
             </TimelineWrapper>
 
             <ScheduleDescription>
