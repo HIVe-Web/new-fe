@@ -46,7 +46,7 @@ const ApplyHiveText = styled.div`
 
 export const MobileHomePage = () => {
   const handleApplyClick = () => {
-    window.open('https://tally.so/r/NpAqMG', '_blank', 'noopener,noreferrer');
+    window.open('https://tally.so/r/lbEx8B', '_blank', 'noopener,noreferrer');
   };
   return (
     <MainContainer>
