@@ -161,15 +161,15 @@ export const Schedule = () => {
             </MobScheduleDescription>
 
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>서류 접수<MobTimelineDescription>9월 4일(금) ~ 9월 8일(화)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>서류 접수<MobTimelineDescription>9월 11일(금) ~ 9월 13일(일)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>서류 발표<MobTimelineDescription>9월 9일(수) 18시 이후</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>서류 발표<MobTimelineDescription>9월 14일(월) 18시 이후</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>면접 심사<MobTimelineDescription>9월 10일(목) or 9월 15일(화)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>면접 심사<MobTimelineDescription>9월 15일(화)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
@@ -177,7 +177,7 @@ export const Schedule = () => {
             </MobTimelineWrapper>
             <MobTimelineArrow src={downLineArrowImage} />
             <MobTimelineWrapper>
-                <MobTimelineBox><MobTimelineTitle>오리엔테이션<MobTimelineDescription>9월 17일(목)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
+                <MobTimelineBox><MobTimelineTitle>OT&개강총회<MobTimelineDescription>9월 17일(목)</MobTimelineDescription></MobTimelineTitle></MobTimelineBox>
             </MobTimelineWrapper>
             <MobInterviewDescription>
                 * 면접 심사는 대면으로 진행됩니다.
